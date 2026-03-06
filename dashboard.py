@@ -213,6 +213,17 @@ def load_loo_diagnostics(ticker: str, source_cluster: str):
 
 
 @st.cache_data
+def load_signal_history() -> pd.DataFrame:
+    path = os.path.join(PREDICTED_PE_RATIO_RESULTS, "signal_history.csv")
+    if not os.path.exists(path):
+        return pd.DataFrame()
+    df = pd.read_csv(path)
+    if 'Run Date' in df.columns:
+        df['Run Date'] = pd.to_datetime(df['Run Date'])
+    return df
+
+
+@st.cache_data
 def load_master() -> pd.DataFrame:
     path = os.path.join(RESULTS_DIR, "master_valuations.csv")
     if not os.path.exists(path):
@@ -430,7 +441,7 @@ with st.sidebar:
     st.markdown("### Navigation")
     page = st.radio(
         "",
-        ["Overview", "Strong Signals", "All Firms", "Clusters", "Stock Lookup"],
+        ["Overview", "Strong Signals", "All Firms", "Clusters", "Signal History", "Stock Lookup"],
         label_visibility="collapsed",
     )
 
@@ -1388,6 +1399,150 @@ elif page == "Clusters":
 
         st.markdown(build_html_table(display_view, col_defs, max_height="480px"), unsafe_allow_html=True)
 
+
+
+# ---------------------------------------------------------------------------
+# ── PAGE: SIGNAL HISTORY ──
+# ---------------------------------------------------------------------------
+
+elif page == "Signal History":
+
+    st.markdown("## Signal History")
+    st.markdown(
+        "<p style='font-family:IBM Plex Mono,monospace;font-size:0.8rem;color:#4a6fa5;"
+        "margin-bottom:1.5rem'>Tracks which firms have been flagged as strong signals "
+        "across pipeline runs. Firms appearing consistently across multiple runs represent "
+        "more persistent mispricings and warrant closer attention than one-off appearances.</p>",
+        unsafe_allow_html=True,
+    )
+
+    history = load_signal_history()
+
+    if history.empty:
+        st.markdown(
+            "<div style='background:#0f1628;border:1px solid #1e2a40;border-radius:4px;"
+            "padding:14px 18px;font-family:IBM Plex Mono,monospace;font-size:0.78rem'>"
+            "<span style='color:#f39c12'>⚠ No signal history yet.</span>"
+            "<span style='color:#4a6fa5'> History is recorded each time Stage 3 is run. "
+            "Re-run the pipeline to generate the first entry.</span>"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+    else:
+        n_runs = history['Run Date'].nunique()
+        first_run = history['Run Date'].min().strftime("%b %d, %Y")
+        last_run  = history['Run Date'].max().strftime("%b %d, %Y")
+
+        c1, c2, c3 = st.columns(3)
+        c1.metric("Pipeline Runs Logged", f"{n_runs}")
+        c2.metric("First Run", first_run)
+        c3.metric("Latest Run", last_run)
+
+        # ── Persistence Table ────────────────────────────────────────────
+        st.markdown("## Most Persistent Signals")
+        st.markdown(
+            "<p style='font-family:IBM Plex Mono,monospace;font-size:0.75rem;color:#4a6fa5'>"
+            "Firms ranked by how many runs they have appeared in. "
+            "A persistence score of 100% means flagged in every run.</p>",
+            unsafe_allow_html=True,
+        )
+
+        # Count appearances per ticker
+        persistence = (
+            history.groupby('Ticker')
+            .agg(
+                Appearances=('Run Date', 'nunique'),
+                Signal=('Combined Signal', lambda x: x.mode()[0] if len(x) > 0 else '—'),
+                Cluster=('Source Cluster', lambda x: x.mode()[0] if len(x) > 0 else '—'),
+                Latest_PE_Diff=('PE Difference (Cluster)', 'last'),
+            )
+            .reset_index()
+        )
+        if 'Sector' in history.columns:
+            sector_map = history.groupby('Ticker')['Sector'].last()
+            persistence = persistence.merge(sector_map, on='Ticker', how='left')
+
+        persistence['Persistence (%)'] = (persistence['Appearances'] / n_runs * 100).round(0).astype(int)
+        persistence = persistence.sort_values(['Appearances', 'Latest_PE_Diff'], ascending=[False, True])
+
+        # Colour persistence score
+        def persist_color(pct):
+            if pct >= 80: return "#2ecc71"
+            if pct >= 50: return "#f39c12"
+            return "#4a6fa5"
+
+        persist_col_defs = [
+            ("Ticker",          lambda r: f"<td style='padding:7px 10px;color:#e8edf5;font-weight:600'>{r['Ticker']}</td>"),
+            ("Appearances",     lambda r: f"<td style='padding:7px 10px;text-align:center;color:{persist_color(r['Persistence (%)'])};font-weight:600'>{r['Appearances']} / {n_runs}</td>"),
+            ("Persistence",     lambda r: f"<td style='padding:7px 10px;text-align:center;color:{persist_color(r['Persistence (%)'])}'>{r['Persistence (%)']}%</td>"),
+            ("Most Common Signal", lambda r: f"<td style='padding:7px 10px;color:{SIGNAL_CSS.get(str(r.get("Signal","")),"#c9d1e0")};white-space:nowrap'>{r.get('Signal','—')}</td>"),
+            ("Cluster",         lambda r: f"<td style='padding:7px 10px;color:#4a6fa5'>{r.get('Cluster','—')}</td>"),
+        ]
+        if 'Sector' in persistence.columns:
+            persist_col_defs.insert(4, ("Sector", lambda r: f"<td style='padding:7px 10px;color:#7aa3cc'>{r.get('Sector','—')}</td>"))
+        if 'Latest_PE_Diff' in persistence.columns:
+            persist_col_defs.append(("Latest PE Diff", lambda r: f"<td style='padding:7px 10px;color:{diff_col(r.get("Latest_PE_Diff",0))}'>{fmt_num(r.get('Latest_PE_Diff',float('nan')), signed=True)}</td>"))
+
+        st.markdown(build_html_table(persistence, persist_col_defs, max_height="520px"), unsafe_allow_html=True)
+
+        # ── Signal trend chart ───────────────────────────────────────────
+        st.markdown("## Signal Count Over Time")
+        st.markdown(
+            "<p style='font-family:IBM Plex Mono,monospace;font-size:0.75rem;color:#4a6fa5'>"
+            "Total strong signals flagged per run. A rising count may indicate "
+            "broader market dislocation; a falling count suggests convergence.</p>",
+            unsafe_allow_html=True,
+        )
+
+        run_counts = (
+            history.groupby(['Run Date', 'Combined Signal'])
+            .size()
+            .reset_index(name='Count')
+        )
+
+        fig_trend = go.Figure()
+        for signal, color in [
+            ("Strong Undervalued",        "#2ecc71"),
+            ("Strong Overvalued",         "#e74c3c"),
+            ("Undervalued (Cluster only)","#27ae60"),
+            ("Overvalued (Cluster only)", "#c0392b"),
+            ("Undervalued (Index only)",  "#82e0aa"),
+            ("Overvalued (Index only)",   "#f1948a"),
+        ]:
+            sub = run_counts[run_counts['Combined Signal'] == signal]
+            if sub.empty:
+                continue
+            fig_trend.add_trace(go.Scatter(
+                x=sub['Run Date'],
+                y=sub['Count'],
+                name=signal,
+                mode='lines+markers',
+                line=dict(color=color, width=2),
+                marker=dict(size=7),
+            ))
+
+        fig_trend.update_layout(
+            paper_bgcolor="#0a0e1a", plot_bgcolor="#0a0e1a",
+            font=dict(family="IBM Plex Mono", color="#8a9bb5", size=11),
+            margin=dict(l=20, r=20, t=20, b=20),
+            height=320,
+            legend=dict(bgcolor="#0f1628", bordercolor="#1e2a40", borderwidth=1,
+                       font=dict(size=10), orientation="h", y=-0.25),
+            xaxis=dict(showgrid=True, gridcolor="#141e30", zeroline=False),
+            yaxis=dict(showgrid=True, gridcolor="#141e30", zeroline=False, title="Firms"),
+        )
+        st.plotly_chart(fig_trend, use_container_width=True)
+
+        # ── Raw history table ────────────────────────────────────────────
+        st.markdown("## Full History Log")
+        with st.expander("View raw log"):
+            display_history = history.copy()
+            display_history['Run Date'] = display_history['Run Date'].dt.strftime("%b %d, %Y")
+            st.dataframe(
+                display_history.sort_values('Run Date', ascending=False),
+                use_container_width=True,
+                hide_index=True,
+            )
 
 # ---------------------------------------------------------------------------
 # ── PAGE: STOCK LOOKUP ──

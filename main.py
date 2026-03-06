@@ -156,3 +156,13 @@ if __name__ == "__main__":
     else:
         print(f"Unknown choice '{choice}'. Valid options: 1, 2, 3, all, q")
         sys.exit(1)
+
+
+"""to push streamlit:
+
+git add .
+git commit -m "Refresh data"
+git push
+
+
+"""

@@ -396,6 +396,46 @@ def combine_and_filter_results():
     master_df.to_csv(master_path, index=False)
     print(f"Saved master valuation table to: {master_path}")
 
+    # ── Signal History Log ───────────────────────────────────────────────
+    # Append today's strong signals to the running history log.
+    # This grows over time and is used by the dashboard to identify
+    # firms that appear persistently across multiple runs.
+    import datetime
+    history_path = os.path.join(PREDICTED_PE_RATIO_RESULTS, "signal_history.csv")
+
+    strong_signals = [
+        'Strong Undervalued', 'Strong Overvalued',
+        'Undervalued (Cluster only)', 'Overvalued (Cluster only)',
+        'Undervalued (Index only)',   'Overvalued (Index only)',
+    ]
+
+    today = datetime.date.today().isoformat()
+    sig_col = 'Combined Signal' if 'Combined Signal' in master_df.columns else 'Valuation Signal (Cluster)'
+
+    snapshot_cols = ['Ticker', sig_col, 'Source Cluster']
+    for col in ['PE Ratio (Current)', 'Predicted PE (Cluster)',
+                'PE Difference (Cluster)', 'Sector']:
+        if col in master_df.columns:
+            snapshot_cols.append(col)
+
+    snapshot = master_df[master_df[sig_col].isin(strong_signals)][snapshot_cols].copy()
+    snapshot.insert(0, 'Run Date', today)
+    if sig_col != 'Combined Signal':
+        snapshot = snapshot.rename(columns={sig_col: 'Combined Signal'})
+
+    if os.path.exists(history_path):
+        existing = pd.read_csv(history_path)
+        # Avoid duplicate entries if pipeline is run twice on the same day
+        existing = existing[existing['Run Date'] != today]
+        history = pd.concat([existing, snapshot], ignore_index=True)
+    else:
+        history = snapshot
+
+    history.to_csv(history_path, index=False)
+    print(f"Signal history updated: {len(snapshot)} signals logged for {today}")
+    print(f"Total entries in history: {len(history)} across "
+          f"{history['Run Date'].nunique()} run(s)")
+
     priority_signals = [
         'Strong Undervalued', 'Strong Overvalued',
         'Undervalued (Cluster only)', 'Overvalued (Cluster only)',
