@@ -1,0 +1,25 @@
+Ticker,Predicted PE (Cluster),PE Difference (Cluster),Valuation Signal (Cluster),Cluster R²,Cluster Adj R²,Cluster F p-value,Cluster Residual SE,Source Cluster,Sector,PE Ratio (Current),EPS Growth (ROE x Retention),Beta,Payout Ratio,Predicted PE (Index),PE Difference (Index),Valuation Signal (Index),Index R²,Index Adj R²,Index F p-value,Index Residual SE,Combined Signal
+PANW,28.89,62.26,Overvalued,0.1036,0.0588,0.0852,15.3049,cluster_1,Information Technology,91.1508379888268,0.16259001,0.822,0.0,26.63,64.52,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+TPL,25.35,49.84,Overvalued,0.1036,0.0588,0.0852,15.3049,cluster_1,Energy,75.1882183908046,0.257797728,0.731,0.3061,24.61,50.58,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+TER,42.09,45.72,Overvalued,0.1878,0.1519,0.0026,19.5703,cluster_6,Information Technology,87.8103448275862,0.1700478779999999,1.801,0.1383,36.14,51.67,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+CDNS,28.98,45.05,Overvalued,0.1878,0.1519,0.0026,19.5703,cluster_6,Information Technology,74.03456790123457,0.21855,1.025,0.0,28.56,45.47,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+EA,30.64,44.55,Overvalued,0.1036,0.0588,0.0852,15.3049,cluster_1,Communication Services,75.19101123595506,0.071733158,0.754,0.2846,26.3,48.89,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+MPWR,40.24,43.82,Overvalued,0.1878,0.1519,0.0026,19.5703,cluster_6,Information Technology,84.05611847233048,0.0987077430172002,1.49,0.48520002,32.74,51.32,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+GLW,30.44,43.19,Overvalued,0.2949,0.2623,0.0,10.6024,cluster_5,Information Technology,73.62841530054645,0.05782752,1.022,0.612,28.16,45.47,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+AVGO,32.93,36.97,Overvalued,0.1878,0.1519,0.0026,19.5703,cluster_6,Information Technology,69.90336134453781,0.168590286948,1.257,0.4948,30.09,39.81,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+PWR,43.89,36.76,Overvalued,0.1878,0.1519,0.0026,19.5703,cluster_6,Industrials,80.64904552129222,0.11970838249044,1.109,0.060300004,29.96,50.69,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+APTV,60.31,35.97,Overvalued,0.1878,0.1519,0.0026,19.5703,cluster_6,Consumer Discretionary,96.28,0.01948,1.534,0.0,34.49,61.79,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+NOW,39.04,33.04,Overvalued,0.1878,0.1519,0.0026,19.5703,cluster_6,Information Technology,72.08383233532935,0.15488,1.019,0.0,28.95,43.13,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+DASH,53.59,32.55,Overvalued,0.1878,0.1519,0.0026,19.5703,cluster_6,Consumer Discretionary,86.14084507042253,0.10439,1.902,0.0,37.74,48.4,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+TPR,26.19,31.86,Overvalued,0.1878,0.1519,0.0026,19.5703,cluster_6,Consumer Discretionary,58.054474708171206,0.231640682,1.597,0.5814,32.66,25.39,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+PODD,40.12,29.32,Overvalued,0.1878,0.1519,0.0026,19.5703,cluster_6,Health Care,69.43515850144092,0.18124,1.435,0.0,33.0,36.44,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+COST,25.46,27.17,Overvalued,0.1878,0.1519,0.0026,19.5703,cluster_6,Consumer Staples,52.628280664167114,0.22106925,0.993,0.271,27.79,24.84,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+ADI,35.65,24.63,Overvalued,0.2949,0.2623,0.0,10.6024,cluster_5,Information Technology,60.277879341864725,0.021706982,1.021,0.7239,28.1,32.18,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+GNRC,58.71,22.63,Overvalued,0.1878,0.1519,0.0026,19.5703,cluster_6,Industrials,81.34200743494424,0.06283,1.769,0.0,36.79,44.55,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+ROL,31.75,21.62,Overvalued,0.1036,0.0588,0.0852,15.3049,cluster_1,Industrials,53.366972477064216,0.1468967679999999,0.796,0.6228,25.34,28.03,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+MNST,20.81,18.73,Overvalued,0.1036,0.0588,0.0852,15.3049,cluster_1,Consumer Staples,39.53608247422681,0.26815,0.437,0.0,22.34,17.2,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+RTX,23.84,17.34,Overvalued,0.1036,0.0588,0.0852,15.3049,cluster_1,Industrials,41.183838383838385,0.0505653777724001,0.406,0.53830004,22.4,18.78,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+OXY,22.84,16.6,Overvalued,0.2928,0.2612,0.0,5.4162,cluster_3,Energy,39.43703703703704,0.017128881,0.351,0.7111,21.59,17.85,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+WMT,29.28,15.89,Overvalued,0.1036,0.0588,0.0852,15.3049,cluster_1,Consumer Staples,45.16849816849817,0.143250779,0.657,0.3443,24.79,20.38,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+COF,43.23,14.59,Overvalued,0.2949,0.2623,0.0,10.6024,cluster_5,Financials,57.81845238095239,0.0054152289576,1.139,0.77379996,29.21,28.61,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
+SYK,31.53,12.52,Overvalued,0.2949,0.2623,0.0,10.6024,cluster_5,Health Care,44.054696789536266,0.089750208,0.869,0.4048,27.19,16.86,Overvalued,0.0959,0.0886,0.0,14.9468,Strong Overvalued
