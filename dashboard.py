@@ -9,6 +9,7 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
+from config.paths import PREDICTED_PE_RATIO_RESULTS, STOCK_CLUSTERS_FOLDER
 
 # ---------------------------------------------------------------------------
 # PAGE CONFIG
@@ -1106,7 +1107,6 @@ elif page == "Clusters":
     )
 
     # Load cluster files
-    from config.paths import STOCK_CLUSTERS_FOLDER
 
     cluster_files = sorted([
         f for f in os.listdir(STOCK_CLUSTERS_FOLDER)
