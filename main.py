@@ -158,7 +158,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
 
-"""to push streamlit:
+""" to push streamlit:
 
 git add .
 git commit -m "Refresh data"
