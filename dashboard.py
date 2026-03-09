@@ -659,7 +659,7 @@ if page == "Overview":
     wi4.metric("Index Residual SE", f"{wi_se:.4f}")
 
     # ── Model Interpretation Expander ─────────────────────────────────────
-    with st.expander("How to interpret these results", expanded=False):
+    with st.expander("📖  How to interpret these results", expanded=False):
         st.markdown("""
 <div style='font-family:IBM Plex Mono,monospace;font-size:0.8rem;line-height:1.8;color:#c9d1e0'>
 
@@ -680,19 +680,19 @@ using only EPS growth, Beta, and Payout Ratio.</p>
   </tr>
   <tr style='border-bottom:1px solid #1e2a40'>
     <td style='padding:6px 12px;color:#e74c3c'>R² &lt; 0.10</td>
-    <td style='padding:6px 12px'>Weak fit. The predictors explain little PE variation. Other unmodelled factors dominate. Signals flagged as Model Insignificant.</td>
+    <td style='padding:6px 12px'>Weak fit. The predictors explain little PE variation — other unmodelled factors dominate. Signals flagged as Model Insignificant.</td>
   </tr>
 </table>
 
 <p style='color:#4a6fa5;font-size:0.75rem'>Note: Low R² is expected and not alarming in cross-sectional PE regressions.
 At the whole-index level, sector premiums, profitability quality, and competitive moats all drive PE but are absent from the model.
-Clustering partially controls for this by grouping comparable firms, which is why cluster R² is typically higher than index R².</p>
+Clustering partially controls for this by grouping comparable firms — which is why cluster R² is typically higher than index R².</p>
 
 <div style='color:#4a90d9;font-size:0.85rem;font-weight:600;margin:20px 0 12px;
 letter-spacing:0.05em;text-transform:uppercase'>F p-value — Overall Model Significance</div>
 
 <p>The F-test asks: do the predictors jointly explain PE better than a model with no predictors at all?
-A low p-value means yes,the model is statistically meaningful.</p>
+A low p-value means yes — the model is statistically meaningful.</p>
 
 <table style='width:100%;border-collapse:collapse;margin-bottom:16px'>
   <tr style='border-bottom:1px solid #1e2a40'>
@@ -719,7 +719,7 @@ from its predicted PE by more than ±1 Residual SE to be flagged as under or ove
 <table style='width:100%;border-collapse:collapse;margin-bottom:16px'>
   <tr style='border-bottom:1px solid #1e2a40'>
     <td style='padding:6px 12px;color:#2ecc71;width:120px'>SE &lt; 6</td>
-    <td style='padding:6px 12px'>Tight band. The model predicts PE precisely. Signals require a smaller absolute PE gap to trigger, making them more selective.</td>
+    <td style='padding:6px 12px'>Tight band. The model predicts PE precisely — signals require a smaller absolute PE gap to trigger, making them more selective.</td>
   </tr>
   <tr style='border-bottom:1px solid #1e2a40'>
     <td style='padding:6px 12px;color:#f39c12'>SE 6–15</td>
@@ -727,7 +727,7 @@ from its predicted PE by more than ±1 Residual SE to be flagged as under or ove
   </tr>
   <tr style='border-bottom:1px solid #1e2a40'>
     <td style='padding:6px 12px;color:#e74c3c'>SE &gt; 15</td>
-    <td style='padding:6px 12px'>Wide band. High unexplained variation, only extreme deviations trigger a signal. Reflecting heterogeneous peer groups.</td>
+    <td style='padding:6px 12px'>Wide band. High unexplained variation — only extreme deviations trigger a signal. Clusters 1 and 3 fall here, reflecting heterogeneous peer groups.</td>
   </tr>
 </table>
 
@@ -739,36 +739,37 @@ PE ratio and its <em style='color:#8a9bb5'>predicted</em> PE ratio:</p>
 
 <div style='background:#0d1628;border:1px solid #1e2a40;border-radius:4px;padding:14px 18px;
 margin:10px 0 16px;font-family:IBM Plex Mono,monospace;font-size:0.8rem;color:#c9d1e0'>
-PE Difference = Actual PE &minus; Predicted PE
+PE Difference = TTM PE &minus; Predicted PE
 </div>
 
 <table style='width:100%;border-collapse:collapse;margin-bottom:16px'>
   <tr style='border-bottom:1px solid #1e2a40'>
     <td style='padding:6px 12px;color:#2ecc71;width:180px'>Negative difference</td>
     <td style='padding:6px 12px'>The market is pricing the firm at a <em style='color:#8a9bb5'>cheaper</em> multiple
-    than its fundamentals predict relative to peers. The stock appears undervalued.
-    The market is underpricing it compared to comparable firms with similar growth, risk, and payout characteristics.</td>
+    than its fundamentals predict relative to peers. The stock appears undervalued —
+    the market is underpricing it compared to comparable firms with similar growth, risk, and payout characteristics.</td>
   </tr>
   <tr style='border-bottom:1px solid #1e2a40'>
     <td style='padding:6px 12px;color:#e74c3c'>Positive difference</td>
     <td style='padding:6px 12px'>The market is paying a <em style='color:#8a9bb5'>premium</em> multiple above what
-    the firm's fundamentals justify relative to peers. The stock appears overvalued.
-    Investors are paying more than comparable firms would suggest.</td>
+    the firm's fundamentals justify relative to peers. The stock appears overvalued —
+    investors are paying more than comparable firms would suggest.</td>
   </tr>
 </table>
 
-<p>However, not every difference triggers a signal. The gap must exceed <strong style='color:#e8edf5'>±1 Residual SE</strong>,
-the average prediction error of the regression, to filter out noise:</p>
+<p>However, not every difference triggers a signal. The gap must exceed <strong style='color:#e8edf5'>±1 Residual SE</strong>
+— the average prediction error of the regression — to filter out noise:</p>
 
 <div style='background:#0d1628;border:1px solid #1e2a40;border-radius:4px;padding:14px 18px;
 margin:10px 0 16px;font-family:IBM Plex Mono,monospace;font-size:0.78rem;line-height:2;color:#c9d1e0'>
-Actual PE &lt; Predicted PE &minus; (1 &times; Residual SE) &nbsp;&rarr;&nbsp; <span style='color:#2ecc71'>Undervalued</span><br>
-Actual PE &gt; Predicted PE + (1 &times; Residual SE) &nbsp;&rarr;&nbsp; <span style='color:#e74c3c'>Overvalued</span><br>
+TTM PE &lt; Predicted PE &minus; (1 &times; Residual SE) &nbsp;&rarr;&nbsp; <span style='color:#2ecc71'>Undervalued</span><br>
+TTM PE &gt; Predicted PE + (1 &times; Residual SE) &nbsp;&rarr;&nbsp; <span style='color:#e74c3c'>Overvalued</span><br>
 Otherwise &nbsp;&rarr;&nbsp; <span style='color:#4a90d9'>Fairly Valued</span>
 </div>
 
 <p style='color:#4a6fa5;font-size:0.75rem'>Important: these signals are <em>relative</em>, not absolute.
-A firm flagged as Undervalued is cheaper than its peers given its fundamentals, it is not necessarily cheap in any absolute sense. The market may have legitimate reasons
+A firm flagged as Undervalued is cheaper than its peers given its fundamentals —
+not necessarily cheap in any absolute sense. The market may have legitimate reasons
 for the discount that the model does not capture, such as deteriorating earnings quality,
 balance sheet risk, or sector-specific headwinds. Signals should always be investigated
 further before drawing conclusions.</p>
@@ -776,7 +777,7 @@ further before drawing conclusions.</p>
 <div style='color:#4a90d9;font-size:0.85rem;font-weight:600;margin:20px 0 12px;
 letter-spacing:0.05em;text-transform:uppercase'>Combined Signal Logic</div>
 
-<p>Each firm receives two independent valuations, one from its cluster regression and one from
+<p>Each firm receives two independent valuations — one from its cluster regression and one from
 the whole-index regression. The combined signal reflects whether they agree:</p>
 
 <table style='width:100%;border-collapse:collapse;margin-bottom:16px'>
@@ -815,7 +816,7 @@ letter-spacing:0.05em;text-transform:uppercase'>Important Limitations</div>
 
 <p style='color:#4a6fa5;font-size:0.78rem;line-height:1.8'>
 This model uses only three predictors (EPS growth via ROE×Retention, Beta, and Payout Ratio)
-and is intended as a <em style='color:#8a9bb5'>relative</em> valuation tool, it identifies firms that appear mispriced
+and is intended as a <em style='color:#8a9bb5'>relative</em> valuation tool — it identifies firms that appear mispriced
 <em style='color:#8a9bb5'>relative to their peers</em>, not in absolute terms. It does not account for sector premiums,
 balance sheet quality, management quality, competitive moats, or macro conditions.
 Signals should be treated as a starting point for deeper fundamental analysis, not as
@@ -837,7 +838,7 @@ standalone buy or sell recommendations.
         color="Combined Signal",
         color_discrete_map=SIGNAL_COLORS,
         hover_data=["Ticker", "PE Difference (Cluster)", "Source Cluster"],
-        labels={"Predicted PE (Cluster)": "Predicted PE", "PE Ratio (Current)": "Actual PE"},
+        labels={"Predicted PE (Cluster)": "Predicted PE", "PE Ratio (Current)": "TTM PE"},
     )
 
     # 45-degree reference line
@@ -950,7 +951,7 @@ standalone buy or sell recommendations.
             st.markdown(
                 "<p style='font-size:0.75rem;color:#4a6fa5;font-family:IBM Plex Mono,monospace'>"
                 "Sectors with disproportionate strong signals may indicate the model is systematically "
-                "mispricing firms in that sector, often because sector-specific PE premiums are not "
+                "mispricing firms in that sector — often because sector-specific PE premiums are not "
                 "captured by the three predictors. Treat concentrated sector signals with extra caution."
                 "</p>",
                 unsafe_allow_html=True,
@@ -978,8 +979,8 @@ elif page == "Strong Signals":
     )
 
     for signal, label in [
-        ("Strong Undervalued", "STRONG UNDERVALUED"),
-        ("Strong Overvalued",  "STRONG OVERVALUED"),
+        ("Strong Undervalued", "🟢 STRONG UNDERVALUED"),
+        ("Strong Overvalued",  "🔴 STRONG OVERVALUED"),
     ]:
         sig_df = df_full[df_full["Combined Signal"] == signal].copy()
         if sig_df.empty:
@@ -1001,7 +1002,7 @@ elif page == "Strong Signals":
 
         col_defs = [
             ("Ticker",           lambda r: f"<td style='padding:7px 10px;color:#e8edf5;font-weight:600'>{r['Ticker']}</td>"),
-            ("Actual PE",         lambda r: f"<td style='padding:7px 10px'>{fmt_num(r['PE Ratio (Current)'])}</td>"),
+            ("TTM PE",            lambda r: f"<td style='padding:7px 10px'>{fmt_num(r['PE Ratio (Current)'])}</td>"),
             ("Pred PE (Cluster)", lambda r: f"<td style='padding:7px 10px'>{fmt_num(r['Predicted PE (Cluster)'])}</td>"),
             ("Diff (Cluster)",    lambda r: f"<td style='padding:7px 10px;color:{diff_col(r['PE Difference (Cluster)'])}'>{fmt_num(r['PE Difference (Cluster)'], signed=True)}</td>"),
             ("Pred PE (Index)",   lambda r: f"<td style='padding:7px 10px'>{fmt_num(r['Predicted PE (Index)'])}</td>"),
@@ -1078,7 +1079,7 @@ elif page == "All Firms":
     all_col_defs = [
         ("Ticker",            lambda r: f"<td style='padding:7px 10px;color:#e8edf5;font-weight:600'>{r['Ticker']}</td>"),
     ] + sector_col_def + [
-        ("Actual PE",          lambda r: f"<td style='padding:7px 10px'>{fmt_num(r['PE Ratio (Current)'])}</td>"),
+        ("TTM PE",             lambda r: f"<td style='padding:7px 10px'>{fmt_num(r['PE Ratio (Current)'])}</td>"),
         ("Pred PE (C)",        lambda r: f"<td style='padding:7px 10px'>{fmt_num(r['Predicted PE (Cluster)'])}</td>"),
         ("Diff (C)",           lambda r: f"<td style='padding:7px 10px;color:{diff_col(r['PE Difference (Cluster)'])}'>{fmt_num(r['PE Difference (Cluster)'], signed=True)}</td>"),
         ("Signal (Cluster)",   lambda r: f"<td style='padding:7px 10px;color:{SIGNAL_CSS.get(str(r['Valuation Signal (Cluster)']), chr(35)+chr(99)+chr(57)+chr(100)+chr(49)+chr(101)+chr(48))};white-space:nowrap'>{r['Valuation Signal (Cluster)']}</td>"),
@@ -1237,7 +1238,7 @@ elif page == "Clusters":
         "<p style='font-family:IBM Plex Mono,monospace;font-size:0.78rem;color:#4a6fa5;"
         "margin-bottom:1rem'>Shows what proportion of each cluster belongs to each GICS sector. "
         "Concentrated sector columns suggest the model may be capturing sector effects "
-        "rather than pure fundamental similarity, signals from those clusters should be "
+        "rather than pure fundamental similarity — signals from those clusters should be "
         "interpreted with extra caution.</p>",
         unsafe_allow_html=True,
     )
@@ -1388,7 +1389,7 @@ elif page == "Clusters":
         if "Dividend Yield" in display_view.columns:
             col_defs.append(("Div Yield", lambda r: f"<td style='padding:7px 10px'>{fmt_num_cl(r['Dividend Yield'])}</td>"))
         if "PE Ratio (Current)" in display_view.columns:
-            col_defs.append(("Actual PE", lambda r: f"<td style='padding:7px 10px'>{fmt_num_cl(r['PE Ratio (Current)'])}</td>"))
+            col_defs.append(("TTM PE",    lambda r: f"<td style='padding:7px 10px'>{fmt_num_cl(r['PE Ratio (Current)'])}</td>"))
         if "Predicted PE (Cluster)" in display_view.columns:
             col_defs.append(("Pred PE", lambda r: f"<td style='padding:7px 10px'>{fmt_num_cl(r['Predicted PE (Cluster)'])}</td>"))
         if "PE Difference (Cluster)" in display_view.columns:
@@ -1579,7 +1580,7 @@ elif page == "Stock Lookup":
                 )
             with col_b:
                 r1, r2, r3 = st.columns(3)
-                r1.metric("Actual PE",           f"{row['PE Ratio (Current)']:.2f}" if pd.notna(row['PE Ratio (Current)']) else "—")
+                r1.metric("TTM PE",              f"{row['PE Ratio (Current)']:.2f}" if pd.notna(row['PE Ratio (Current)']) else "—")
                 r2.metric("Predicted PE (Cluster)", f"{row['Predicted PE (Cluster)']:.2f}" if pd.notna(row['Predicted PE (Cluster)']) else "—",
                           delta=f"{row['PE Difference (Cluster)']:+.2f}" if pd.notna(row['PE Difference (Cluster)']) else None)
                 r3.metric("Predicted PE (Index)", f"{row['Predicted PE (Index)']:.2f}" if pd.notna(row['Predicted PE (Index)']) else "—",
@@ -1658,7 +1659,7 @@ elif page == "Stock Lookup":
 
             if any(pd.notna(v) for v in [pe_actual, pe_cluster, pe_index]):
                 st.markdown("### PE Comparison")
-                labels = ["Actual PE", "Predicted (Cluster)", "Predicted (Index)"]
+                labels = ["TTM PE", "Predicted (Cluster)", "Predicted (Index)"]
                 values = [pe_actual, pe_cluster, pe_index]
                 bar_colors = ["#4a90d9", "#2ecc71" if pe_cluster < pe_actual else "#e74c3c",
                               "#2ecc71" if pe_index < pe_actual else "#e74c3c"]
