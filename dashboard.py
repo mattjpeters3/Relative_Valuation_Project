@@ -184,7 +184,7 @@ SIGNAL_COLORS = {
 }
 
 
-@st.cache_data
+@st.cache_data(ttl=3600)
 def load_loo_diagnostics(ticker: str, source_cluster: str):
     """
     Load the per-firm LOO regression diagnostics for a given ticker.
@@ -212,7 +212,7 @@ def load_loo_diagnostics(ticker: str, source_cluster: str):
     return cluster_diag, index_diag
 
 
-@st.cache_data
+@st.cache_data(ttl=3600)
 def load_signal_history() -> pd.DataFrame:
     path = os.path.join(PREDICTED_PE_RATIO_RESULTS, "signal_history.csv")
     if not os.path.exists(path):
@@ -223,7 +223,7 @@ def load_signal_history() -> pd.DataFrame:
     return df
 
 
-@st.cache_data
+@st.cache_data(ttl=3600)
 def load_master() -> pd.DataFrame:
     path = os.path.join(RESULTS_DIR, "master_valuations.csv")
     if not os.path.exists(path):
@@ -1538,11 +1538,21 @@ elif page == "Signal History":
         with st.expander("View raw log"):
             display_history = history.copy()
             display_history['Run Date'] = display_history['Run Date'].dt.strftime("%b %d, %Y")
-            st.dataframe(
-                display_history.sort_values('Run Date', ascending=False),
-                use_container_width=True,
-                hide_index=True,
-            )
+            display_history = display_history.sort_values('Run Date', ascending=False).reset_index(drop=True)
+
+            # Build columns dynamically from whatever columns exist
+            raw_col_defs = []
+            for col in display_history.columns:
+                if col == 'Run Date':
+                    raw_col_defs.append((col, lambda r, c=col: f"<td style='padding:7px 10px;color:#7aaac8;white-space:nowrap'>{r[c]}</td>"))
+                elif col == 'Combined Signal':
+                    raw_col_defs.append((col, lambda r, c=col: f"<td style='padding:7px 10px;color:{SIGNAL_CSS.get(str(r.get(c,'')),chr(35)+'c9d1e0')};white-space:nowrap'>{r.get(c,'—')}</td>"))
+                elif col in ('PE Ratio (Current)', 'Predicted PE (Cluster)', 'PE Difference (Cluster)'):
+                    raw_col_defs.append((col, lambda r, c=col: f"<td style='padding:7px 10px;color:#c9d1e0'>{fmt_num(r.get(c, float('nan')))}</td>"))
+                else:
+                    raw_col_defs.append((col, lambda r, c=col: f"<td style='padding:7px 10px;color:#8a9bb5'>{r.get(c,'—')}</td>"))
+
+            st.markdown(build_html_table(display_history, raw_col_defs, max_height="400px"), unsafe_allow_html=True)
 
 # ---------------------------------------------------------------------------
 # ── PAGE: STOCK LOOKUP ──
