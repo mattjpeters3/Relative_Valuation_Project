@@ -979,8 +979,8 @@ elif page == "Strong Signals":
     )
 
     for signal, label in [
-        ("Strong Undervalued", "STRONG UNDERVALUED"),
-        ("Strong Overvalued",  "STRONG OVERVALUED"),
+        ("Strong Undervalued", " STRONG UNDERVALUED"),
+        ("Strong Overvalued",  " STRONG OVERVALUED"),
     ]:
         sig_df = df_full[df_full["Combined Signal"] == signal].copy()
         if sig_df.empty:
