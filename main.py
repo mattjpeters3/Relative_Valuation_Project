@@ -161,8 +161,7 @@ if __name__ == "__main__":
 """ to push streamlit:
 
 git add .
-git commit -m "Refresh data"
+git commit -m "Refresh data - [date]"
 git push
-
 
 """
