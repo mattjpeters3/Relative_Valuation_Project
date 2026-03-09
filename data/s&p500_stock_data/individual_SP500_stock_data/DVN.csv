@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-DVN,27688599552,10.705035,10.676258992805757,2.16,0.619,0.02041209553932487,0.23020001,0.17736,0.76979999,0.1365317262264
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+DVN,28160002048,10.88729,10.666666666666666,2.16,0.619,0.23020001,0.17736,0.76979999,0.1365317262264

@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-ROK,41520123904,42.25253,43.306636155606405,1.46,1.522,0.019374399229089657,0.6069,0.23736,0.3931,0.093306216
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+ROK,41157292032,41.78767,42.21803652968036,1.49,1.522,0.6069,0.23736,0.3931,0.093306216

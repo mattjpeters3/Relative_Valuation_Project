@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-IBM,241862787072,23.166218,23.050314465408803,2.62,0.706,0.024765760450280238,0.6023,0.35158002,0.39770000000000005,0.13982337395400002
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+IBM,237979336704,22.794249,23.256963162623542,2.6,0.706,0.6023,0.35158002,0.39770000000000005,0.13982337395400002

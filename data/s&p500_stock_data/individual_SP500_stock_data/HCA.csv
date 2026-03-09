@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-HCA,119025156096,18.787857,18.865866572537946,0.58,1.342,0.017963496859775392,0.1017,,0.8983,
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+HCA,120588271616,19.021164,18.79400352733686,0.59,1.342,0.1017,,0.8983,

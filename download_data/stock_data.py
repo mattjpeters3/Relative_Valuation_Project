@@ -15,16 +15,6 @@ logging.basicConfig(
     ]
 )
 
-def compute_90d_std(ticker):
-    try:
-        yf_ticker = ticker.replace('.', '-')
-        hist = yf.Ticker(yf_ticker).history(period="90d")
-        daily_returns = hist['Close'].pct_change().dropna()
-        return daily_returns.std()
-    except Exception as e:
-        logging.warning(f"Could not compute 90d std for {ticker}: {e}")
-        return None
-
 def download_stock_metrics(original_ticker):
     try:
         yf_ticker = original_ticker.replace('.', '-')
@@ -87,8 +77,6 @@ def download_stock_metrics(original_ticker):
         else:
             eps_growth = None
 
-        std_90d = compute_90d_std(original_ticker)
-
         metrics = {
             'Ticker':                        original_ticker,
             'Market Cap':                    info.get('marketCap'),
@@ -96,7 +84,6 @@ def download_stock_metrics(original_ticker):
             'PE Ratio (Current)':            pe_ratio_current,
             'Dividend Yield':                dividend_yield,
             'Beta':                          info.get('beta'),
-            'Standard Deviation (90d)':      std_90d,
             'Payout Ratio':                  payout_ratio,
             'Return on Equity (ROE)':        roe,
             'Retention Ratio':               retention_ratio,
@@ -179,7 +166,7 @@ def clean_and_save_filtered_data(df):
         dropped_other = len(step5) - len(step6)
         report_lines.append(
             f"  Dropped — other missing fields   : {dropped_other}"
-            f"  (Market Cap, Std Dev, ROE, etc.)"
+            f"  (Market Cap, ROE, etc.)"
         )
 
         cleaned_df = step6.copy()

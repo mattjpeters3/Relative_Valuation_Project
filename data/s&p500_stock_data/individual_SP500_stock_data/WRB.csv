@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-WRB,26552080384,15.701125,15.633707865168537,0.52,0.336,0.015247418539267438,0.0787,0.19700001,0.9213,0.181496109213
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+WRB,25864241152,15.294382,15.712359550561798,0.51,0.336,0.0787,0.19700001,0.9213,0.181496109213

@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-ADBE,117875671040,16.851887,16.860562537402753,0.0,1.532,0.02076565454203526,0.0,0.55426,1.0,0.55426
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+ADBE,117775204352,16.837524,16.973070017953322,0.0,1.532,0.0,0.55426,1.0,0.55426

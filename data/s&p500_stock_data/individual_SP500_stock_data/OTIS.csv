@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-OTIS,34692501504,25.434284,25.897142857142857,1.85,0.986,0.012212226634675673,0.4714,,0.5286,
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+OTIS,33864355840,24.827143,25.49142857142857,1.88,0.986,0.4714,,0.5286,

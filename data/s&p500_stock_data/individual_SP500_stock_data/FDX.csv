@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-FDX,84326940672,19.77781,20.661317100166023,1.55,1.281,0.015785653790347645,0.3132,0.15886,0.6868000000000001,0.10910504800000001
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+FDX,83196715008,19.523533,19.803433001107418,1.62,1.281,0.3132,0.15886,0.6868000000000001,0.10910504800000001

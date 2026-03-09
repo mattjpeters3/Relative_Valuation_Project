@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-CINF,25757876224,10.882993,10.96506262359921,2.13,0.636,0.012491003576305202,0.22940001,0.16036,0.77059999,0.1235734143964
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+CINF,25143943168,10.630608,10.909630606860157,2.15,0.636,0.22940001,0.16036,0.77059999,0.1235734143964

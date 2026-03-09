@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-AMCR,19964993536,32.48872,32.849624060150376,5.95,0.635,0.019117446657346934,1.9267,0.07734,-0.9267000000000001,-0.07167097800000001
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+AMCR,19117139968,31.109022,32.54135338345865,6.01,0.635,1.9267,0.07734,-0.9267000000000001,-0.07167097800000001

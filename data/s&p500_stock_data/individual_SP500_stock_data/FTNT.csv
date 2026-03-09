@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-FTNT,62373486592,34.65909,34.88429752066116,0.0,1.04,0.020900939296503468,0.0,1.3571601,1.0,
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+FTNT,62042562560,34.475204,34.574380165289256,0.0,1.04,0.0,1.3571601,1.0,

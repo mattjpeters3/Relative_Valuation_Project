@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-TKO,16052807680,89.60352,93.28193832599119,1.47,0.167,0.020545730086375703,1.0177,0.056339998,-0.01770000000000005,-0.0009972179646000028
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+TKO,15772634112,88.03965,89.2863436123348,1.54,0.167,1.0177,0.056339998,-0.01770000000000005,-0.0009972179646000028

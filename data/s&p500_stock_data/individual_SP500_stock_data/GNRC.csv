@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-GNRC,12014389248,76.1078,81.34200743494424,0.0,1.769,0.035775820375392516,0.0,0.06283,1.0,0.06283
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+GNRC,11691920384,74.065056,75.84386617100373,0.0,1.769,0.0,0.06283,1.0,0.06283

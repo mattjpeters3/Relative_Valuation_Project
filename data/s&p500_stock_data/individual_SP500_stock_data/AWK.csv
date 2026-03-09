@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-AWK,26681120768,24.021088,23.66080843585237,2.46,0.759,0.014665083652249531,0.5707,0.10496,0.4293,0.045059328
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+AWK,27003215872,24.311071,24.163444639718804,2.41,0.759,0.5707,0.10496,0.4293,0.045059328

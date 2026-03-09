@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-RSG,71602061312,33.7172,33.77113702623906,1.08,0.521,0.010918963643176193,0.3518,0.18301001,0.6482,0.118627088482
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+RSG,71478231040,33.75731,33.77923976608187,1.08,0.521,0.3518,0.18301001,0.6482,0.118627088482

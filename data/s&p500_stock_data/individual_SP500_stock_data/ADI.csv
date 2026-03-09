@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-ADI,155014578176,58.04753,60.277879341864725,1.23,1.021,0.019209904409420202,0.7239,0.07862,0.2761,0.021706982
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+ADI,152019451904,57.03022,57.84065934065934,1.29,1.021,0.7239,0.07862,0.2761,0.021706982

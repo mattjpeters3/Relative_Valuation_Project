@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-BIIB,26966880256,20.928247,21.421412300683375,0.0,0.145,0.021172049170777748,0.0,0.07394,1.0,0.07394
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+BIIB,27172339712,21.0877,21.055808656036447,0.0,0.145,0.0,0.07394,1.0,0.07394

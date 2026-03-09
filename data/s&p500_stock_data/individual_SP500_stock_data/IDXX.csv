@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-IDXX,48724480000,46.72205,47.39050535987749,0.0,1.696,0.023858099434823817,0.0,0.66202,1.0,0.66202
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+IDXX,47845318656,45.80887,46.51452599388379,0.0,1.696,0.0,0.66202,1.0,0.66202

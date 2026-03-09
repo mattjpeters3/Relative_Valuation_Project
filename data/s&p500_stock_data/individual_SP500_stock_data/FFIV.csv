@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-FFIV,16089640960,23.444786,23.480132450331123,0.0,0.994,0.02285173753526093,0.0,0.20844,1.0,0.20844
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+FFIV,16058108928,23.39884,23.693708609271525,0.0,0.994,0.0,0.20844,1.0,0.20844

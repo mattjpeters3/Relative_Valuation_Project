@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-HUBB,25330440192,28.825167,28.826981246218992,1.19,0.997,0.018777739239116686,0.32529998,0.24542,0.67470002,0.16558487890839999
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+HUBB,25148626944,28.583687,28.491842900302114,1.2,0.997,0.32529998,0.24542,0.67470002,0.16558487890839999

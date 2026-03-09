@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-AMGN,198010339328,25.813072,25.83274771609276,2.74,0.425,0.019832639296510392,0.669,1.0610299,0.33099999999999996,0.3512008969
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+AMGN,200894349312,26.18904,25.96837666900913,2.73,0.425,0.669,1.0610299,0.33099999999999996,0.3512008969

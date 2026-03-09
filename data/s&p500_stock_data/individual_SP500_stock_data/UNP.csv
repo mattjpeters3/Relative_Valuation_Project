@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-UNP,150590898176,21.201336,21.73767752715121,2.12,0.952,0.012957722342857872,0.4541,0.40377,0.5459,0.22041804300000004
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+UNP,148522926080,20.91019,21.22890559732665,2.17,0.952,0.4541,0.40377,0.5459,0.22041804300000004

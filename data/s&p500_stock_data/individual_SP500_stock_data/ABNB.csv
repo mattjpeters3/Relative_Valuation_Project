@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-ABNB,80119824384,33.16161,33.70967741935483,0.0,1.163,0.019593418644999326,0.0,0.30233,1.0,0.30233
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+ABNB,78392442880,32.527363,33.14179104477612,0.0,1.163,0.0,0.30233,1.0,0.30233

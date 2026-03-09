@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-ZTS,53601513472,20.17081,20.270315091210612,1.73,0.954,0.02104645625778115,0.33220002,0.65992,0.6677999800000001,0.4406945628016
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+ZTS,52482154496,19.78239,20.171096345514954,1.75,0.954,0.33220002,0.65992,0.6677999800000001,0.4406945628016

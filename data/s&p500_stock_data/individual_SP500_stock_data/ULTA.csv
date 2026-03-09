@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-ULTA,28958453760,24.763842,25.062883435582823,0.0,0.847,0.020979109871084447,0.0,0.47967,1.0,0.47967
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+ULTA,28086976512,24.046259,24.811516314779272,0.0,0.847,0.0,0.47967,1.0,0.47967

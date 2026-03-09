@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-CHTR,30326437888,6.470044,6.348426283821094,0.0,1.023,0.023993805956368502,0.0,0.28667998,1.0,0.28667998
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+CHTR,29291810816,6.251036,6.413697873515604,0.0,1.023,0.0,0.28667998,1.0,0.28667998

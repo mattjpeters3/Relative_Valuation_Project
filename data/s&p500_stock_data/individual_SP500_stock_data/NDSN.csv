@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-NDSN,15254026240,29.594158,30.41341991341991,1.17,0.99,0.011967665769198972,0.3463,0.17473,0.6537,0.11422100099999999
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+NDSN,14917092352,28.90919,29.496216216216215,1.2,0.99,0.3463,0.17473,0.6537,0.11422100099999999

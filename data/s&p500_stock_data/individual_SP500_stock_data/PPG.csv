@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-PPG,23999981568,15.518064,16.166184971098268,2.54,1.123,0.017501108240495944,0.4017,0.21077,0.5983,0.12610369100000002
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+PPG,23276976128,15.050578,15.419075144508671,2.66,1.123,0.4017,0.21077,0.5983,0.12610369100000002

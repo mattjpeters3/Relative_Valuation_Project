@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-SBUX,112369156096,82.19166,82.24166666666667,2.51,0.928,0.018400568290789603,2.0417,,-1.0417,
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+SBUX,111583043584,81.61667,82.49166666666666,2.51,0.928,2.0417,,-1.0417,

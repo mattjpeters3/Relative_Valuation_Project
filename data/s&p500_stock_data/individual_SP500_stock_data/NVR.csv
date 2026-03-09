@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-NVR,19821649920,15.992051,16.207367360029323,0.0,1.036,0.015927906186701524,0.0,0.33185002,1.0,0.33185002
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+NVR,19173605376,15.476302,15.948913641364136,0.0,1.036,0.0,0.33185002,1.0,0.33185002

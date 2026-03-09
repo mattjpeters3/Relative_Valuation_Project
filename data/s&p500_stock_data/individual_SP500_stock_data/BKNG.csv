@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-BKNG,147784302592,27.682405,27.79120879120879,0.85,1.227,0.02412997195412582,0.2319,,0.7681,
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+BKNG,141261799424,26.45744,27.471806326974164,0.86,1.227,0.2319,,0.7681,

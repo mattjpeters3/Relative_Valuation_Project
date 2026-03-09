@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-NFLX,421431705600,39.268776,39.19762845849803,0.0,1.714,0.024285112202152244,0.0,0.42762002,1.0,0.42762002
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+NFLX,414390190080,38.612648,39.13833992094862,0.0,1.714,0.0,0.42762002,1.0,0.42762002

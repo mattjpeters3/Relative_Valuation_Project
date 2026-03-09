@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-FTV,18056222720,35.754715,36.496855345911946,0.45,0.998,0.019444094444069852,0.1761,0.06396,0.8239,0.052696644
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+FTV,17640151040,34.930817,36.094339622641506,0.45,0.998,0.1761,0.06396,0.8239,0.052696644

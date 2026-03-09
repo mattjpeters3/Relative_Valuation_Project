@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-IBKR,113849892864,30.166666,30.65315315315315,0.47,1.251,0.02544187310697562,0.1363,0.23507999,0.8637,0.20303858736299998
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+IBKR,110245863424,29.21171,30.045045045045043,0.48,1.251,0.1363,0.23507999,0.8637,0.20303858736299998

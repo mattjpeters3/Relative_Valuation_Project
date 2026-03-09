@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-ATO,30741866496,24.226858,24.16949152542373,2.16,0.698,0.009428812909601387,0.4707,0.09237,0.5293,0.048891440999999994
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+ATO,30479644672,23.988934,24.09375,2.16,0.698,0.4707,0.09237,0.5293,0.048891440999999994

@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-INCY,19101411328,14.97348,15.18408736349454,0.0,0.844,0.023218745900258898,0.0,0.2987,1.0,0.2987
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+INCY,19019812864,14.909516,14.967238689547582,0.0,0.844,0.0,0.2987,1.0,0.2987

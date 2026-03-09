@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-APTV,15681961984,96.76666,96.27999999999999,0.0,1.534,0.02305258576958874,0.0,0.01948,1.0,0.01948
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+APTV,15297341440,94.39333,96.93333333333334,0.0,1.534,0.0,0.01948,1.0,0.01948

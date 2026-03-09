@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-AFL,58323394560,16.316715,16.281524926686217,2.2,0.65,0.010800490338874452,0.3402,0.13118,0.6597999999999999,0.08655256399999998
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+AFL,56137101312,15.940615,16.31818181818182,2.19,0.65,0.3402,0.13118,0.6597999999999999,0.08655256399999998

@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-TGT,54623318016,14.588593,14.606796116504855,3.79,1.105,0.020086204078417,0.5455,0.24034001,0.4545,0.109234534545
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+TGT,53646360576,14.310303,14.641212121212122,3.78,1.105,0.5455,0.24034001,0.4545,0.109234534545

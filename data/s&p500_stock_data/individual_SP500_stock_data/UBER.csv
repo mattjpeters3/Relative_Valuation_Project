@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-UBER,156356739072,15.909091,15.949260042283296,0.0,1.215,0.02092432787534668,0.0,0.39925998,1.0,0.39925998
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+UBER,153063374848,15.573996,15.883720930232556,0.0,1.215,0.0,0.39925998,1.0,0.39925998

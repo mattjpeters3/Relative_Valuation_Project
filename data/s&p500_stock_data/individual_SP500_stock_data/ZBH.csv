@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-ZBH,18568620032,26.392958,26.323943661971832,1.03,0.591,0.0218327248133585,0.27040002,0.05599,0.7295999799999999,0.040850302880199994
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+ZBH,18307020800,26.021128,26.50985915492958,1.02,0.591,0.27040002,0.05599,0.7295999799999999,0.040850302880199994

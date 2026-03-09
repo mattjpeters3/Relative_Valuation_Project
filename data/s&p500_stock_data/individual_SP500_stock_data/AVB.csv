@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-AVB,25172748288,24.024324,24.228378378378377,3.97,0.745,0.013252292694693529,0.94589996,0.088879995,0.054100040000000016,0.004808411284699801
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+AVB,24726726656,23.598648,24.039189189189187,4.0,0.745,0.94589996,0.088879995,0.054100040000000016,0.004808411284699801

@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-AAPL,3786185637888,32.566372,32.90644753476612,0.4,1.116,0.013074962485993429,0.1304,1.5202099,0.8696,
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+AAPL,3785303785472,32.600002,32.58987341772151,0.4,1.116,0.1304,1.5202099,0.8696,

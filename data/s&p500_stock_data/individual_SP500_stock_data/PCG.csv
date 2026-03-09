@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-PCG,39970045952,15.411017,15.364406779661017,1.1,0.308,0.015620222171170242,0.105900005,0.08207,0.894099995,0.07337878658965001
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+PCG,39981035520,15.415256,15.40677966101695,1.1,0.308,0.105900005,0.08207,0.894099995,0.07337878658965001

@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-INVH,16051944448,27.276041,27.520833333333336,4.54,0.814,0.015552997974871106,1.2188,0.060939997,-0.2188000000000001,-0.013333671343600008
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+INVH,15779149824,26.8125,27.302083333333336,4.58,0.814,1.2188,0.060939997,-0.2188000000000001,-0.013333671343600008

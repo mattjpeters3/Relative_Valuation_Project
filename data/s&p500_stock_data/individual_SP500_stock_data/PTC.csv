@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-PTC,19373756416,24.013273,24.225663716814157,0.0,1.042,0.019298364226627583,0.0,0.23141001,1.0,0.23141001
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+PTC,19387549696,23.994978,23.96318114874816,0.0,1.042,0.0,0.23141001,1.0,0.23141001

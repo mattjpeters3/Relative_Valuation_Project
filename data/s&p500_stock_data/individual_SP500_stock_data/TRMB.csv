@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-TRMB,16646138880,39.75284,40.03409090909091,0.0,1.574,0.02004756793028138,0.0,0.07322,1.0,0.07322
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+TRMB,16545024000,39.511364,39.81818181818182,0.0,1.574,0.0,0.07322,1.0,0.07322

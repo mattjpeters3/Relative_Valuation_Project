@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-HWM,100429791232,67.254715,68.02964959568733,0.18,1.188,0.01810245995063083,0.118599996,0.30443,0.881400004,0.26832460321771995
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+HWM,99691200512,66.94054,67.6027027027027,0.18,1.188,0.118599996,0.30443,0.881400004,0.26832460321771995

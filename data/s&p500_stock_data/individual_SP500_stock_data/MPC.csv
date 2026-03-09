@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-MPC,66300878848,16.683811,16.44175491679274,1.76,0.708,0.021967634362274016,0.2821,0.24193001,0.7179,0.173681554179
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+MPC,66162606080,16.661621,16.75094625283876,1.73,0.708,0.2821,0.24193001,0.7179,0.173681554179

@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-PSX,66379239424,15.351252,15.42539388322521,3.05,0.871,0.019495913497117778,0.4402,0.15427,0.5598000000000001,0.086360346
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+PSX,65397420032,15.124189,15.38090824837813,3.06,0.871,0.4402,0.15427,0.5598000000000001,0.086360346

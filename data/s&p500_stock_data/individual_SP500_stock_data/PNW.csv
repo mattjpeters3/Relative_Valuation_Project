@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-PNW,12415774720,20.334654,20.154455445544556,3.58,0.492,0.010117880271532069,0.7119,0.09059,0.2881,0.026098979000000005
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+PNW,12228371456,20.027721,20.285148514851485,3.55,0.492,0.7119,0.09059,0.2881,0.026098979000000005

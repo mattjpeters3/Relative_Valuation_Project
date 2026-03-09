@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-VLTO,23421888512,25.087767,25.31648936170213,0.55,1.106,0.015547729399040162,0.1223,0.36498,0.8777,0.320342946
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+VLTO,23087929344,24.730053,25.08776595744681,0.55,1.106,0.1223,0.36498,0.8777,0.320342946

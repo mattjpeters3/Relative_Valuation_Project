@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-NVDA,4331880054784,36.373466,37.416326530612245,0.02,2.375,0.023550069356845647,0.0082,1.01485,0.9918,
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+NVDA,4368094724096,36.60285,36.229124236252545,0.02,2.375,0.0082,1.01485,0.9918,

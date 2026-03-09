@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-HPQ,17721692160,7.3125,7.325757575757575,6.2,1.178,0.0214778696672605,0.4425,,0.5575,
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+HPQ,17262698496,7.123106,7.371212121212121,6.17,1.178,0.4425,,0.5575,

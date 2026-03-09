@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-MCHP,35257683968,,,2.68,1.447,0.02899468755730642,3.1772,-0.010930001,-2.1772,0.0237967981772
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+MCHP,34307991552,,,2.81,1.447,3.1772,-0.010930001,-2.1772,0.0237967981772

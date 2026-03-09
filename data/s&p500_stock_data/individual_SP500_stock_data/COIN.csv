@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-COIN,53006598144,44.272522,46.33108108108108,0.0,3.709,0.049153915022486366,0.0,0.10055,1.0,0.10055
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+COIN,53180522496,44.21861,44.2152466367713,0.0,3.709,0.0,0.10055,1.0,0.10055

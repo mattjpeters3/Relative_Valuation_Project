@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-CVS,99626844160,56.338127,56.61151079136691,3.38,0.464,0.022362405922883626,1.9137,0.022869999,-0.9137,-0.0208963180863
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+CVS,98901688320,55.928055,56.05755395683454,3.41,0.464,1.9137,0.022869999,-0.9137,-0.0208963180863

@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-AMT,88271380480,34.91759,34.74814814814815,3.62,0.907,0.016266733290460317,1.2593,0.2628,-0.2593000000000001,-0.06814404000000002
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+AMT,87428726784,34.648426,34.988868274582565,3.65,0.907,1.2593,0.2628,-0.2593000000000001,-0.06814404000000002

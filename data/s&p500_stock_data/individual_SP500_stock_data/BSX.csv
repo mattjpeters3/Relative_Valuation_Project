@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-BSX,106632011776,37.041237,37.623711340206185,0.0,0.7,0.0238074739981845,0.0,0.12445,1.0,0.12445
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+BSX,105652494336,36.700977,36.77835051546391,0.0,0.7,0.0,0.12445,1.0,0.12445

@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-SPGI,136490131456,30.747614,30.77148703956344,0.86,1.221,0.022143719683676007,0.2619,0.13087,0.7381,0.09659514699999999
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+SPGI,134258499584,30.244884,30.85675306957708,0.86,1.221,0.2619,0.13087,0.7381,0.09659514699999999

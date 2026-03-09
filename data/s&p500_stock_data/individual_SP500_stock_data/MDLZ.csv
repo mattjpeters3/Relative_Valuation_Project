@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-MDLZ,75324678144,30.886244,30.788359788359788,3.44,0.366,0.014668048996973963,1.0265,0.09332,-0.026499999999999968,-0.002472979999999997
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+MDLZ,75331133440,30.88889,30.8994708994709,3.42,0.366,1.0265,0.09332,-0.026499999999999968,-0.002472979999999997

@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-EFX,25509978112,39.17763,38.88721804511278,1.0,1.532,0.023876453728615445,0.35529998,0.13757,0.6447000199999999,0.08869138175139998
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+EFX,24765210624,38.033833,38.96052631578947,0.99,1.532,0.35529998,0.13757,0.6447000199999999,0.08869138175139998

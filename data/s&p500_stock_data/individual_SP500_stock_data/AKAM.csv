@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-AKAM,14451139584,32.488598,32.899022801302934,0.0,0.704,0.032916462015464124,0.0,0.091730006,1.0,0.091730006
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+AKAM,14734396416,33.12541,32.537459283387626,0.0,0.704,0.0,0.091730006,1.0,0.091730006

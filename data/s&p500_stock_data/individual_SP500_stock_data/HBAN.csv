@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-HBAN,33045020672,11.712231,12.0,3.72,0.967,0.018217840860039948,0.44599998,0.10095,0.5540000199999999,0.05592630201899999
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+HBAN,31983032320,11.335827,11.733812949640289,3.8,0.967,0.44599998,0.10095,0.5540000199999999,0.05592630201899999

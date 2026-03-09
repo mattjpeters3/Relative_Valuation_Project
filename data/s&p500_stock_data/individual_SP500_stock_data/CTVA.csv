@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-CTVA,51774586880,43.78286,43.76571428571429,0.94,0.721,0.01287313065743173,0.4,0.04974,0.6,0.029844
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+CTVA,52200296448,44.142857,43.97714285714285,0.94,0.721,0.4,0.04974,0.6,0.029844

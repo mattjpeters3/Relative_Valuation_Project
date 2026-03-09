@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-TFC,58436096000,12.246073,12.69109947643979,4.29,0.861,0.014197044361175451,0.5445,0.08236,0.4555,0.03751498
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+TFC,57061011456,11.957906,12.170157068062828,4.47,0.861,0.5445,0.08236,0.4555,0.03751498

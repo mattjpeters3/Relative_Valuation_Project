@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-MPWR,50080956416,79.47038,84.05611847233048,0.74,1.49,0.02798475512147648,0.48520002,0.19173999,0.51479998,0.09870774301720021
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+MPWR,49494732800,78.17455,79.37626066718386,0.78,1.49,0.48520002,0.19173999,0.51479998,0.09870774301720021

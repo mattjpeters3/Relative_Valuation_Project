@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-ORCL,447323537408,29.255638,29.095864661654133,1.29,1.648,0.03281761559602329,0.35709998,0.69026,0.64290002,0.4437681678052
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+ORCL,428555698176,28.028194,28.75187969924812,1.31,1.648,0.35709998,0.69026,0.64290002,0.4437681678052

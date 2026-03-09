@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-JCI,80948813824,44.380875,46.033557046979865,1.17,1.389,0.018682756846648954,0.5168,0.12640001,0.48319999999999996,0.061076484832
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+JCI,80486703104,44.127518,44.429496644295305,1.21,1.389,0.5168,0.12640001,0.48319999999999996,0.061076484832

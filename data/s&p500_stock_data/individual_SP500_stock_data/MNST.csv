@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-MNST,74196942848,39.09536,39.53608247422681,0.0,0.437,0.014780737250843938,0.0,0.26815,1.0,0.26815
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+MNST,72817582080,38.368553,38.97422680412371,0.0,0.437,0.0,0.26815,1.0,0.26815

@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-TMUS,247626186752,22.753342,22.665981500513873,1.85,0.412,0.015937638489487833,0.3765,0.18177,0.6234999999999999,0.11333359499999998
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+TMUS,245020065792,22.513876,22.771839671120244,1.84,0.412,0.3765,0.18177,0.6234999999999999,0.11333359499999998

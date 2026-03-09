@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-INTU,133813657600,31.30664,30.389973958333336,0.99,1.282,0.027750641280742075,0.2915,0.23457001,0.7085,0.166192852085
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+INTU,132349927424,30.984364,31.346579804560264,0.96,1.282,0.2915,0.23457001,0.7085,0.166192852085

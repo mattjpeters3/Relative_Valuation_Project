@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-GLW,106458488832,67.80601,73.62841530054645,0.83,1.022,0.036646837382580295,0.612,0.14904,0.388,0.05782752000000001
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+GLW,107801182208,69.03846,67.74175824175825,0.91,1.022,0.612,0.14904,0.388,0.05782752000000001

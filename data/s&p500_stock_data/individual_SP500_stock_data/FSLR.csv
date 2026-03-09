@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-FSLR,20290899968,13.306475,13.497536945812808,0.0,1.648,0.03703084183856377,0.0,0.1745,1.0,0.1745
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+FSLR,20863401984,13.681914,13.31527093596059,0.0,1.648,0.0,0.1745,1.0,0.1745

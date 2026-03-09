@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-AMZN,2293354725376,29.83729,30.578212290502794,0.0,1.42,0.021028285284815554,0.0,0.22286,1.0,0.22286
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+AMZN,2253904150528,29.324024,29.76536312849162,0.0,1.42,0.0,0.22286,1.0,0.22286

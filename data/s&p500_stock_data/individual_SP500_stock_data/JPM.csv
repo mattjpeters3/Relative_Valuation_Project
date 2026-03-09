@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-JPM,778242162688,14.413336,14.662837162837164,2.04,1.059,0.01593600700949967,0.2897,0.16134001,0.7102999999999999,0.114599809103
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+JPM,765525688320,14.170743,14.452321517723416,2.07,1.059,0.2897,0.16134001,0.7102999999999999,0.114599809103

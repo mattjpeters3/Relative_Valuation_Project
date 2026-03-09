@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-HSIC,9210788864,23.926605,24.516819571865444,0.0,0.852,0.019559259126996596,0.0,0.08701,1.0,0.08701
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+HSIC,9098361856,23.634558,23.730886850152903,0.0,0.852,0.0,0.08701,1.0,0.08701

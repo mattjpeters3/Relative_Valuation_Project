@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-WDAY,39921840128,57.729733,56.82625482625483,0.0,1.167,0.026767547413164665,0.0,0.08231,1.0,0.08231
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+WDAY,39581413376,57.4593,58.542635658914726,0.0,1.167,0.0,0.08231,1.0,0.08231

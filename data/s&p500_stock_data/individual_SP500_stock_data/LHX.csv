@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-LHX,68437024768,42.892147,42.06916764361079,1.39,0.606,0.018373115781649418,0.56270003,0.08191,0.43729997,0.0358192405427
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+LHX,69031854080,43.214283,42.92857142857144,1.36,0.606,0.56270003,0.08191,0.43729997,0.0358192405427

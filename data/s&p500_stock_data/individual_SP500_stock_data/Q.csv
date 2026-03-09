@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-Q,23183034368,33.507576,35.12727272727273,0.12,,0.03407199880535668,0.0182,0.079840004,0.9818,0.07838691592720001
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+Q,23166261248,33.483334,33.375757575757575,0.13,,0.0182,0.079840004,0.9818,0.07838691592720001

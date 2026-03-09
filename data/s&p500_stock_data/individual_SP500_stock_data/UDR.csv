@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-UDR,14050571264,33.02655,33.33628318584071,4.57,0.691,0.013605647840932662,1.5177001,0.09378,-0.5177001000000001,-0.04854991537800001
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+UDR,13911270400,32.699116,32.96460176991151,4.62,0.691,1.5177001,0.09378,-0.5177001000000001,-0.04854991537800001

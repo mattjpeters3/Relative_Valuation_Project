@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-AJG,58680504320,39.76307,39.88675958188153,1.22,0.672,0.020031566490544987,0.45299998,0.06906,0.54700002,0.0377758213812
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+AJG,56666124288,38.331303,39.67478260869565,1.23,0.672,0.45299998,0.06906,0.54700002,0.0377758213812

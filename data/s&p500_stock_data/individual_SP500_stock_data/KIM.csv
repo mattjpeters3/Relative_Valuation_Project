@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-KIM,15704130560,28.280489,28.353658536585368,4.42,1.058,0.011798537269007058,1.2317,0.055370003,-0.23170000000000002,-0.012829229695100001
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+KIM,15467112448,27.853659,28.39024390243903,4.47,1.058,1.2317,0.055370003,-0.23170000000000002,-0.012829229695100001

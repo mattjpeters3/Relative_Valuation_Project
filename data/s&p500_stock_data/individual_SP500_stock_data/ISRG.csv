@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-ISRG,174241103872,62.501915,63.27388535031847,0.0,1.68,0.01526471343672513,0.0,0.16690001,1.0,0.16690001
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+ISRG,172923568128,61.71483,62.124207858048166,0.0,1.68,0.0,0.16690001,1.0,0.16690001

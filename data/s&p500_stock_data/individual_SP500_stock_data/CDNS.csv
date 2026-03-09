@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-CDNS,82773680128,74.08395,74.03456790123457,0.0,1.025,0.024170775834171706,0.0,0.21855,1.0,0.21855
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+CDNS,80889446400,72.04176,72.95823095823096,0.0,1.025,0.0,0.21855,1.0,0.21855

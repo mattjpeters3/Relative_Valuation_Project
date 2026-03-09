@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-WBD,69250850816,146.97368,,0.0,1.675,0.018041565123464,0.0,0.02078,1.0,0.02078
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+WBD,69034229760,95.94828,96.37931034482759,0.0,1.675,0.0,0.02078,1.0,0.02078

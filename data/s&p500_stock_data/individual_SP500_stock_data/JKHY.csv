@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-JKHY,12376489984,24.533716,23.96700143472023,1.41,0.726,0.017570154368289608,0.33290002,0.24284,0.6670999799999999,0.1619985591432
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+JKHY,12302665728,24.352434,24.617478510028654,1.37,0.726,0.33290002,0.24284,0.6670999799999999,0.1619985591432

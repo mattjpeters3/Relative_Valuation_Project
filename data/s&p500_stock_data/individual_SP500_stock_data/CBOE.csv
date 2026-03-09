@@ -1,2 +1,2 @@
-Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Standard Deviation (90d),Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
-CBOE,31402924032,28.820845,28.57732949087416,0.94,0.336,0.012674432076428712,0.2591,0.2336,0.7409,0.17307424
+Ticker,Market Cap,PE Ratio (TTM),PE Ratio (Current),Dividend Yield,Beta,Payout Ratio,Return on Equity (ROE),Retention Ratio,EPS Growth (ROE x Retention)
+CBOE,31682912256,29.049906,28.912667946257198,0.93,0.336,0.2591,0.2336,0.7409,0.17307424
