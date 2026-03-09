@@ -659,7 +659,7 @@ if page == "Overview":
     wi4.metric("Index Residual SE", f"{wi_se:.4f}")
 
     # ── Model Interpretation Expander ─────────────────────────────────────
-    with st.expander("📖  How to interpret these results", expanded=False):
+    with st.expander("How to interpret these results", expanded=False):
         st.markdown("""
 <div style='font-family:IBM Plex Mono,monospace;font-size:0.8rem;line-height:1.8;color:#c9d1e0'>
 
@@ -979,8 +979,8 @@ elif page == "Strong Signals":
     )
 
     for signal, label in [
-        ("Strong Undervalued", "🟢 STRONG UNDERVALUED"),
-        ("Strong Overvalued",  "🔴 STRONG OVERVALUED"),
+        ("Strong Undervalued", "STRONG UNDERVALUED"),
+        ("Strong Overvalued",  "STRONG OVERVALUED"),
     ]:
         sig_df = df_full[df_full["Combined Signal"] == signal].copy()
         if sig_df.empty:
