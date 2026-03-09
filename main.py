@@ -12,17 +12,22 @@ from config.paths import (
 # UTILITIES
 # ---------------------------------------------------------------------------
 
-def clear_folder(folder_path: str, label: str) -> None:
+def clear_folder(folder_path: str, label: str, preserve: list = None) -> None:
     """
     Delete all files inside folder_path without removing the folder itself.
     Subdirectories are left untouched.
+
+    preserve: optional list of filenames to skip (e.g. ['signal_history.csv'])
     """
     if not os.path.exists(folder_path):
         print(f"  [skip] {label} folder does not exist yet.")
         return
 
+    preserve = preserve or []
     removed = 0
     for filename in os.listdir(folder_path):
+        if filename in preserve:
+            continue
         file_path = os.path.join(folder_path, filename)
         if os.path.isfile(file_path):
             os.remove(file_path)
@@ -86,7 +91,11 @@ def run_valuation() -> None:
     section("STAGE 3: Valuation")
 
     print("\nClearing stale prediction files...")
-    clear_folder(PREDICTED_PE_RATIO_RESULTS, "predicted PE results")
+    clear_folder(
+        PREDICTED_PE_RATIO_RESULTS,
+        "predicted PE results",
+        preserve=["signal_history.csv"],
+    )
 
     from predicted_ratios.predicted_pe_ratio import (
         calculate_predicted_pe_ratios,
@@ -156,12 +165,3 @@ if __name__ == "__main__":
     else:
         print(f"Unknown choice '{choice}'. Valid options: 1, 2, 3, all, q")
         sys.exit(1)
-
-
-""" to push streamlit:
-
-git add .
-git commit -m "Refresh data - [date]"
-git push
-
-"""
