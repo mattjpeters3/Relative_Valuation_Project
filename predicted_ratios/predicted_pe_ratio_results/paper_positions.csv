@@ -1,0 +1,20 @@
+Ticker,Status,Entry Date,Entry Price,Entry SP500,Exit Date,Exit Price,Exit SP500,Exit Signal,Holding Days,Stock Return,SP500 Return,Excess Return,Dollar PnL,Sector,Source Cluster
+WFC,Open,2026-03-10,78.82,6818.9902,,,,,,,,,,Financials,cluster_7
+BAC,Open,2026-03-10,48.565,6818.9902,,,,,,,,,,Financials,cluster_7
+PHM,Open,2026-03-10,125.9961,6818.9902,,,,,,,,,,Consumer Discretionary,cluster_0
+CMCSA,Open,2026-03-10,30.975,6818.9902,,,,,,,,,,Communication Services,cluster_6
+APA,Open,2026-03-10,32.365,6818.9902,,,,,,,,,,Energy,cluster_2
+PRU,Open,2026-03-10,95.8833,6818.9902,,,,,,,,,,Financials,cluster_6
+STT,Open,2026-03-10,123.835,6818.9902,,,,,,,,,,Financials,cluster_7
+C,Open,2026-03-10,109.73,6818.9902,,,,,,,,,,Financials,cluster_7
+PNC,Open,2026-03-10,207.915,6818.9902,,,,,,,,,,Financials,cluster_2
+UAL,Open,2026-03-10,92.4,6818.9902,,,,,,,,,,Industrials,cluster_0
+DHI,Open,2026-03-10,146.695,6818.9902,,,,,,,,,,Consumer Discretionary,cluster_0
+EIX,Open,2026-03-10,71.6,6818.9902,,,,,,,,,,Utilities,cluster_6
+NCLH,Open,2026-03-10,20.495,6818.9902,,,,,,,,,,Consumer Discretionary,cluster_0
+UHS,Open,2026-03-10,188.235,6818.9902,,,,,,,,,,Health Care,cluster_0
+EPAM,Open,2026-03-10,141.54,6818.9902,,,,,,,,,,Information Technology,cluster_0
+AES,Open,2026-03-10,14.245,6818.9902,,,,,,,,,,Utilities,cluster_6
+FSLR,Open,2026-03-10,198.006,6818.9902,,,,,,,,,,Information Technology,cluster_0
+LEN,Open,2026-03-10,99.75,6818.9902,,,,,,,,,,Consumer Discretionary,cluster_7
+TROW,Open,2026-03-10,90.4,6818.9902,,,,,,,,,,Financials,cluster_6
