@@ -246,8 +246,8 @@ unreal_pnl = open_pos["Unrealised PnL"].sum() if not open_pos.empty and "Unreali
 c1, c2, c3, c4, c5, c6 = st.columns(6)
 c1.metric("Open Positions",    f"{n_open}")
 c2.metric("Closed Positions",  f"{n_closed}")
-c3.metric("Realised PnL",      fmt_dollar(total_pnl))
-c4.metric("Unrealised PnL",    fmt_dollar(unreal_pnl))
+c3.metric("Realised Profit/Loss",      fmt_dollar(total_pnl))
+c4.metric("Unrealised Profit/Loss",    fmt_dollar(unreal_pnl))
 c5.metric("Avg Excess Return", fmt_pct(avg_excess) if avg_excess is not None else "n/a")
 c6.metric("Win Rate",          f"{win_rate:.0f}%" if win_rate is not None else "n/a",
           help="% of closed positions that outperformed the S&P 500")
@@ -295,10 +295,10 @@ else:
         ("Days Held",      lambda r: f"<td style='padding:7px 10px;text-align:center;color:#8a9bb5'>{int(r['Days Held']) if pd.notna(r.get('Days Held')) else 'n/a'}</td>"),
         ("Entry Price",    _open_entry_price),
         ("Current Price",  _open_curr_price),
-        ("Unrealised Ret", _open_unreal_ret),
-        ("S&P 500 Ret",    lambda r: f"<td style='padding:7px 10px;text-align:right;color:#8a9bb5'>{fmt_pct(r.get('SP500 Since Entry'))}</td>"),
+        ("Unrealised Return", _open_unreal_ret),
+        ("S&P 500 Return",    lambda r: f"<td style='padding:7px 10px;text-align:right;color:#8a9bb5'>{fmt_pct(r.get('SP500 Since Entry'))}</td>"),
         ("Excess Return",  _open_excess),
-        ("Unrealised PnL", _open_pnl),
+        ("Unrealised Profit/Loss", _open_pnl),
     ]
     st.markdown(build_html_table(open_pos, open_col_defs), unsafe_allow_html=True)
 
@@ -333,9 +333,9 @@ else:
         ("Days Held",     lambda r: f"<td style='padding:7px 10px;text-align:center;color:#8a9bb5'>{int(r['Holding Days']) if pd.notna(r.get('Holding Days')) else 'n/a'}</td>"),
         ("Exit Signal",   lambda r: f"<td style='padding:7px 10px;color:#f39c12;white-space:nowrap'>{r.get('Exit Signal', 'n/a')}</td>"),
         ("Stock Return",  _cl_stock_ret),
-        ("S&P 500 Ret",   lambda r: f"<td style='padding:7px 10px;text-align:right;color:#8a9bb5'>{fmt_pct(r.get('SP500 Return'))}</td>"),
+        ("S&P 500 Return",   lambda r: f"<td style='padding:7px 10px;text-align:right;color:#8a9bb5'>{fmt_pct(r.get('SP500 Return'))}</td>"),
         ("Excess Return", _cl_excess),
-        ("Dollar PnL",    _cl_pnl),
+        ("Profit/Loss",    _cl_pnl),
     ]
     st.markdown(build_html_table(closed_pos.sort_values("Exit Date", ascending=False), closed_col_defs), unsafe_allow_html=True)
 
