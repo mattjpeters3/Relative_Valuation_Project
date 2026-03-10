@@ -436,6 +436,138 @@ def combine_and_filter_results():
     print(f"Total entries in history: {len(history)} across "
           f"{history['Run Date'].nunique()} run(s)")
 
+    # ── Paper Portfolio Position Tracker ────────────────────────────────────
+    # Opens a $1,000 notional position when a firm first appears as Strong
+    # Undervalued. Closes the position when the signal changes to anything
+    # other than Strong Undervalued, or when the firm drops out of the model.
+    try:
+        import yfinance as yf
+
+        positions_path = os.path.join(PREDICTED_PE_RATIO_RESULTS, "paper_positions.csv")
+        sp500_ticker   = "^GSPC"
+        notional       = 1000.0
+
+        # Fetch S&P 500 closing price for today
+        sp500_price = None
+        try:
+            sp500_data = yf.Ticker(sp500_ticker).history(period="2d")
+            if not sp500_data.empty:
+                sp500_price = float(sp500_data["Close"].iloc[-1])
+        except Exception:
+            pass
+
+        # Current strong undervalued tickers this run
+        current_strong_uv = set(
+            master_df[master_df[sig_col] == "Strong Undervalued"]["Ticker"].tolist()
+        )
+
+        # Load existing positions or create empty frame
+        pos_cols = [
+            "Ticker", "Status", "Entry Date", "Entry Price", "Entry SP500",
+            "Exit Date", "Exit Price", "Exit SP500", "Exit Signal",
+            "Holding Days", "Stock Return", "SP500 Return", "Excess Return",
+            "Dollar PnL", "Sector", "Source Cluster",
+        ]
+        if os.path.exists(positions_path):
+            positions = pd.read_csv(positions_path)
+        else:
+            positions = pd.DataFrame(columns=pos_cols)
+
+        open_positions   = positions[positions["Status"] == "Open"].copy()
+        closed_positions = positions[positions["Status"] == "Closed"].copy()
+
+        # ── Close positions no longer in Strong Undervalued ──
+        newly_closed = []
+        still_open   = []
+
+        for _, pos in open_positions.iterrows():
+            ticker = pos["Ticker"]
+            ticker_row = master_df[master_df["Ticker"] == ticker]
+            current_sig = ticker_row.iloc[0][sig_col] if not ticker_row.empty else "Dropped from model"
+
+            if current_sig != "Strong Undervalued":
+                exit_price = None
+                try:
+                    hist = yf.Ticker(ticker).history(period="2d")
+                    if not hist.empty:
+                        exit_price = float(hist["Close"].iloc[-1])
+                except Exception:
+                    pass
+
+                entry_price  = float(pos["Entry Price"]) if pd.notna(pos["Entry Price"]) else None
+                entry_sp500  = float(pos["Entry SP500"]) if pd.notna(pos["Entry SP500"]) else None
+                entry_date   = pd.to_datetime(pos["Entry Date"])
+                holding_days = (pd.to_datetime(today) - entry_date).days
+
+                stock_return  = ((exit_price / entry_price) - 1) if exit_price and entry_price else None
+                sp500_return  = ((sp500_price / entry_sp500) - 1) if sp500_price and entry_sp500 else None
+                excess_return = (stock_return - sp500_return) if stock_return is not None and sp500_return is not None else None
+                dollar_pnl    = (notional * stock_return) if stock_return is not None else None
+
+                closed_row = pos.copy()
+                closed_row["Status"]        = "Closed"
+                closed_row["Exit Date"]     = today
+                closed_row["Exit Price"]    = round(exit_price, 4) if exit_price else None
+                closed_row["Exit SP500"]    = round(sp500_price, 4) if sp500_price else None
+                closed_row["Exit Signal"]   = current_sig
+                closed_row["Holding Days"]  = holding_days
+                closed_row["Stock Return"]  = round(stock_return * 100, 4) if stock_return is not None else None
+                closed_row["SP500 Return"]  = round(sp500_return * 100, 4) if sp500_return is not None else None
+                closed_row["Excess Return"] = round(excess_return * 100, 4) if excess_return is not None else None
+                closed_row["Dollar PnL"]    = round(dollar_pnl, 2) if dollar_pnl is not None else None
+                newly_closed.append(closed_row)
+            else:
+                still_open.append(pos)
+
+        # ── Open new positions for new Strong Undervalued firms ──
+        existing_open_tickers = {pos["Ticker"] for pos in still_open}
+        new_positions = []
+
+        for ticker in current_strong_uv:
+            if ticker in existing_open_tickers:
+                continue
+
+            entry_price = None
+            try:
+                hist = yf.Ticker(ticker).history(period="2d")
+                if not hist.empty:
+                    entry_price = float(hist["Close"].iloc[-1])
+            except Exception:
+                pass
+
+            ticker_row = master_df[master_df["Ticker"] == ticker].iloc[0]
+            new_positions.append({
+                "Ticker":         ticker,
+                "Status":         "Open",
+                "Entry Date":     today,
+                "Entry Price":    round(entry_price, 4) if entry_price else None,
+                "Entry SP500":    round(sp500_price, 4) if sp500_price else None,
+                "Exit Date":      None, "Exit Price":   None, "Exit SP500":  None,
+                "Exit Signal":    None, "Holding Days": None, "Stock Return": None,
+                "SP500 Return":   None, "Excess Return": None, "Dollar PnL":  None,
+                "Sector":         ticker_row.get("Sector", None),
+                "Source Cluster": ticker_row.get("Source Cluster", None),
+            })
+
+        # ── Assemble and save ──
+        final_parts = []
+        if still_open:
+            final_parts.append(pd.DataFrame(still_open))
+        if newly_closed:
+            final_parts.append(pd.DataFrame(newly_closed))
+        if not closed_positions.empty:
+            final_parts.append(closed_positions)
+        if new_positions:
+            final_parts.append(pd.DataFrame(new_positions))
+
+        updated_positions = pd.concat(final_parts, ignore_index=True) if final_parts else pd.DataFrame(columns=pos_cols)
+        updated_positions.to_csv(positions_path, index=False)
+        print(f"Paper portfolio updated: {len(new_positions)} opened, "
+              f"{len(newly_closed)} closed, {len(still_open)} still open")
+
+    except Exception as e:
+        print(f"Paper portfolio update skipped: {e}")
+
     priority_signals = [
         'Strong Undervalued', 'Strong Overvalued',
         'Undervalued (Cluster only)', 'Overvalued (Cluster only)',

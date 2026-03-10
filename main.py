@@ -94,7 +94,7 @@ def run_valuation() -> None:
     clear_folder(
         PREDICTED_PE_RATIO_RESULTS,
         "predicted PE results",
-        preserve=["signal_history.csv"],
+        preserve=["signal_history.csv", "paper_positions.csv"],
     )
 
     from predicted_ratios.predicted_pe_ratio import (
