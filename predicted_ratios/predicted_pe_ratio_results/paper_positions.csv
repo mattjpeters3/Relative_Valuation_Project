@@ -1,20 +1,44 @@
 Ticker,Status,Entry Date,Entry Price,Entry SP500,Exit Date,Exit Price,Exit SP500,Exit Signal,Holding Days,Stock Return,SP500 Return,Excess Return,Dollar PnL,Sector,Source Cluster
-WFC,Open,2026-03-10,78.82,6818.9902,,,,,,,,,,Financials,cluster_7
-BAC,Open,2026-03-10,48.565,6818.9902,,,,,,,,,,Financials,cluster_7
-PHM,Open,2026-03-10,125.9961,6818.9902,,,,,,,,,,Consumer Discretionary,cluster_0
-CMCSA,Open,2026-03-10,30.975,6818.9902,,,,,,,,,,Communication Services,cluster_6
-APA,Open,2026-03-10,32.365,6818.9902,,,,,,,,,,Energy,cluster_2
-PRU,Open,2026-03-10,95.8833,6818.9902,,,,,,,,,,Financials,cluster_6
-STT,Open,2026-03-10,123.835,6818.9902,,,,,,,,,,Financials,cluster_7
-C,Open,2026-03-10,109.73,6818.9902,,,,,,,,,,Financials,cluster_7
-PNC,Open,2026-03-10,207.915,6818.9902,,,,,,,,,,Financials,cluster_2
-UAL,Open,2026-03-10,92.4,6818.9902,,,,,,,,,,Industrials,cluster_0
-DHI,Open,2026-03-10,146.695,6818.9902,,,,,,,,,,Consumer Discretionary,cluster_0
-EIX,Open,2026-03-10,71.6,6818.9902,,,,,,,,,,Utilities,cluster_6
-NCLH,Open,2026-03-10,20.495,6818.9902,,,,,,,,,,Consumer Discretionary,cluster_0
-UHS,Open,2026-03-10,188.235,6818.9902,,,,,,,,,,Health Care,cluster_0
-EPAM,Open,2026-03-10,141.54,6818.9902,,,,,,,,,,Information Technology,cluster_0
-AES,Open,2026-03-10,14.245,6818.9902,,,,,,,,,,Utilities,cluster_6
-FSLR,Open,2026-03-10,198.006,6818.9902,,,,,,,,,,Information Technology,cluster_0
-LEN,Open,2026-03-10,99.75,6818.9902,,,,,,,,,,Consumer Discretionary,cluster_7
-TROW,Open,2026-03-10,90.4,6818.9902,,,,,,,,,,Financials,cluster_6
+LEN,Open,2026-03-10,98.72,6781.48,,,,,,,,,,Consumer Discretionary,cluster_2
+EPAM,Open,2026-03-10,142.18,6781.48,,,,,,,,,,Information Technology,cluster_3
+EIX,Open,2026-03-10,71.08,6781.48,,,,,,,,,,Utilities,cluster_6
+FSLR,Open,2026-03-10,197.8,6781.48,,,,,,,,,,Information Technology,cluster_0
+WFC,Open,2026-03-10,78.3,6781.48,,,,,,,,,,Financials,cluster_7
+APA,Open,2026-03-10,31.82,6781.48,,,,,,,,,,Energy,cluster_2
+AES,Open,2026-03-10,14.21,6781.48,,,,,,,,,,Utilities,cluster_6
+PHM,Open,2026-03-10,124.39,6781.48,,,,,,,,,,Consumer Discretionary,cluster_0
+CMCSA,Open,2026-03-10,31.07,6781.48,,,,,,,,,,Communication Services,cluster_6
+TROW,Open,2026-03-10,89.14,6781.48,,,,,,,,,,Financials,cluster_6
+BAC,Open,2026-03-10,48.56,6781.48,,,,,,,,,,Financials,cluster_7
+DHI,Open,2026-03-10,145.28,6781.48,,,,,,,,,,Consumer Discretionary,cluster_0
+STT,Open,2026-03-10,122.55,6781.48,,,,,,,,,,Financials,cluster_7
+UHS,Open,2026-03-10,186.53,6781.48,,,,,,,,,,Health Care,cluster_0
+PRU,Open,2026-03-10,95.47,6781.48,,,,,,,,,,Financials,cluster_6
+PNC,Open,2026-03-10,206.39,6781.48,,,,,,,,,,Financials,cluster_2
+NCLH,Closed,2026-03-10,20.35,6781.48,2026-03-11,20.2111,6751.6802,Conflicting,1.0,-0.6826,-0.4394,-0.2431,-6.83,Consumer Discretionary,cluster_0
+UAL,Closed,2026-03-10,91.1,6781.48,2026-03-11,90.2916,6751.6802,Conflicting,1.0,-0.8874,-0.4394,-0.4479,-8.87,Industrials,cluster_0
+C,Closed,2026-03-10,108.97,6781.48,2026-03-11,107.75,6751.6802,Conflicting,1.0,-1.1196,-0.4394,-0.6801,-11.2,Financials,cluster_7
+WFC,Closed,2026-03-10,78.82,6818.9902,2026-03-10,78.3,6781.48,Conflicting,0.0,-0.6597,-0.5501,-0.1096,-6.6,Financials,cluster_7
+BAC,Closed,2026-03-10,48.565,6818.9902,2026-03-10,48.56,6781.48,Conflicting,0.0,-0.0103,-0.5501,0.5398,-0.1,Financials,cluster_7
+PHM,Closed,2026-03-10,125.9961,6818.9902,2026-03-10,124.39,6781.48,Fairly Valued,0.0,-1.2747,-0.5501,-0.7246,-12.75,Consumer Discretionary,cluster_0
+CMCSA,Closed,2026-03-10,30.975,6818.9902,2026-03-10,31.07,6781.48,Conflicting,0.0,0.3067,-0.5501,0.8568,3.07,Communication Services,cluster_6
+APA,Closed,2026-03-10,32.365,6818.9902,2026-03-10,31.82,6781.48,Conflicting,0.0,-1.6839,-0.5501,-1.1338,-16.84,Energy,cluster_2
+PRU,Closed,2026-03-10,95.8833,6818.9902,2026-03-10,95.47,6781.48,Conflicting,0.0,-0.431,-0.5501,0.119,-4.31,Financials,cluster_6
+STT,Closed,2026-03-10,123.835,6818.9902,2026-03-10,122.55,6781.48,Conflicting,0.0,-1.0377,-0.5501,-0.4876,-10.38,Financials,cluster_7
+C,Closed,2026-03-10,109.73,6818.9902,2026-03-10,108.97,6781.48,Conflicting,0.0,-0.6926,-0.5501,-0.1425,-6.93,Financials,cluster_7
+PNC,Closed,2026-03-10,207.915,6818.9902,2026-03-10,206.39,6781.48,Conflicting,0.0,-0.7335,-0.5501,-0.1834,-7.33,Financials,cluster_2
+UAL,Closed,2026-03-10,92.4,6818.9902,2026-03-10,91.1,6781.48,Fairly Valued,0.0,-1.4069,-0.5501,-0.8568,-14.07,Industrials,cluster_0
+DHI,Closed,2026-03-10,146.695,6818.9902,2026-03-10,145.28,6781.48,Fairly Valued,0.0,-0.9646,-0.5501,-0.4145,-9.65,Consumer Discretionary,cluster_0
+EIX,Closed,2026-03-10,71.6,6818.9902,2026-03-10,71.08,6781.48,Conflicting,0.0,-0.7263,-0.5501,-0.1762,-7.26,Utilities,cluster_6
+NCLH,Closed,2026-03-10,20.495,6818.9902,2026-03-10,20.35,6781.48,Fairly Valued,0.0,-0.7075,-0.5501,-0.1574,-7.07,Consumer Discretionary,cluster_0
+UHS,Closed,2026-03-10,188.235,6818.9902,2026-03-10,186.53,6781.48,Fairly Valued,0.0,-0.9058,-0.5501,-0.3557,-9.06,Health Care,cluster_0
+EPAM,Closed,2026-03-10,141.54,6818.9902,2026-03-10,142.18,6781.48,Fairly Valued,0.0,0.4522,-0.5501,1.0022,4.52,Information Technology,cluster_0
+AES,Closed,2026-03-10,14.245,6818.9902,2026-03-10,14.21,6781.48,Conflicting,0.0,-0.2457,-0.5501,0.3044,-2.46,Utilities,cluster_6
+FSLR,Closed,2026-03-10,198.006,6818.9902,2026-03-10,197.8,6781.48,Fairly Valued,0.0,-0.104,-0.5501,0.446,-1.04,Information Technology,cluster_0
+LEN,Closed,2026-03-10,99.75,6818.9902,2026-03-10,98.72,6781.48,Conflicting,0.0,-1.0326,-0.5501,-0.4825,-10.33,Consumer Discretionary,cluster_7
+TROW,Closed,2026-03-10,90.4,6818.9902,2026-03-10,89.14,6781.48,Conflicting,0.0,-1.3938,-0.5501,-0.8437,-13.94,Financials,cluster_6
+RCL,Open,2026-03-11,282.92,6751.6802,,,,,,,,,,Consumer Discretionary,cluster_7
+AMP,Open,2026-03-11,442.9,6751.6802,,,,,,,,,,Financials,cluster_7
+PYPL,Open,2026-03-11,45.22,6751.6802,,,,,,,,,,Financials,cluster_7
+CHTR,Open,2026-03-11,224.71,6751.6802,,,,,,,,,,Communication Services,cluster_7
+DAL,Open,2026-03-11,58.55,6751.6802,,,,,,,,,,Industrials,cluster_7

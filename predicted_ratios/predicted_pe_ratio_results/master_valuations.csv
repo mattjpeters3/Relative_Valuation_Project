@@ -1,378 +1,379 @@
 Ticker,Predicted PE (Cluster),PE Difference (Cluster),Valuation Signal (Cluster),Cluster R²,Cluster Adj R²,Cluster F p-value,Cluster Residual SE,Source Cluster,Sector,PE Ratio (Current),EPS Growth (ROE x Retention),Beta,Payout Ratio,Predicted PE (Index),PE Difference (Index),Valuation Signal (Index),Index R²,Index Adj R²,Index F p-value,Index Residual SE,Combined Signal
-AMD,63.74,13.92,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,77.65517241379311,0.07082,2.022,0.0,39.65,38.01,Overvalued,0.0951,0.088,0.0,15.2439,Conflicting
-A,33.93,-8.18,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Health Care,25.748344370860927,0.1554790564045998,1.312,0.22049999,31.78,-6.03,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ALGN,59.61,-28.63,Undervalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Health Care,30.98230088495575,0.103870004,1.823,0.0,38.29,-7.31,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-AMZN,34.24,-4.46,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Consumer Discretionary,29.775453277545328,0.22286,1.42,0.0,33.06,-3.28,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-AME,36.45,-1.23,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,35.22222222222222,0.1176568294593999,1.013,0.19379999,29.21,6.01,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-APTV,63.57,33.56,Overvalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Consumer Discretionary,97.13333333333333,0.01948,1.534,0.0,35.1,62.03,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-AVGO,31.1,36.43,Overvalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,67.529296875,0.1762989943911998,1.257,0.47169998,29.84,37.69,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-BLDR,55.93,-31.52,Undervalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,24.408740359897173,0.10064,1.564,0.0,35.76,-11.35,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-CDNS,26.73,46.86,Overvalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,73.5925925925926,0.21855,1.025,0.0,28.8,44.79,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-CBRE,46.6,-11.03,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Real Estate,35.56883116883117,0.13572,1.341,0.0,33.05,2.52,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CEG,37.37,6.28,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Utilities,43.6472972972973,0.1293410576364,1.107,0.20959999,29.95,13.7,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-COO,56.88,-16.33,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Health Care,40.54545454545454,0.04868,1.03,0.0,30.68,9.87,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CPRT,38.21,-14.58,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,23.628930817610065,0.17129,1.106,0.0,30.45,-6.82,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-COST,23.58,30.18,Overvalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Consumer Staples,53.75935828877005,0.21615577542,0.993,0.271,27.73,26.03,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-DASH,56.58,25.94,Overvalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Consumer Discretionary,82.51869158878505,0.10439,1.902,0.0,38.19,44.33,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-DOV,34.65,-8.21,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,26.441102756892228,0.113154855,1.249,0.2597,31.4,-4.96,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-DHI,33.89,-20.45,Undervalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Consumer Discretionary,13.4385805277525,0.1145410216523,1.407,0.15010001,33.49,-20.05,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-EW,45.86,0.69,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Health Care,46.552486187845304,0.10353,0.934,0.0,29.14,17.41,Overvalued,0.0951,0.088,0.0,15.2439,Conflicting
-EPAM,59.24,-37.44,Undervalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,21.797317436661697,0.10335,1.768,0.0,37.87,-16.07,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-EFX,37.4,1.06,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,38.46052631578947,0.0886913817513999,1.532,0.35529998,34.03,4.43,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-FFIV,30.96,-7.32,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,23.63960231980116,0.20844,0.994,0.0,28.97,-5.33,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-FSLR,45.82,-32.06,Undervalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,13.759154929577464,0.1745,1.648,0.0,35.99,-22.23,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-FTV,40.58,-5.14,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,35.44025157232704,0.052696644,0.998,0.1761,29.74,5.7,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-FCX,36.12,3.68,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Materials,39.796052631578945,0.0844151352108,1.438,0.39470002,32.97,6.83,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-GEHC,30.97,-14.35,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Health Care,16.621978021978023,0.216887576,1.181,0.0308,30.68,-14.06,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-GNRC,62.08,14.91,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,76.99256505576209,0.06283,1.769,0.0,37.36,39.63,Overvalued,0.0951,0.088,0.0,15.2439,Conflicting
-GM,15.53,7.31,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Consumer Discretionary,22.84097859327217,0.035653726,1.356,0.1743,33.6,-10.76,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-HSIC,49.19,-25.31,Undervalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Health Care,23.88379204892966,0.08701,0.852,0.0,28.72,-4.84,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-IR,55.24,4.53,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,59.76551724137931,0.0545433011655999,1.289,0.0552,32.84,26.93,Overvalued,0.0951,0.088,0.0,15.2439,Conflicting
-PODD,39.8,29.08,Overvalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Health Care,68.87679083094555,0.18124,1.435,0.0,33.28,35.6,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-IBKR,31.04,-0.64,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Financials,30.400900900900897,0.2030385873629999,1.251,0.1363,31.02,-0.62,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-INTU,31.23,-0.37,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,30.85798045602606,0.166192852085,1.282,0.2915,31.08,-0.22,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ISRG,45.34,17.53,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Health Care,62.873885350318474,0.16690001,1.68,0.0,35.85,27.02,Overvalued,0.0951,0.088,0.0,15.2439,Conflicting
-IQV,35.76,-12.99,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Health Care,22.774234693877553,0.21438,1.411,0.0,33.1,-10.33,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-JBHT,36.06,-0.47,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,35.59083469721767,0.1124665879999999,1.207,0.2876,30.84,4.75,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-KEYS,37.69,12.05,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,49.738977072310405,0.17222999,1.137,0.0,30.54,19.2,Overvalued,0.0951,0.088,0.0,15.2439,Conflicting
-KKR,45.48,-6.62,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Financials,38.863247863247864,0.05887904,2.013,0.312,39.31,-0.45,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-MLM,41.4,-3.94,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Materials,37.46299694189602,0.0814447110169999,1.149,0.1983,30.88,6.58,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-MGM,45.04,1.85,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Consumer Discretionary,46.89473684210526,0.1489,1.396,0.0,33.37,13.52,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-MU,35.77,1.27,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,37.04281636536632,0.215683911563,1.542,0.0437,34.12,2.92,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-MPWR,40.45,42.2,Overvalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,82.64591439688716,0.0987077430172002,1.49,0.48520002,32.59,50.06,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-NCLH,43.81,-21.3,Undervalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Consumer Discretionary,22.51086956521739,0.23285,2.044,0.0,39.43,-16.92,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-NUE,31.63,-9.09,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Materials,22.53590425531915,0.0660980228722,1.768,0.29389998,37.05,-14.51,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ODFL,31.82,9.01,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,40.83229813664596,0.18392598,1.219,0.2314,30.48,10.35,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PH,29.38,4.63,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,34.00839109813936,0.191681735,1.218,0.2565,30.32,3.69,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PTC,27.92,-3.82,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,24.10324483775811,0.23141001,1.042,0.0,29.23,-5.13,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PHM,33.92,-22.53,Undervalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Consumer Discretionary,11.390287769784171,0.1621235910596001,1.298,0.08270001,32.2,-20.81,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-PWR,43.53,39.76,Overvalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,83.29032258064515,0.11970838249044,1.109,0.060300004,30.3,52.99,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-RVTY,41.92,2.79,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Health Care,44.713592233009706,0.027789456,1.107,0.1359,31.13,13.58,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-SPGI,36.2,-5.81,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Financials,30.394539249146757,0.0965951469999999,1.221,0.2619,31.25,-0.86,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CRM,37.18,-11.66,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,25.5186136071887,0.0975193288532,1.307,0.2133,32.32,-6.8,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-NOW,37.89,35.12,Overvalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,73.0119760479042,0.15488,1.019,0.0,29.31,43.7,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-STLD,34.9,-12.08,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Materials,22.823529411764707,0.0995901528401998,1.395,0.25030002,33.06,-10.24,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-SMCI,49.56,-26.22,Undervalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,23.343065693430656,0.13193,1.487,0.0,34.68,-11.34,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-SNPS,55.54,11.62,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,67.16129032258065,0.055430003,1.156,0.0,31.57,35.59,Overvalued,0.0951,0.088,0.0,15.2439,Conflicting
-TPR,24.81,31.59,Overvalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Consumer Discretionary,56.3953488372093,0.231640682,1.597,0.5814,32.12,24.28,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-TDY,49.46,-14.85,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,34.60634920634921,0.08926,0.975,0.0,29.82,4.79,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-TER,43.05,42.38,Overvalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,85.42939481268012,0.1700478779999999,1.801,0.1383,36.25,49.18,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-TXT,43.34,-24.95,Undervalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,18.38671875,0.120510248,0.935,0.0156,29.22,-10.83,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-TMO,39.75,-11.02,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Health Care,28.730704225352113,0.1176067296812,0.971,0.096999995,29.19,-0.46,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-TTD,40.35,-8.62,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Communication Services,31.73333333333333,0.16317,1.19,0.0,31.3,0.43,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-TRMB,60.15,-20.12,Undervalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,40.02840909090909,0.07322,1.574,0.0,35.93,4.1,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-TYL,47.95,3.07,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,51.020833333333336,0.08901,0.934,0.0,29.22,21.8,Overvalued,0.0951,0.088,0.0,15.2439,Conflicting
-UAL,30.38,-21.11,Undervalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,9.266666666666667,0.23987,1.247,0.0,31.3,-22.03,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-URI,29.73,-8.45,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,21.277676950998185,0.2309961191643,1.654,0.18540001,34.68,-13.4,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-UHS,32.04,-23.79,Undervalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Health Care,8.251624079688177,0.205881204,1.261,0.0346,31.63,-23.38,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-VST,43.29,31.77,Overvalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Utilities,75.05504587155963,0.1035524435312,1.45,0.41349998,32.58,42.48,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-VMC,35.76,-2.1,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Materials,33.6601226993865,0.0985223412972,1.059,0.24049999,29.68,3.98,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-WAB,40.59,-4.48,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Industrials,36.111111111111114,0.094715456,0.979,0.1464,29.26,6.85,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-WBD,65.23,30.46,Overvalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Communication Services,95.6896551724138,0.02078,1.675,0.0,36.43,59.26,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-WST,38.55,-2.07,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Health Care,36.47941176470589,0.14744754,1.179,0.1252,30.84,5.64,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-WDAY,52.05,5.15,Fairly Valued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,57.196911196911195,0.08231,1.167,0.0,31.58,25.62,Overvalued,0.0951,0.088,0.0,15.2439,Conflicting
-ZBRA,55.04,-28.94,Undervalued,0.2361,0.2029,0.0003,19.6783,cluster_0,Information Technology,26.102564102564106,0.116809994,1.679,0.0,36.75,-10.65,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-MMM,22.68,2.59,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Industrials,25.271666666666665,0.3875466556503,1.131,0.48669997,26.75,-1.48,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-ABNB,30.56,2.7,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Consumer Discretionary,33.25806451612903,0.30233,1.163,0.0,29.69,3.57,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-ALLE,22.79,-2.6,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Industrials,20.190860215053764,0.2618976719999999,1.008,0.2742,27.54,-7.35,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-GOOGL,29.04,-0.7,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Communication Services,28.340425531914892,0.3296285891242001,1.112,0.076799996,28.66,-0.32,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-GOOG,29.04,-0.71,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Communication Services,28.334259259259255,0.3296285891242001,1.112,0.076799996,28.66,-0.33,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-AXP,24.95,-5.11,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Financials,19.84275503573749,0.267415064,1.152,0.2133,29.16,-9.32,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-AMP,28.17,-15.45,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Financials,12.723462917011304,0.5003406519999999,1.271,0.1731,28.51,-15.79,Undervalued,0.0951,0.088,0.0,15.2439,Undervalued (Index only)
-APH,27.47,13.39,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Information Technology,40.85885885885886,0.2862954226851,1.214,0.22309999,29.47,11.39,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-AON,24.44,-4.87,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Financials,19.56731334509112,0.3891326,0.828,0.171,24.96,-5.39,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-AMAT,32.39,2.34,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Information Technology,34.727459016393446,0.317666162,1.634,0.1826,33.55,1.18,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-ANET,32.14,17.92,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Information Technology,50.06204379562043,0.314,1.46,0.0,32.41,17.65,Overvalued,0.0951,0.088,0.0,15.2439,Overvalued (Index only)
-ADSK,31.95,17.81,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Information Technology,49.76145038167939,0.39675,1.467,0.0,31.65,18.11,Overvalued,0.0951,0.088,0.0,15.2439,Overvalued (Index only)
-CAT,29.79,7.66,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Industrials,37.45058448459086,0.30011177,1.531,0.3105,32.17,5.28,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-CDW,21.09,-6.15,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Information Technology,14.943069306930692,0.2968242,1.046,0.31,27.48,-12.54,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-CHTR,31.38,-25.23,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Communication Services,6.153272576636288,0.28667998,1.023,0.0,28.65,-22.5,Undervalued,0.0951,0.088,0.0,15.2439,Undervalued (Index only)
-CMG,28.16,2.8,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Consumer Discretionary,30.956140350877195,0.47355,1.019,0.0,26.59,4.37,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-CTAS,23.67,19.79,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Industrials,43.45670995670996,0.2761721353208,0.944,0.36360002,26.32,17.14,Overvalued,0.0951,0.088,0.0,15.2439,Overvalued (Index only)
-FIX,31.96,15.66,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Industrials,47.61970853573907,0.45915365635,1.602,0.0675,32.11,15.51,Overvalued,0.0951,0.088,0.0,15.2439,Overvalued (Index only)
-CPAY,28.39,-6.74,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Financials,21.648936170212767,0.29071,0.819,0.0,26.45,-4.8,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-DECK,30.8,-15.98,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Consumer Discretionary,14.818181818181817,0.39688,1.161,0.0,28.95,-14.13,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-DAL,27.6,-19.69,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Industrials,7.908616187989556,0.252532467,1.35,0.0881,31.85,-23.94,Undervalued,0.0951,0.088,0.0,15.2439,Undervalued (Index only)
-DXCM,33.72,-0.83,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Health Care,32.889952153110045,0.34497002,1.526,0.0,32.93,-0.04,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-EBAY,26.91,-5.1,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Consumer Discretionary,21.809859154929576,0.297243619,1.371,0.2723,30.85,-9.04,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-EME,29.43,-3.92,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Industrials,25.511883646683216,0.37123605,1.14,0.0355,28.73,-3.22,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-EXPE,30.16,-5.54,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Consumer Discretionary,24.62181447502548,0.4073359728672,1.41,0.16309999,30.62,-6.0,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-EXPD,25.14,-0.73,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Industrials,24.410084033613447,0.262614572,1.107,0.2588,28.57,-4.16,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-GE,29.81,10.18,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Industrials,39.99130434782609,0.3669660164691999,1.369,0.17889999,30.39,9.6,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-HD,20.87,4.01,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Consumer Discretionary,24.881069669247008,0.514487435,1.044,0.6465,24.02,0.86,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-HWM,27.82,40.68,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Industrials,68.50134770889487,0.2683246032177199,1.188,0.118599996,29.65,38.85,Overvalued,0.0951,0.088,0.0,15.2439,Overvalued (Index only)
-ITW,21.31,5.08,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Industrials,26.3912213740458,0.3815259567967984,1.123,0.59290004,26.3,0.09,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-INCY,29.16,-14.01,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Health Care,15.148205928237129,0.2987,0.844,0.0,26.69,-11.54,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-JBL,29.04,9.75,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Information Technology,38.78683385579937,0.4542707045405399,1.183,0.050100002,28.15,10.64,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-LRCX,31.92,11.35,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Information Technology,43.26844262295082,0.5237332134435,1.787,0.20120001,32.81,10.46,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-LVS,21.26,1.68,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Consumer Discretionary,22.94042553191489,0.420895935,0.888,0.4255,24.25,-1.31,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-LULU,29.75,-17.94,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Consumer Discretionary,11.805285118219748,0.41017,1.013,0.0,27.39,-15.58,Undervalued,0.0951,0.088,0.0,15.2439,Undervalued (Index only)
-META,30.51,-2.96,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Communication Services,27.548510638297873,0.2753472310238,1.279,0.08939999,30.81,-3.26,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-MSFT,26.08,-0.44,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Information Technology,25.63619286161553,0.2707259328169002,1.108,0.21280001,28.67,-3.03,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-MCO,29.44,4.46,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Financials,33.89670329670329,0.450003422,1.442,0.2751,29.99,3.91,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-NFLX,34.43,4.43,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Communication Services,38.86166007905138,0.42762002,1.714,0.0,33.94,4.92,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-NRG,23.85,14.91,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Utilities,38.758104738154614,0.2331258392219999,1.265,0.4389,29.66,9.1,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-NVR,30.18,-14.43,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Consumer Discretionary,15.748172422485505,0.33185002,1.036,0.0,28.28,-12.53,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-ORCL,30.36,-1.87,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Information Technology,28.488721804511275,0.4437681678052,1.648,0.35709998,31.9,-3.41,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-PYPL,28.98,-20.45,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Financials,8.532347504621072,0.25065543173932,1.459,0.025899999,33.24,-24.71,Undervalued,0.0951,0.088,0.0,15.2439,Undervalued (Index only)
-RL,28.79,-5.36,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Consumer Discretionary,23.425459496255957,0.2564511453845999,1.488,0.24229999,32.52,-9.09,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-ROST,24.92,7.13,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Consumer Discretionary,32.046827794561935,0.276882222,0.98,0.2451,27.18,4.87,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-RCL,34.11,-15.48,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Consumer Discretionary,18.625,0.370297098,1.926,0.2242,36.1,-17.48,Undervalued,0.0951,0.088,0.0,15.2439,Undervalued (Index only)
-SHW,27.54,4.92,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Materials,32.4634858812074,0.41098572,1.244,0.308,28.27,4.19,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-TRGP,19.4,8.22,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Energy,27.616470588235295,0.2868601332762,0.853,0.44169998,25.08,2.54,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-TJX,21.93,10.54,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Consumer Discretionary,32.47227926078028,0.390960948,0.736,0.3388,23.23,9.24,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-TT,25.95,6.64,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Industrials,32.58536585365854,0.263828884,1.188,0.2861,29.23,3.36,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-UBER,31.23,-15.62,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Industrials,15.610993657505285,0.39925998,1.215,0.0,29.46,-13.85,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-ULTA,27.14,-2.51,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Consumer Discretionary,24.63444572305332,0.47967,0.847,0.0,24.89,-0.26,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-VLTO,27.9,-2.88,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Industrials,25.01595744680851,0.320342946,1.106,0.1223,28.53,-3.51,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-V,23.56,6.11,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Financials,29.66854460093897,0.415931386,0.791,0.2291,23.99,5.68,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-GWW,26.62,4.93,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Industrials,31.549646393210747,0.346019078988,1.092,0.2494,27.62,3.93,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-WAT,31.3,-2.89,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Health Care,28.407992565055764,0.29279,1.203,0.0,30.22,-1.81,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-WDC,37.0,-12.25,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Information Technology,24.745986779981116,0.398634318,1.853,0.0307,35.72,-10.97,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-WSM,29.56,-8.82,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Consumer Discretionary,20.737885462555067,0.409190669433,1.558,0.2811,31.71,-10.97,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-ZTS,23.04,-2.71,Model Insignificant,0.1051,0.0563,0.1039,11.1333,cluster_1,Health Care,20.32558139534884,0.4406945628016,0.954,0.33220002,25.12,-4.79,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-ABT,21.05,9.23,Overvalued,0.2717,0.24,0.0001,6.1374,cluster_2,Health Care,30.282258064516128,0.047385416,0.744,0.6344,25.52,4.76,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-AFL,19.41,-3.25,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Financials,16.15542521994135,0.0865525639999999,0.65,0.3402,25.4,-9.24,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-LNT,22.19,0.62,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,22.805732484076433,0.039941965,0.611,0.6465,24.26,-1.45,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-AEE,21.38,-0.74,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,20.637383177570097,0.0531931994651999,0.531,0.53080004,23.79,-3.15,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-AEP,21.3,-1.5,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,19.7987987987988,0.0547386277458,0.573,0.56159997,24.08,-4.28,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-AIG,21.52,-7.23,Undervalued,0.2717,0.24,0.0001,6.1374,cluster_2,Financials,14.294659300184165,0.0501430229999999,0.58,0.3223,25.15,-10.86,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-AWK,21.44,2.77,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,24.20562390158172,0.045059328,0.759,0.5707,25.97,-1.76,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-APA,15.1,-6.93,Undervalued,0.2717,0.24,0.0001,6.1374,cluster_2,Energy,8.167919799498748,0.1897480850639999,0.708,0.25059998,25.38,-17.21,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-ADM,35.83,-5.37,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Consumer Staples,30.457399103139014,0.0040222896395,0.683,0.91480005,24.18,6.28,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ATO,21.21,2.94,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,24.15123859191656,0.0488914409999999,0.698,0.4707,25.71,-1.56,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ADP,3.74,17.66,Overvalued,0.2717,0.24,0.0001,6.1374,cluster_2,Industrials,21.404990403071015,0.290129147,0.854,0.6071,24.47,-3.07,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-BDX,23.8,3.06,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Health Care,26.86437908496732,0.02217456,0.307,0.6814,21.2,5.66,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-BMY,18.73,-1.21,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Health Care,17.523121387283236,0.1133589154291992,0.266,0.71970004,19.86,-2.34,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-BF-B,19.49,-5.02,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Consumer Staples,14.465116279069766,0.096082402,0.396,0.5294,22.07,-7.6,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-BG,22.94,1.16,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Consumer Staples,24.09533468559838,0.026009004,0.743,0.5639,26.02,-1.92,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CNP,21.67,5.5,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,27.174999999999997,0.0433934982,0.539,0.55,23.85,3.32,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CI,19.08,-6.93,Undervalued,0.2717,0.24,0.0001,6.1374,cluster_2,Health Care,12.15232086525462,0.11010101,0.234,0.2723,21.36,-9.21,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-CINF,17.76,-6.99,Undervalued,0.2717,0.24,0.0001,6.1374,cluster_2,Financials,10.765985497692814,0.1235734143964,0.636,0.22940001,25.38,-14.61,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-CMS,22.29,-0.35,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,21.943181818181817,0.0417304624623999,0.432,0.6156,22.57,-0.63,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-KO,16.37,9.22,Overvalued,0.2717,0.24,0.0001,6.1374,cluster_2,Consumer Staples,25.592105263157897,0.142489347,0.332,0.6711,20.35,5.24,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-COP,21.31,-2.88,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Energy,18.42992125984252,0.061686144,0.279,0.5008,21.32,-2.89,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ED,23.07,-3.21,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,19.857904085257548,0.034822524,0.345,0.6028,21.83,-1.97,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-STZ,21.5,1.85,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Consumer Staples,23.347962382445143,0.0521933976109999,0.422,0.6389,22.27,1.08,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CTRA,20.59,-6.67,Undervalued,0.2717,0.24,0.0001,6.1374,cluster_2,Energy,13.919642857142856,0.074521522545,0.353,0.39290002,22.39,-8.47,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-DRI,12.28,8.86,Overvalued,0.2717,0.24,0.0001,6.1374,cluster_2,Consumer Discretionary,21.136268343815512,0.21208768,0.599,0.608,22.65,-1.51,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-DVN,17.18,-6.43,Undervalued,0.2717,0.24,0.0001,6.1374,cluster_2,Energy,10.748201438848922,0.1365317262264,0.619,0.23020001,25.08,-14.33,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-FANG,25.27,6.7,Overvalued,0.2717,0.24,0.0001,6.1374,cluster_2,Energy,31.968531468531474,0.0112759649999999,0.569,0.6981,23.83,8.14,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-DTE,22.11,-0.92,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,21.18918918918919,0.044945307,0.434,0.6309,22.51,-1.32,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-DUK,23.18,-2.37,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,20.80634920634921,0.032205888,0.466,0.6688,22.81,-2.0,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ELV,19.24,-8.17,Undervalued,0.2717,0.24,0.0001,6.1374,cluster_2,Health Care,11.067830226100751,0.09655275,0.468,0.2713,23.81,-12.74,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-ETR,21.89,4.87,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,26.764705882352946,0.04051024,0.602,0.624,24.22,2.54,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-EOG,19.38,-4.94,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Energy,14.4375,0.095487746,0.427,0.4326,22.76,-8.32,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ERIE,17.39,6.53,Overvalued,0.2717,0.24,0.0001,6.1374,cluster_2,Financials,23.915809167446213,0.125757394,0.411,0.5199,21.91,2.01,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-EG,20.21,-11.53,Undervalued,0.2717,0.24,0.0001,6.1374,cluster_2,Financials,8.680867954485315,0.0855177479999999,0.326,0.2116,22.8,-14.12,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-EVRG,24.16,-1.64,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,22.52322404371585,0.02253647,0.604,0.737,24.01,-1.49,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-EXC,22.49,-4.49,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,18.0,0.041125104,0.515,0.5861,23.55,-5.55,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-EXE,21.32,-7.07,Undervalued,0.2717,0.24,0.0001,6.1374,cluster_2,Energy,14.249669749009248,0.0582418756987999,0.473,0.42139998,23.62,-9.37,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-XOM,22.09,0.4,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Energy,22.48729446935725,0.044656431612,0.348,0.597,21.77,0.72,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-FITB,20.84,-7.53,Undervalued,0.2717,0.24,0.0001,6.1374,cluster_2,Financials,13.308781869688383,0.0687319387451999,0.967,0.4363,28.38,-15.07,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-FE,22.64,6.31,Overvalued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,28.954545454545453,0.0,0.601,1.0,23.05,5.9,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-HAL,20.08,3.02,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Energy,23.1,0.0671019543177999,0.753,0.45330003,26.15,-3.05,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-HUM,21.86,-3.72,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Health Care,18.14329268292683,0.0450636794078,0.415,0.35979998,23.38,-5.24,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-IBM,16.39,6.33,Overvalued,0.2717,0.24,0.0001,6.1374,cluster_2,Information Technology,22.72017937219731,0.139823373954,0.706,0.6023,24.42,-1.7,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-KDP,23.44,-5.02,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Consumer Staples,18.42483660130719,0.033315372,0.303,0.6013,21.44,-3.02,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-KMI,25.8,-1.49,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Energy,24.30656934306569,0.0146996930522,0.648,0.85040003,24.07,0.24,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-KR,23.01,24.63,Overvalued,0.2717,0.24,0.0001,6.1374,cluster_2,Consumer Staples,47.642857142857146,0.018712095,0.59,0.8701,23.03,24.61,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-LW,18.74,-2.16,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Consumer Staples,16.576086956521742,0.107434632,0.428,0.5362,22.24,-5.66,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-MTB,20.8,-8.53,Undervalued,0.2717,0.24,0.0001,6.1374,cluster_2,Financials,12.266901822457376,0.065120659,0.588,0.3353,25.04,-12.77,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-MKC,21.28,0.62,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Consumer Staples,21.90443686006826,0.054935254857,0.574,0.6143,23.87,-1.97,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-MDT,24.22,1.29,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Health Care,25.51396648044693,0.019672046244,0.729,0.79050004,25.06,0.45,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-MRK,13.87,2.22,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Health Care,16.08653846153846,0.2026665973763999,0.264,0.45049998,20.03,-3.94,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-MET,20.88,-5.85,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Financials,15.025477707006369,0.062840565228,0.745,0.4772,26.06,-11.03,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-MOS,24.33,-8.49,Undervalued,0.2717,0.24,0.0001,6.1374,cluster_2,Materials,15.83529411764706,0.0232757985528,0.946,0.5176,28.3,-12.46,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-NEE,22.97,4.91,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,27.881818181818183,0.0262357407468,0.749,0.6867,25.58,2.3,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-NI,22.13,1.99,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,24.11794871794872,0.03860192,0.616,0.5744,24.59,-0.47,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-OXY,23.31,17.25,Overvalued,0.2717,0.24,0.0001,6.1374,cluster_2,Energy,40.56296296296296,0.017128881,0.351,0.7111,21.43,19.13,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-PEP,23.78,3.19,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Consumer Staples,26.96661101836394,0.0269513919999999,0.375,0.9371,20.8,6.17,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PSX,19.54,-4.43,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Energy,15.106580166821132,0.086360346,0.871,0.4402,27.22,-12.11,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PNW,24.01,-3.95,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,20.055445544554455,0.026098979,0.492,0.7119,22.97,-2.91,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PNC,20.65,-8.27,Undervalued,0.2717,0.24,0.0001,6.1374,cluster_2,Financials,12.377335744424352,0.073215476,0.974,0.3978,28.55,-16.17,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-PPL,23.41,0.51,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,23.91509433962264,0.025653765,0.689,0.6855,25.02,-1.1,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PFG,22.17,-4.91,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Financials,17.259047619047617,0.0434956962096,0.876,0.58669996,27.14,-9.88,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PG,17.8,5.2,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Consumer Staples,22.995555555555555,0.120314344,0.34,0.6188,20.87,2.13,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PEG,21.59,-1.83,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,19.755924170616115,0.0513851908971999,0.582,0.59720004,24.07,-4.31,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-SLB,20.1,-0.02,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Energy,20.080851063829787,0.0715917053202002,0.709,0.48509997,25.56,-5.48,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-SRE,37.09,-3.09,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,34.00363636363637,0.0032080378763999,0.7,0.9382,24.19,9.81,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-SNA,18.66,0.8,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Industrials,19.456770833333337,0.098659618617,0.749,0.4617,25.79,-6.33,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-SO,23.49,1.32,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,24.808673469387756,0.0276075,0.41,0.75,21.94,2.87,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-UNH,22.35,-0.8,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Health Care,21.55479969765684,0.042641744269,0.38,0.65989995,21.87,-0.32,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-VLO,22.07,6.42,Overvalued,0.2717,0.24,0.0001,6.1374,cluster_2,Energy,28.489445910290236,0.033436671,0.734,0.5971,25.7,2.79,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-WEC,23.29,0.74,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,24.031185031185032,0.029842928,0.534,0.7422,23.2,0.83,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-WMB,25.51,8.69,Overvalued,0.2717,0.24,0.0001,6.1374,cluster_2,Energy,34.19626168224299,0.01213497,0.649,0.9346,23.6,10.6,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-XEL,23.07,0.94,Fairly Valued,0.2717,0.24,0.0001,6.1374,cluster_2,Utilities,24.005847953216374,0.031190214,0.426,0.6667,22.4,1.61,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ADBE,30.41,-13.49,Model Insignificant,0.1386,-0.2921,0.81,15.0603,cluster_4,Information Technology,16.922708208508087,0.55426,1.532,0.0,31.3,-14.38,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-COR,35.21,8.28,Model Insignificant,0.1386,-0.2921,0.81,15.0603,cluster_4,Health Care,43.48557692307692,0.974175633,0.646,0.2701,14.33,29.16,Overvalued,0.0951,0.088,0.0,15.2439,Overvalued (Index only)
-DVA,35.33,-19.27,Model Insignificant,0.1386,-0.2921,0.81,15.0603,cluster_4,Health Care,16.05894736842105,0.64848,0.931,0.0,24.39,-8.33,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-IT,45.81,-28.57,Model Insignificant,0.1386,-0.2921,0.81,15.0603,cluster_4,Information Technology,17.24248704663212,0.86861,1.083,0.0,23.97,-6.73,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-IDXX,16.08,30.66,Model Insignificant,0.1386,-0.2921,0.81,15.0603,cluster_4,Health Care,46.74196018376723,0.66202,1.696,0.0,31.09,15.65,Overvalued,0.0951,0.088,0.0,15.2439,Overvalued (Index only)
-KLAC,28.37,13.29,Model Insignificant,0.1386,-0.2921,0.81,15.0603,cluster_4,Information Technology,41.66472303206997,0.7902961859274,1.448,0.21540001,26.27,15.39,Overvalued,0.0951,0.088,0.0,15.2439,Overvalued (Index only)
-LII,25.01,-2.34,Model Insignificant,0.1386,-0.2921,0.81,15.0603,cluster_4,Industrials,22.67368421052632,0.590284072,1.142,0.2216,26.01,-3.34,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-LLY,20.86,23.0,Model Insignificant,0.1386,-0.2921,0.81,15.0603,cluster_4,Health Care,43.86211396259243,0.7471603942318,0.434,0.26139998,15.64,28.22,Overvalued,0.0951,0.088,0.0,15.2439,Overvalued (Index only)
-MSI,25.38,10.6,Model Insignificant,0.1386,-0.2921,0.81,15.0603,cluster_4,Information Technology,35.98036135113904,0.6758217420000001,0.96,0.3514,22.25,13.73,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-NTAP,49.57,-32.69,Model Insignificant,0.1386,-0.2921,0.81,15.0603,cluster_4,Information Technology,16.880872483221477,0.7329413699999999,1.349,0.349,26.62,-9.74,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued (Index only)
-AKAM,32.33,0.93,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Information Technology,33.26058631921824,0.091730006,0.704,0.0,27.07,6.19,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ALL,16.25,-10.79,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,5.455476753349093,0.3536465975269199,0.206,0.105100006,19.6,-14.14,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-AMGN,18.01,8.52,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Health Care,26.528501055594653,0.3512008969,0.425,0.669,19.21,7.32,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ACGL,22.89,-14.65,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,8.243103448275862,0.19540001,0.365,0.0,23.04,-14.8,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-AJG,29.8,8.07,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,37.874782608695654,0.0377758213812,0.672,0.45299998,25.55,12.32,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-AIZ,27.49,-14.52,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,12.967532467532466,0.1281936338202,0.547,0.19370002,24.59,-11.62,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-BRK-B,33.19,-17.17,Undervalued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,16.023203351595228,0.09809,0.688,0.0,27.07,-11.05,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-BIIB,19.91,1.51,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Health Care,21.41524459613197,0.07394,0.145,0.0,21.76,-0.34,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-BSX,31.16,5.9,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Health Care,37.0618556701031,0.12445,0.7,0.0,26.67,10.39,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-BRO,34.59,-12.11,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,22.48101265822785,0.0904142051226,0.798,0.19459999,27.38,-4.9,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CBOE,21.5,7.24,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,28.741594620557155,0.17307424,0.336,0.2591,21.66,7.08,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CF,29.8,-17.42,Undervalued,0.0986,0.0536,0.0987,15.5069,cluster_5,Materials,12.379041248606466,0.1818257723401,0.689,0.22299999,25.36,-12.98,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-CB,26.49,-13.86,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,12.627481510315295,0.122036544,0.489,0.1488,24.27,-11.64,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CHD,24.79,9.07,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Consumer Staples,33.85761589403973,0.107358663524,0.426,0.39069998,22.67,11.19,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CME,20.84,7.06,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,27.899731423455684,0.0814200029499999,0.26,0.44799998,21.06,6.84,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CTVA,30.82,13.92,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Materials,44.74285714285714,0.029844,0.721,0.4,26.29,18.45,Overvalued,0.0951,0.088,0.0,15.2439,Conflicting
-DG,19.9,5.23,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Consumer Staples,25.132987910189986,0.097449805924,0.22,0.4076,20.68,4.45,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-DLTR,29.85,-7.91,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Consumer Staples,21.941287878787875,0.20066999,0.692,0.0,26.04,-4.1,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-EA,30.69,43.94,Overvalued,0.0986,0.0536,0.0987,15.5069,cluster_5,Communication Services,74.63295880149813,0.071733158,0.754,0.2846,26.52,48.11,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-EQT,32.98,-14.18,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Energy,18.80060422960725,0.072722518,0.722,0.1926,26.83,-8.03,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-FDS,30.9,-16.84,Undervalued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,14.061068702290076,0.208707609,0.751,0.2761,25.5,-11.44,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-FOXA,27.16,-12.95,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Communication Services,14.211031175059953,0.1460404629999999,0.537,0.1319,24.56,-10.35,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-FOX,27.13,-14.17,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Communication Services,12.959232613908872,0.1460404629999999,0.537,0.1319,24.57,-11.61,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-GD,23.56,-0.15,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Industrials,23.41397153945666,0.1080139868195997,0.372,0.38830003,22.2,1.21,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-GILD,21.24,0.42,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Health Care,21.658788774002954,0.217057045,0.374,0.4661,20.89,0.77,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-GPN,35.21,-18.33,Undervalued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,16.884875846501128,0.0373522324824,0.732,0.22569999,27.16,-10.28,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-GL,24.42,-14.33,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,10.093105899076049,0.1900776488235599,0.455,0.076799996,23.61,-13.52,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-HIG,25.68,-15.33,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,10.348837209302324,0.1814339701656,0.516,0.16219999,23.92,-13.57,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-HOLX,32.64,-1.27,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Health Care,31.365145228215766,0.108559996,0.728,0.0,27.18,4.19,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-HII,21.71,6.22,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Industrials,27.931079323797135,0.0804081278959999,0.28,0.35279998,21.63,6.3,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-JKHY,30.88,-6.26,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,24.61836441893831,0.1619985591432,0.726,0.33290002,25.43,-0.81,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-J,32.61,3.02,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Industrials,35.62698412698413,0.064415298,0.734,0.3377,26.38,9.25,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-JNJ,20.78,1.19,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Health Care,21.973731884057973,0.18706018932,0.326,0.466,20.69,1.28,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-LHX,26.27,17.2,Overvalued,0.0986,0.0536,0.0987,15.5069,cluster_5,Industrials,43.47306791569087,0.0358192405427,0.606,0.56270003,24.44,19.03,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-LDOS,26.6,-10.47,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Industrials,16.131176999101527,0.264937275074,0.617,0.1463,24.15,-8.02,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-LIN,33.45,-0.35,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Materials,33.101984941820675,0.1049955809999999,0.797,0.4107,26.36,6.74,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-LMT,13.73,17.13,Overvalued,0.0986,0.0536,0.0987,15.5069,cluster_5,Industrials,30.861988847583643,0.2911646430594999,0.197,0.62119997,17.61,13.25,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-L,30.63,-16.96,Undervalued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,13.671679197994989,0.09134866571707,0.588,0.031400003,26.04,-12.37,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-MPC,30.32,-14.0,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Energy,16.316187594553703,0.173681554179,0.708,0.2821,25.37,-9.05,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-MRSH,30.66,-9.29,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,21.374109263657957,0.1740867119999999,0.731,0.4069,25.1,-3.73,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-MOH,28.09,-11.72,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Health Care,16.371076233183857,0.11022,0.5,0.0,25.08,-8.71,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-MNST,21.06,17.97,Overvalued,0.0986,0.0536,0.0987,15.5069,cluster_5,Consumer Staples,39.03350515463917,0.26815,0.437,0.0,22.55,16.48,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-NEM,22.76,-4.46,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Materials,18.30359937402191,0.188471631565,0.389,0.1565,22.54,-4.24,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-NOC,12.22,13.49,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Industrials,25.708290333677333,0.180787803,0.007,0.3091,18.06,7.65,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PANW,28.95,62.77,Overvalued,0.0986,0.0536,0.0987,15.5069,cluster_5,Information Technology,91.7222222222222,0.16259001,0.822,0.0,27.01,64.71,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-PAYC,32.38,-15.25,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Industrials,17.131350681536553,0.223284048,0.812,0.1856,26.31,-9.18,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PCG,23.47,-8.07,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Utilities,15.398305084745765,0.07337878658965,0.308,0.105900005,23.1,-7.7,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-DGX,29.79,-6.75,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Health Care,23.037714285714287,0.0944064,0.63,0.36,25.02,-1.98,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-RTX,23.58,18.4,Overvalued,0.0986,0.0536,0.0987,15.5069,cluster_5,Industrials,41.98185483870967,0.0505653777724001,0.406,0.53830004,22.38,19.6,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-REGN,24.39,-5.56,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Health Care,18.833734939759037,0.136029605849,0.397,0.0849,23.41,-4.58,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-RSG,26.91,6.64,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Industrials,33.54810495626822,0.118627088482,0.521,0.3518,23.68,9.87,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-RMD,34.38,-9.39,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Health Care,24.99308300395257,0.1993741399999999,0.887,0.2235,27.1,-2.11,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ROL,31.74,21.08,Overvalued,0.0986,0.0536,0.0987,15.5069,cluster_5,Industrials,52.81651376146789,0.1468967679999999,0.796,0.6228,24.98,27.84,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-SYY,23.26,-0.43,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Consumer Staples,22.830188679245285,0.3507073549999999,0.595,0.5741,21.39,1.44,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-TMUS,24.33,-1.95,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Communication Services,22.37654320987654,0.1133335949999999,0.412,0.3765,22.6,-0.22,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-TPL,25.29,52.27,Overvalued,0.0986,0.0536,0.0987,15.5069,cluster_5,Energy,77.55603448275862,0.257797728,0.731,0.3061,24.41,53.15,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-TSCO,28.19,-3.59,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Consumer Discretionary,24.597087378640776,0.250048244932,0.698,0.4466,23.88,0.72,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-TRV,25.58,-14.57,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,11.00911078717201,0.174161377586,0.502,0.1586,23.86,-12.85,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-VRTX,19.77,10.35,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Health Care,30.12222222222222,0.22541,0.315,0.0,21.86,8.26,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-WRB,21.99,-6.66,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,15.334831460674156,0.181496109213,0.336,0.0787,22.44,-7.11,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-WMT,29.33,16.05,Overvalued,0.0986,0.0536,0.0987,15.5069,cluster_5,Consumer Staples,45.379562043795616,0.143250779,0.657,0.3443,24.8,20.58,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-WM,26.38,10.36,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Industrials,36.73770491803278,0.1507072,0.533,0.4925,22.93,13.81,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-WTW,28.69,-10.58,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Financials,18.11124769514444,0.1553280140076,0.622,0.22629999,24.9,-6.79,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ZBH,29.8,-3.52,Fairly Valued,0.0986,0.0536,0.0987,15.5069,cluster_5,Health Care,26.27605633802817,0.0408503028801999,0.591,0.27040002,25.47,0.81,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-AES,17.17,-6.34,Undervalued,0.4967,0.4363,0.0006,3.7902,cluster_6,Utilities,10.83206106870229,0.0090411579999999,0.941,0.5373,28.35,-17.52,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-T,11.22,-2.16,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Communication Services,9.05592105263158,0.1365619099999999,0.576,0.2738,24.49,-15.43,Undervalued,0.0951,0.088,0.0,15.2439,Conflicting
-AVB,17.35,6.53,Overvalued,0.4967,0.4363,0.0006,3.7902,cluster_6,Real Estate,23.87972972972973,0.0048084112846998,0.745,0.94589996,24.79,-0.91,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-BBY,13.97,-0.88,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Consumer Discretionary,13.087301587301583,0.09112086,1.444,0.754,31.98,-18.89,Undervalued,0.0951,0.088,0.0,15.2439,Conflicting
-CPB,12.57,0.47,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Consumer Staples,13.036082474226804,0.0290225790739999,-0.064,0.80410004,17.11,-4.07,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CMCSA,11.23,-5.47,Undervalued,0.4967,0.4363,0.0006,3.7902,cluster_6,Communication Services,5.758812615955473,0.174769827859,0.78,0.18370001,26.52,-20.76,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-D,13.95,4.18,Overvalued,0.4967,0.4363,0.0006,3.7902,cluster_6,Utilities,18.129682997118152,0.0224530088964,0.67,0.76949996,24.6,-6.47,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-EIX,11.27,-5.15,Undervalued,0.4967,0.4363,0.0006,3.7902,cluster_6,Utilities,6.123809523809523,0.170914380091,0.777,0.2909,26.08,-19.96,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-EQR,17.29,3.93,Overvalued,0.4967,0.4363,0.0006,3.7902,cluster_6,Real Estate,21.221843003412967,0.0056613002824999,0.735,0.9435,24.74,-3.52,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-ESS,46.3,-21.72,Undervalued,0.4967,0.4363,0.0006,3.7902,cluster_6,Real Estate,24.57555341674687,0.0014070249999999,0.722,0.9885,24.41,0.17,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-ES,13.61,2.59,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Utilities,16.19517543859649,0.0366310186892,0.753,0.66010004,25.71,-9.51,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-FRT,17.45,5.31,Overvalued,0.4967,0.4363,0.0006,3.7902,cluster_6,Real Estate,22.764957264957268,0.00575045,1.011,0.953,27.49,-4.73,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-GIS,10.07,-0.74,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Consumer Staples,9.333333333333332,0.130321708,-0.095,0.5204,16.97,-7.64,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-HST,14.51,2.91,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Real Estate,17.418181818181818,0.0313304972555,1.154,0.72730005,29.58,-12.16,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-HBAN,13.67,-2.07,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Financials,11.597122302158274,0.0559263020189999,0.967,0.44599998,28.47,-16.87,Undervalued,0.0951,0.088,0.0,15.2439,Conflicting
-KEY,14.26,-1.31,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Financials,12.953947368421051,0.04366461,1.086,0.5395,29.45,-16.5,Undervalued,0.0951,0.088,0.0,15.2439,Conflicting
-OKE,13.96,1.9,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Energy,15.859778597785978,0.037158111,0.88,0.7601,26.63,-10.77,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PAYX,14.54,7.7,Overvalued,0.4967,0.4363,0.0006,3.7902,cluster_6,Industrials,22.23981900452489,0.018480019096,0.889,0.9548,26.12,-3.88,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-PGR,11.12,-0.37,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Financials,10.75403016120645,0.112121856,0.29,0.7228,20.18,-9.43,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PRU,14.05,-4.45,Undervalued,0.4967,0.4363,0.0006,3.7902,cluster_6,Financials,9.602602602602603,0.052199195405,0.966,0.5405,28.17,-18.57,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-RF,13.62,-1.9,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Financials,11.721739130434784,0.06433130233,1.041,0.44779998,29.13,-17.41,Undervalued,0.0951,0.088,0.0,15.2439,Conflicting
-SPG,-7.76,21.21,Overvalued,0.4967,0.4363,0.0006,3.7902,cluster_6,Real Estate,13.453069865913902,0.412896294,1.397,0.6034,29.05,-15.6,Undervalued,0.0951,0.088,0.0,15.2439,Conflicting
-TROW,15.08,-5.28,Undervalued,0.4967,0.4363,0.0006,3.7902,cluster_6,Financials,9.79978354978355,0.084597082,1.553,0.5498,33.87,-24.07,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-TGT,12.6,2.18,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Consumer Staples,14.777367773677735,0.1067109644399999,1.105,0.556,28.96,-14.18,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-TFC,14.04,-1.8,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Financials,12.238219895287958,0.03751498,0.861,0.5445,27.23,-14.99,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-USB,13.55,-2.27,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Financials,11.283549783549784,0.068035456,1.041,0.4416,29.12,-17.84,Undervalued,0.0951,0.088,0.0,15.2439,Conflicting
-UPS,14.39,0.84,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Industrials,15.234756097560975,0.0,1.054,1.0,28.01,-12.78,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-VZ,11.5,0.93,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Communication Services,12.426108374384238,0.084713447,0.281,0.5037,21.16,-8.73,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-VICI,14.16,-2.86,Fairly Valued,0.4967,0.4363,0.0006,3.7902,cluster_6,Real Estate,11.302681992337163,0.0330826429349,0.699,0.67620003,25.18,-13.88,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-AOS,15.14,3.16,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,18.3012987012987,0.187327952,1.304,0.3584,30.9,-12.6,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ACN,22.35,-5.05,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Information Technology,17.30247933884298,0.1246547279999999,1.251,0.5017,30.44,-13.14,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ADI,35.01,23.44,Overvalued,0.2952,0.2627,0.0,10.3095,cluster_7,Information Technology,58.447897623400365,0.021706982,1.021,0.7239,27.87,30.58,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-APO,16.93,2.59,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,19.51985559566787,0.0941112910604,1.638,0.35970002,35.21,-15.69,Undervalued,0.0951,0.088,0.0,15.2439,Conflicting
-AVY,22.99,-2.91,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Materials,20.076222980659843,0.174963471418,0.97,0.4209,27.42,-7.34,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-BKR,31.78,-8.66,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Energy,23.115384615384617,0.094035024,0.879,0.3538,27.53,-4.41,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-BALL,24.5,-5.59,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Materials,18.906060606060606,0.1221402736122,1.115,0.24239999,30.07,-11.16,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-BAC,26.94,-14.37,Undervalued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,12.572178477690288,0.0732048029566,1.263,0.28350002,31.91,-19.34,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-BLK,25.55,1.55,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,27.098754951895867,0.043914165951,1.487,0.5902,33.22,-6.12,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-BK,28.04,-12.49,Undervalued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,15.554054054054053,0.094116706,1.076,0.2703,29.85,-14.3,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-BR,15.6,5.33,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,20.931339977851607,0.246411528,0.977,0.4104,26.86,-5.93,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CHRW,24.44,13.31,Overvalued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,37.74688796680498,0.159453795,0.903,0.5155,26.47,11.28,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-COF,42.38,12.9,Overvalued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,55.276785714285715,0.0054152289576,1.139,0.77379996,28.96,26.32,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-CARR,27.58,7.17,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,34.74556213017752,0.051074375,1.289,0.5325,31.3,3.45,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-SCHW,26.94,-6.64,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,20.296774193548384,0.138969046323,0.919,0.2323,27.98,-7.68,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CSCO,32.61,-5.2,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Information Technology,27.4136690647482,0.097419250899,0.829,0.5899,26.08,1.33,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-C,32.62,-17.37,Undervalued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,15.24892703862661,0.0456379109999999,1.131,0.3319,30.65,-15.4,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-CFG,35.32,-20.21,Undervalued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,15.106217616580311,0.040144104,1.085,0.4456,29.81,-14.7,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-CTSH,28.53,-14.35,Undervalued,0.2952,0.2627,0.0,10.3095,cluster_7,Information Technology,14.177631578947372,0.1103653979999999,0.983,0.2719,28.76,-14.58,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-GLW,30.04,40.48,Overvalued,0.2952,0.2627,0.0,10.3095,cluster_7,Information Technology,70.51912568306011,0.05782752,1.022,0.612,28.0,42.52,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-CRH,23.51,-4.19,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Materials,19.321234119782215,0.1147127728632,1.203,0.26860002,30.92,-11.6,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CSX,19.02,7.34,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,26.363636363636363,0.149090353,1.263,0.3377,30.9,-4.54,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-CMI,21.64,5.17,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,26.812378167641327,0.150100344,1.127,0.3727,29.39,-2.58,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-DHR,32.86,6.66,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Health Care,39.52286282306163,0.052580115,0.964,0.2545,29.08,10.44,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-DE,26.85,6.94,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,33.792559188275085,0.12414627,0.961,0.3655,27.99,5.8,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ETN,22.52,11.27,Overvalued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,33.79022988505747,0.1295649776568004,1.167,0.39810002,29.86,3.93,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-ECL,24.65,14.12,Overvalued,0.2952,0.2627,0.0,10.3095,cluster_7,Materials,38.77028885832188,0.1422785994968,0.979,0.36810002,27.97,10.8,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-EMR,29.05,5.54,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,34.588235294117645,0.045924606,1.243,0.5239,30.92,3.67,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-FAST,34.12,8.82,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,42.93577981651376,0.065649852,0.862,0.8028,25.69,17.25,Overvalued,0.0951,0.088,0.0,15.2439,Conflicting
-FDX,22.59,-2.6,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,19.994462901439647,0.109105048,1.281,0.3132,31.58,-11.59,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-GRMN,27.99,0.26,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Consumer Discretionary,28.245634458672875,0.118381472,0.949,0.4016,27.8,0.45,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-GEN,24.38,-1.13,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Information Technology,23.247422680412377,0.13034019,1.095,0.5155,28.73,-5.48,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-GS,22.67,-6.46,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,16.206271912738604,0.100797192,1.336,0.2728,32.4,-16.19,Undervalued,0.0951,0.088,0.0,15.2439,Conflicting
-HON,30.26,1.08,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,31.344327176781004,0.1032372,0.904,0.605,26.69,4.65,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-HUBB,22.52,6.97,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,29.489721886336156,0.1655848789083999,0.997,0.32529998,28.12,1.37,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-IEX,32.19,-1.32,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,30.874999999999996,0.06911634,0.96,0.4399,28.22,2.65,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-ICE,29.39,-0.66,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,28.734835355285966,0.07929672,1.051,0.3328,29.45,-0.72,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-JCI,23.44,21.22,Overvalued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,44.66107382550336,0.061076484832,1.389,0.5168,32.17,12.49,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-JPM,26.6,-12.13,Undervalued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,14.474288567149276,0.114599809103,1.059,0.2897,29.41,-14.94,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-LH,31.17,-4.99,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Health Care,26.18277511961723,0.076158723,0.974,0.2753,28.94,-2.76,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-LEN,25.48,-12.96,Undervalued,0.2952,0.2627,0.0,10.3095,cluster_7,Consumer Discretionary,12.523809523809524,0.0629945656811999,1.403,0.25059998,33.57,-21.05,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-MS,25.52,-9.79,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,15.730392156862743,0.097259606,1.207,0.3771,30.73,-15.0,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-NDAQ,27.74,0.76,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,28.495145631067963,0.100700306,1.035,0.3398,29.06,-0.56,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-NWSA,33.79,-1.92,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Communication Services,31.87012987012987,0.0468535869999999,0.969,0.2597,29.21,2.66,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-NWS,33.45,2.54,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Communication Services,35.98701298701299,0.0468535869999999,0.969,0.2597,29.19,6.8,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-NKE,43.64,-10.58,Undervalued,0.2952,0.2627,0.0,10.3095,cluster_7,Consumer Discretionary,33.058479532163744,0.010500750585,1.286,0.9415,30.04,3.02,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-NDSN,27.36,2.05,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,29.41386782231853,0.1142210009999999,0.99,0.3463,28.46,0.95,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-NSC,21.96,1.74,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,23.70141065830721,0.1109647257744,1.303,0.42349997,31.35,-7.65,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-NTRS,25.34,-9.5,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,15.836384439359266,0.087063876,1.266,0.3547,31.51,-15.67,Undervalued,0.0951,0.088,0.0,15.2439,Conflicting
-NXPI,20.03,5.82,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Information Technology,25.85012594458438,0.101383697102,1.44,0.5102,32.5,-6.65,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PCAR,28.34,-1.58,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,26.75609756097561,0.091397306,1.046,0.2927,29.45,-2.69,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PKG,33.91,-7.94,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Materials,25.967365967365968,0.071750056,0.896,0.5828,27.03,-1.06,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PNR,21.77,1.69,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,23.460559796437657,0.130298497455,1.212,0.2545,30.9,-7.44,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-POOL,17.03,2.74,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Consumer Discretionary,19.771428571428572,0.179774831124,1.247,0.4562,30.03,-10.26,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-PPG,24.51,-8.87,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Materials,15.64306358381503,0.126103691,1.123,0.4017,29.51,-13.87,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-QCOM,27.76,0.08,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Information Technology,27.84475806451613,0.06235644,1.267,0.7097,30.36,-2.52,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-RJF,25.5,-10.74,Undervalued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,14.7646484375,0.1370947422876,1.007,0.19940001,29.03,-14.27,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-ROK,17.18,25.74,Overvalued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,42.92,0.093306216,1.522,0.6069,32.82,10.1,Fairly Valued,0.0951,0.088,0.0,15.2439,Conflicting
-ROP,33.68,-8.11,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Information Technology,25.567605633802817,0.060863004,0.927,0.2324,28.79,-3.22,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-LUV,46.26,8.21,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,54.46835443037975,0.004263432,1.094,0.9114,27.84,26.63,Overvalued,0.0951,0.088,0.0,15.2439,Conflicting
-STT,24.53,-11.56,Undervalued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,12.971276595744682,0.073070488,1.416,0.3404,33.25,-20.28,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-STE,30.41,1.35,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Health Care,31.76011157601116,0.0696436019064,1.036,0.33470002,29.38,2.38,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-SYK,31.14,12.32,Overvalued,0.2952,0.2627,0.0,10.3095,cluster_7,Health Care,43.458432304038006,0.089750208,0.869,0.4048,27.21,16.25,Overvalued,0.0951,0.088,0.0,15.2439,Strong Overvalued
-SYF,14.17,-6.94,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,7.232758620689657,0.1866443519088399,1.412,0.123900004,32.97,-25.74,Undervalued,0.0951,0.088,0.0,15.2439,Conflicting
-TEL,24.11,5.56,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Information Technology,29.674820143884897,0.0964854147806,1.245,0.40060002,30.97,-1.3,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-UNP,18.98,2.21,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,21.18713450292398,0.220418043,0.952,0.4541,26.69,-5.5,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
-DIS,20.74,-5.77,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Communication Services,14.9720176730486,0.098103816,1.443,0.1841,33.87,-18.9,Undervalued,0.0951,0.088,0.0,15.2439,Conflicting
-WFC,29.23,-16.64,Undervalued,0.2952,0.2627,0.0,10.3095,cluster_7,Financials,12.5926517571885,0.085455888,1.071,0.2716,29.89,-17.3,Undervalued,0.0951,0.088,0.0,15.2439,Strong Undervalued
-XYL,30.06,1.45,Fairly Valued,0.2952,0.2627,0.0,10.3095,cluster_7,Industrials,31.510204081632654,0.049687528,1.169,0.4082,30.61,0.9,Fairly Valued,0.0951,0.088,0.0,15.2439,Fairly Valued
+ABT,20.9,8.9,Overvalued,0.2802,0.2489,0.0,6.0436,cluster_0,Health Care,29.797843665768195,0.047385416,0.744,0.6344,25.79,4.01,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+AFL,19.23,-3.06,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Financials,16.173020527859236,0.0865525639999999,0.65,0.3402,25.19,-9.02,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+LNT,22.01,0.61,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,22.624203821656053,0.039941965,0.611,0.6465,24.46,-1.84,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+AEE,21.17,-0.54,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,20.633644859813085,0.0531931994651999,0.531,0.53080004,23.77,-3.14,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+AEP,21.1,-1.23,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,19.866366366366368,0.0547386277458,0.573,0.56159997,24.13,-4.26,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+AIG,21.31,-6.94,Undervalued,0.2802,0.2489,0.0,6.0436,cluster_0,Financials,14.373848987108657,0.0501430229999999,0.58,0.3223,24.89,-10.52,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+AWK,21.33,2.02,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,23.34622144112478,0.045059328,0.759,0.5707,26.18,-2.83,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+APA,15.02,-7.05,Undervalued,0.2802,0.2489,0.0,6.0436,cluster_0,Energy,7.974937343358396,0.1897480850639999,0.708,0.25059998,25.01,-17.04,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+ADM,35.22,-4.1,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Consumer Staples,31.11659192825112,0.0040222896395,0.683,0.91480005,24.81,6.31,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ATO,21.04,2.88,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,23.916558018252932,0.0488914409999999,0.698,0.4707,25.73,-1.81,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ADP,4.0,16.88,Overvalued,0.2802,0.2489,0.0,6.0436,cluster_0,Industrials,20.88088376560999,0.290129147,0.854,0.6071,24.61,-3.73,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+BDX,23.56,3.26,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Health Care,26.821603927986903,0.02217456,0.307,0.6814,21.26,5.56,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+BMY,18.5,-1.12,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Health Care,17.37861271676301,0.1133589154291992,0.266,0.71970004,19.88,-2.5,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+BF-B,19.25,-4.48,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Consumer Staples,14.767441860465116,0.096082402,0.396,0.5294,21.93,-7.16,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+BG,22.75,1.54,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Consumer Staples,24.290060851926977,0.026009004,0.743,0.5639,26.22,-1.93,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+CNP,21.46,5.52,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,26.975,0.0433934982,0.539,0.55,23.87,3.11,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+CI,18.85,-7.02,Undervalued,0.2802,0.2489,0.0,6.0436,cluster_0,Health Care,11.832281334535615,0.11010101,0.234,0.2723,20.76,-8.93,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+CINF,17.6,-6.75,Undervalued,0.2802,0.2489,0.0,6.0436,cluster_0,Financials,10.851778656126482,0.1235734143964,0.636,0.22940001,24.98,-14.13,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+CMS,22.08,-0.37,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,21.713068181818183,0.0417304624623999,0.432,0.6156,22.61,-0.9,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+KO,16.15,9.47,Overvalued,0.2802,0.2489,0.0,6.0436,cluster_0,Consumer Staples,25.61842105263158,0.142489347,0.332,0.6711,20.32,5.3,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+COP,21.08,-3.1,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Energy,17.976377952755907,0.061686144,0.279,0.5008,21.09,-3.11,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ED,22.83,-3.1,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,19.73404255319149,0.034822524,0.345,0.6028,21.8,-2.07,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+STZ,21.25,2.35,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Consumer Staples,23.599056603773583,0.0521933976109999,0.422,0.6389,22.32,1.28,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+CTRA,20.38,-6.9,Undervalued,0.2802,0.2489,0.0,6.0436,cluster_0,Energy,13.477678571428571,0.074521522545,0.353,0.39290002,22.05,-8.57,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+DRI,12.13,9.2,Overvalued,0.2802,0.2489,0.0,6.0436,cluster_0,Consumer Discretionary,21.328092243186585,0.21208768,0.599,0.608,22.67,-1.34,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+DVN,17.04,-6.56,Undervalued,0.2802,0.2489,0.0,6.0436,cluster_0,Energy,10.479616306954435,0.1365317262264,0.619,0.23020001,24.67,-14.19,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+FANG,25.21,5.92,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Energy,31.12914485165794,0.0112759649999999,0.569,0.6981,24.11,7.02,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+DTE,21.89,-0.87,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,21.01849217638691,0.044945307,0.434,0.6309,22.57,-1.55,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+DUK,22.99,-2.47,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,20.520569620253163,0.032205888,0.466,0.6688,22.95,-2.43,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ELV,19.03,-7.82,Undervalued,0.2802,0.2489,0.0,6.0436,cluster_0,Health Care,11.208564631245045,0.09655275,0.468,0.2713,23.38,-12.17,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+ETR,21.69,5.1,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,26.792838874680307,0.04051024,0.602,0.624,24.39,2.4,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+EOG,19.19,-5.17,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Energy,14.023026315789474,0.095487746,0.427,0.4326,22.51,-8.49,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ERIE,17.25,5.6,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Financials,22.84550561797753,0.125757394,0.411,0.5199,21.75,1.1,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+EG,19.96,-11.29,Undervalued,0.2802,0.2489,0.0,6.0436,cluster_0,Financials,8.666313839640116,0.0855177479999999,0.326,0.2116,22.19,-13.52,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+EVRG,24.03,-1.64,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,22.385245901639344,0.02253647,0.604,0.737,24.35,-1.96,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+EXC,22.29,-4.34,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,17.952380952380953,0.041125104,0.515,0.5861,23.61,-5.66,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+EXE,21.13,-7.3,Undervalued,0.2802,0.2489,0.0,6.0436,cluster_0,Energy,13.82694848084544,0.0582418756987999,0.473,0.42139998,23.42,-9.59,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+XOM,21.86,0.25,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Energy,22.108955223880596,0.044656431612,0.348,0.597,21.73,0.38,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+FITB,20.74,-7.54,Undervalued,0.2802,0.2489,0.0,6.0436,cluster_0,Financials,13.19830028328612,0.0687319387451999,0.967,0.4363,28.52,-15.32,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+FE,22.38,6.4,Overvalued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,28.784090909090907,0.0,0.601,1.0,23.77,5.01,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+HAL,19.88,3.68,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Energy,23.56,0.0671019543177999,0.753,0.45330003,26.18,-2.62,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+HUM,21.65,-4.01,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Health Care,17.64430894308943,0.0450636794078,0.415,0.35979998,23.07,-5.43,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+IBM,16.28,6.2,Overvalued,0.2802,0.2489,0.0,6.0436,cluster_0,Information Technology,22.479784366576816,0.139823373954,0.706,0.6023,24.56,-2.08,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+KDP,23.19,-4.86,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Consumer Staples,18.32679738562091,0.033315372,0.303,0.6013,21.38,-3.05,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+KMI,25.74,-1.68,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Energy,24.05839416058394,0.0146996930522,0.648,0.85040003,24.6,-0.54,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+KR,22.86,24.05,Overvalued,0.2802,0.2489,0.0,6.0436,cluster_0,Consumer Staples,46.90909090909091,0.018712095,0.59,0.8701,23.55,23.36,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+LW,18.56,-2.44,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Consumer Staples,16.115942028985508,0.107434632,0.428,0.5362,22.13,-6.01,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+MTB,20.62,-8.61,Undervalued,0.2802,0.2489,0.0,6.0436,cluster_0,Financials,12.007058823529412,0.065120659,0.588,0.3353,24.8,-12.79,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+MKC,21.1,0.53,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Consumer Staples,21.634812286689417,0.054935254857,0.574,0.6143,24.0,-2.37,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+MDT,24.13,0.98,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Health Care,25.108938547486034,0.019672046244,0.729,0.79050004,25.56,-0.45,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+MRK,13.66,2.42,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Health Care,16.083791208791208,0.2026665973763999,0.264,0.45049998,19.62,-3.54,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+MET,20.72,-5.73,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Financials,14.989384288747344,0.062840565228,0.745,0.4772,26.11,-11.12,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+MOS,24.28,-8.7,Undervalued,0.2802,0.2489,0.0,6.0436,cluster_0,Materials,15.576470588235296,0.0232757985528,0.946,0.5176,28.58,-13.0,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+NEE,22.82,4.92,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,27.739393939393945,0.0262357407468,0.749,0.6867,25.94,1.8,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+NI,21.95,1.93,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,23.88205128205128,0.03860192,0.616,0.5744,24.7,-0.82,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+OXY,23.18,16.17,Overvalued,0.2802,0.2489,0.0,6.0436,cluster_0,Energy,39.34814814814814,0.017128881,0.351,0.7111,21.57,17.78,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+PEP,23.57,3.23,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Consumer Staples,26.796666666666667,0.0269513919999999,0.375,0.9371,21.25,5.55,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PSX,19.41,-4.35,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Energy,15.060240963855422,0.086360346,0.871,0.4402,27.3,-12.24,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PNW,23.83,-3.84,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,19.992079207920792,0.026098979,0.492,0.7119,23.19,-3.2,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PNC,20.53,-8.09,Undervalued,0.2802,0.2489,0.0,6.0436,cluster_0,Financials,12.440626883664857,0.073215476,0.974,0.3978,28.65,-16.21,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+PPL,23.26,0.54,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,23.79874213836478,0.025653765,0.689,0.6855,25.34,-1.54,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PFG,22.06,-5.12,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Financials,16.93904761904762,0.0434956962096,0.876,0.58669996,27.44,-10.5,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PG,17.57,5.51,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Consumer Staples,23.078402366863905,0.120314344,0.34,0.6188,20.79,2.29,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PEG,21.4,-1.67,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,19.732227488151658,0.0513851908971999,0.582,0.59720004,24.18,-4.45,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+SLB,19.91,0.56,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Energy,20.472340425531915,0.0715917053202002,0.709,0.48509997,25.59,-5.12,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+SRE,38.08,-4.27,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,33.807272727272725,0.0032080378763999,0.7,0.9382,24.89,8.92,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+SNA,18.52,0.75,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Industrials,19.270833333333336,0.098659618617,0.749,0.4617,25.8,-6.53,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+SO,23.29,1.27,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,24.558673469387756,0.0276075,0.41,0.75,22.16,2.4,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+UNH,22.12,-0.8,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Health Care,21.32477341389728,0.042641744269,0.38,0.65989995,21.94,-0.62,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+VLO,21.88,6.79,Overvalued,0.2802,0.2489,0.0,6.0436,cluster_0,Energy,28.668428005284017,0.033436671,0.734,0.5971,25.93,2.74,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+WEC,23.11,0.69,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,23.804573804573806,0.029842928,0.534,0.7422,23.49,0.31,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+WMB,25.34,9.16,Overvalued,0.2802,0.2489,0.0,6.0436,cluster_0,Energy,34.50467289719626,0.01213497,0.649,0.9346,24.24,10.26,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+XEL,22.84,1.1,Fairly Valued,0.2802,0.2489,0.0,6.0436,cluster_0,Utilities,23.941520467836256,0.031190214,0.426,0.6667,22.51,1.43,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+AMD,58.95,19.22,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,78.16538461538461,0.07082,2.022,0.0,39.93,38.24,Overvalued,0.0978,0.0907,0.0,15.5304,Conflicting
+A,37.11,-11.57,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Health Care,25.53761061946903,0.1554790564045998,1.312,0.22049999,31.81,-6.27,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ALGN,55.54,-25.5,Undervalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Health Care,30.040780141843975,0.103870004,1.823,0.0,38.43,-8.39,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+AMZN,31.19,-1.34,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Consumer Discretionary,29.85097493036212,0.22286,1.42,0.0,32.81,-2.96,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+AME,39.41,-4.05,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,35.359375,0.1176568294593999,1.013,0.19379999,29.03,6.33,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+APTV,59.59,36.48,Overvalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Consumer Discretionary,96.06666666666666,0.01948,1.534,0.0,35.11,60.96,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+TECH,2.14,97.52,Overvalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Health Care,99.66037735849056,0.015713292,1.475,0.6038,33.08,66.58,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+AVGO,32.98,33.67,Overvalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,66.64980544747081,0.1762989943911998,1.257,0.47169998,30.16,36.49,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+BLDR,52.26,-28.18,Undervalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,24.082262210796916,0.10064,1.564,0.0,35.72,-11.64,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+CDNS,24.27,48.15,Overvalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,72.41728395061729,0.21855,1.025,0.0,28.3,44.12,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+CBRE,43.45,-8.49,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Real Estate,34.95844155844156,0.13572,1.341,0.0,32.83,2.13,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+CEG,39.06,3.85,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Utilities,42.90798376184032,0.1293410576364,1.107,0.20959999,29.85,13.06,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+COO,54.0,-16.98,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Health Care,37.01990049751244,0.04868,1.03,0.0,30.35,6.67,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+CPRT,35.49,-12.65,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,22.836477987421382,0.17129,1.106,0.0,30.04,-7.2,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+COST,23.94,27.87,Overvalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Consumer Staples,51.81090909090909,0.2163336754778003,0.993,0.27040002,27.57,24.24,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+DASH,52.57,27.59,Overvalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Consumer Discretionary,80.15566037735849,0.10439,1.902,0.0,38.42,41.74,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+DOV,41.15,-14.77,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,26.381430363864492,0.113154855,1.249,0.2597,31.47,-5.09,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+DHI,42.23,-29.0,Undervalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Consumer Discretionary,13.231329690346085,0.1145410216523,1.407,0.15010001,33.52,-20.29,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+EW,42.97,4.42,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Health Care,47.39226519337016,0.10353,0.934,0.0,28.65,18.74,Overvalued,0.0978,0.0907,0.0,15.5304,Conflicting
+EPAM,55.24,-34.11,Undervalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,21.12630014858841,0.10335,1.768,0.0,37.97,-16.84,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+EFX,46.59,-9.83,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,36.76172607879925,0.0886913817513999,1.532,0.35529998,34.45,2.31,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+FFIV,28.42,-4.73,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,23.68708609271523,0.20844,0.994,0.0,28.45,-4.76,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+FSLR,42.29,-28.36,Undervalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,13.929577464788734,0.1745,1.648,0.0,35.94,-22.01,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+FTV,47.57,-12.46,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,35.10691823899371,0.052696644,0.998,0.1761,29.57,5.54,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+FCX,46.15,-5.1,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Materials,41.05263157894737,0.0844151352108,1.438,0.39470002,33.36,7.69,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+GEHC,29.27,-13.29,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Health Care,15.984615384615386,0.216887576,1.181,0.0308,30.33,-14.35,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+GNRC,57.81,20.23,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,78.04074074074074,0.06283,1.769,0.0,37.46,40.58,Overvalued,0.0978,0.0907,0.0,15.5304,Conflicting
+GM,48.61,-25.7,Undervalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Consumer Discretionary,22.914373088685014,0.035653726,1.356,0.1743,33.69,-10.78,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+IR,53.67,5.93,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,59.6,0.0545433011655999,1.289,0.0552,32.71,26.89,Overvalued,0.0978,0.0907,0.0,15.5304,Conflicting
+PODD,36.71,31.75,Overvalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Health Care,68.45977011494253,0.18124,1.435,0.0,33.08,35.38,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+IBKR,30.81,0.05,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Financials,30.855855855855857,0.2030385873629999,1.251,0.1363,30.86,-0.0,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+INTU,34.78,-5.28,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,29.496426250812213,0.166192852085,1.282,0.2915,31.18,-1.68,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ISRG,41.84,19.89,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Health Care,61.73443456162643,0.16690001,1.68,0.0,35.84,25.89,Overvalued,0.0978,0.0907,0.0,15.5304,Conflicting
+IQV,32.76,-10.99,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Health Care,21.77452229299363,0.21438,1.411,0.0,32.87,-11.1,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+JBHT,41.28,-6.07,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,35.21207177814029,0.1124665879999999,1.207,0.2876,30.92,4.29,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+KEYS,34.9,15.37,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,50.271126760563384,0.17222999,1.137,0.0,30.14,20.13,Overvalued,0.0978,0.0907,0.0,15.5304,Conflicting
+KKR,57.57,-19.13,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Financials,38.44444444444444,0.05887904,2.013,0.312,40.03,-1.59,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+MLM,45.73,-8.55,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Materials,37.18115055079559,0.0814447110169999,1.149,0.1983,30.83,6.35,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+MGM,41.88,4.17,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Consumer Discretionary,46.05263157894737,0.1489,1.396,0.0,33.18,12.87,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+MU,33.14,5.18,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,38.31844106463878,0.215683911563,1.542,0.0437,34.02,4.3,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+MPWR,45.65,36.32,Overvalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,81.97360248447204,0.0987077430172002,1.49,0.48520002,33.15,48.82,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+NCLH,39.7,-17.58,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Consumer Discretionary,22.119565217391305,0.23285,2.044,0.0,39.62,-17.5,Undervalued,0.0978,0.0907,0.0,15.5304,Conflicting
+NUE,51.49,-28.83,Undervalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Materials,22.663563829787236,0.0660980228722,1.768,0.29389998,37.56,-14.9,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+ODFL,32.6,7.69,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,40.29338842975207,0.18392598,1.219,0.2314,30.44,9.85,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PH,31.11,3.61,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,34.723785166240404,0.191681735,1.218,0.2565,30.31,4.41,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PTC,25.42,-1.96,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,23.458823529411767,0.23141001,1.042,0.0,28.72,-5.26,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PHM,36.5,-25.31,Undervalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Consumer Discretionary,11.18615107913669,0.1621235910596001,1.298,0.08270001,32.04,-20.85,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+PWR,41.32,41.26,Overvalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,82.58418740849194,0.11970838249044,1.109,0.060300004,30.01,52.57,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+RVTY,51.14,-7.31,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Health Care,43.83495145631068,0.027789456,1.107,0.1359,31.01,12.82,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+SPGI,43.08,-13.4,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Financials,29.682344921608724,0.0965951469999999,1.221,0.2619,31.32,-1.64,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+CRM,44.06,-19.07,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,24.98846153846154,0.0975193288532,1.307,0.2133,32.38,-7.39,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+NOW,35.27,34.56,Overvalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,69.82634730538922,0.15488,1.019,0.0,28.88,40.95,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+STLD,43.95,-21.18,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Materials,22.77375,0.0995901528401998,1.395,0.25030002,33.23,-10.46,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+SMCI,46.15,-22.95,Undervalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,23.20437956204379,0.13193,1.487,0.0,34.55,-11.35,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+SNPS,52.24,14.02,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,66.25574272588055,0.055430003,1.156,0.0,31.28,34.98,Overvalued,0.0978,0.0907,0.0,15.5304,Conflicting
+TPR,27.09,30.38,Overvalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Consumer Discretionary,57.468992248062015,0.231640682,1.597,0.5814,32.76,24.71,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+TDY,46.55,-11.82,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,34.726550079491254,0.08926,0.975,0.0,29.37,5.36,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+TER,40.41,46.52,Overvalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,86.92774566473987,0.1700478779999999,1.801,0.1383,36.48,50.45,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+TXT,41.4,-23.33,Undervalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,18.068359375,0.120510248,0.935,0.0156,28.74,-10.67,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+TMO,40.42,-12.25,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Health Care,28.17352112676056,0.1176067296812,0.971,0.096999995,28.86,-0.69,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+TTD,37.5,-6.77,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Communication Services,30.733333333333334,0.16317,1.19,0.0,30.96,-0.23,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+TRMB,56.36,-17.16,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,39.19886363636363,0.07322,1.574,0.0,35.92,3.28,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+TYL,45.14,4.13,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,49.26842837273991,0.08901,0.934,0.0,28.77,20.5,Overvalued,0.0978,0.0907,0.0,15.5304,Conflicting
+UAL,27.6,-18.67,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,8.931372549019608,0.23987,1.247,0.0,30.93,-22.0,Undervalued,0.0978,0.0907,0.0,15.5304,Conflicting
+URI,31.22,-11.14,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,20.08257830701527,0.2309961191643,1.654,0.18540001,34.85,-14.77,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+UHS,31.49,-23.41,Undervalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Health Care,8.078388912949329,0.205881204,1.261,0.0346,31.34,-23.26,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+VST,46.02,29.05,Overvalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Utilities,75.06849315068493,0.1035524435312,1.45,0.41349998,33.0,42.07,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+WAB,42.92,-6.79,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Industrials,36.127379209370424,0.094715456,0.979,0.1464,29.01,7.12,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+WBD,60.93,34.79,Overvalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Communication Services,95.72413793103448,0.02078,1.675,0.0,36.52,59.2,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+WST,38.24,-3.75,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Health Care,34.4882005899705,0.14744754,1.179,0.1252,30.67,3.82,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+WDAY,48.96,6.06,Fairly Valued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,55.015444015444025,0.08231,1.167,0.0,31.29,23.73,Overvalued,0.0978,0.0907,0.0,15.5304,Conflicting
+ZBRA,51.26,-25.29,Undervalued,0.1618,0.1249,0.0071,21.5657,cluster_1,Information Technology,25.97432762836186,0.116809994,1.679,0.0,36.77,-10.8,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+ADBE,30.63,-14.16,Model Insignificant,0.1282,-0.3077,0.8287,15.2014,cluster_2,Information Technology,16.474850299401197,0.55426,1.532,0.0,30.89,-14.42,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+COR,35.12,7.06,Model Insignificant,0.1282,-0.3077,0.8287,15.2014,cluster_2,Health Care,42.17844311377246,0.974175633,0.646,0.2701,13.4,28.78,Overvalued,0.0978,0.0907,0.0,15.5304,Overvalued (Index only)
+DVA,35.1,-19.18,Model Insignificant,0.1282,-0.3077,0.8287,15.2014,cluster_2,Health Care,15.919117647058826,0.64848,0.931,0.0,23.48,-7.56,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+IT,45.36,-28.88,Model Insignificant,0.1282,-0.3077,0.8287,15.2014,cluster_2,Information Technology,16.482901554404144,0.86861,1.083,0.0,23.0,-6.52,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+IDXX,16.25,29.64,Model Insignificant,0.1282,-0.3077,0.8287,15.2014,cluster_2,Health Care,45.888888888888886,0.66202,1.696,0.0,30.72,15.17,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+KLAC,27.43,14.94,Model Insignificant,0.1282,-0.3077,0.8287,15.2014,cluster_2,Information Technology,42.372120151647714,0.7902961859274,1.448,0.21540001,25.85,16.52,Overvalued,0.0978,0.0907,0.0,15.5304,Overvalued (Index only)
+LII,24.86,-2.39,Model Insignificant,0.1282,-0.3077,0.8287,15.2014,cluster_2,Industrials,22.46971027216857,0.590284072,1.142,0.2216,25.6,-3.13,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+LLY,20.54,23.13,Model Insignificant,0.1282,-0.3077,0.8287,15.2014,cluster_2,Health Care,43.6698648059311,0.7471603942318,0.434,0.26139998,14.65,29.02,Overvalued,0.0978,0.0907,0.0,15.5304,Overvalued (Index only)
+MSI,25.12,11.25,Model Insignificant,0.1282,-0.3077,0.8287,15.2014,cluster_2,Information Technology,36.37225705329154,0.6758217420000001,0.96,0.3514,21.79,14.58,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+NTAP,50.85,-34.59,Model Insignificant,0.1282,-0.3077,0.8287,15.2014,cluster_2,Information Technology,16.26006711409396,0.7329413699999999,1.349,0.349,26.44,-10.18,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+AES,17.02,-6.17,Undervalued,0.5,0.44,0.0005,3.7276,cluster_3,Utilities,10.84732824427481,0.0090411579999999,0.941,0.5373,28.66,-17.81,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+T,11.15,-2.03,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Communication Services,9.115131578947368,0.1365619099999999,0.576,0.2738,24.1,-14.98,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+AVB,17.26,6.31,Overvalued,0.5,0.44,0.0005,3.7276,cluster_3,Real Estate,23.574324324324323,0.0048084112846998,0.745,0.94589996,25.53,-1.96,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+BBY,13.98,-1.12,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Consumer Discretionary,12.857142857142856,0.09112086,1.444,0.754,32.88,-20.02,Undervalued,0.0978,0.0907,0.0,15.5304,Conflicting
+CPB,12.46,0.26,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Consumer Staples,12.721649484536083,0.0290225790739999,-0.064,0.80410004,17.07,-4.35,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+CMCSA,11.2,-5.44,Undervalued,0.5,0.44,0.0005,3.7276,cluster_3,Communication Services,5.764378478664193,0.174769827859,0.78,0.18370001,26.12,-20.36,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+D,13.82,4.26,Overvalued,0.5,0.44,0.0005,3.7276,cluster_3,Utilities,18.07780979827089,0.0224530088964,0.67,0.76949996,25.02,-6.94,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+EIX,11.23,-5.08,Undervalued,0.5,0.44,0.0005,3.7276,cluster_3,Utilities,6.154112554112554,0.170914380091,0.777,0.2909,25.83,-19.68,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+EQR,17.2,3.71,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Real Estate,20.91156462585034,0.0056613002824999,0.735,0.9435,25.46,-4.55,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ESS,45.76,-21.31,Undervalued,0.5,0.44,0.0005,3.7276,cluster_3,Real Estate,24.450961538461534,0.0014070249999999,0.722,0.9885,25.19,-0.74,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+ES,13.49,2.65,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Utilities,16.142543859649123,0.0366310186892,0.753,0.66010004,26.03,-9.89,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+FRT,17.29,5.53,Overvalued,0.5,0.44,0.0005,3.7276,cluster_3,Real Estate,22.82051282051282,0.00575045,1.011,0.953,28.41,-5.59,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+GIS,10.01,-0.92,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Consumer Staples,9.09247311827957,0.130321708,-0.095,0.5204,16.45,-7.36,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+HST,14.41,3.09,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Real Estate,17.5,0.0313304972555,1.154,0.72730005,30.27,-12.77,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+HBAN,13.59,-2.09,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Financials,11.50359712230216,0.0559263020189999,0.967,0.44599998,28.64,-17.14,Undervalued,0.0978,0.0907,0.0,15.5304,Conflicting
+KEY,14.17,-1.17,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Financials,13.0,0.04366461,1.086,0.5395,29.83,-16.83,Undervalued,0.0978,0.0907,0.0,15.5304,Conflicting
+OKE,13.88,1.74,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Energy,15.623616236162365,0.037158111,0.88,0.7601,27.18,-11.56,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PAYX,14.5,7.02,Overvalued,0.5,0.44,0.0005,3.7276,cluster_3,Industrials,21.520361990950228,0.018480019096,0.889,0.9548,26.97,-5.45,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+PGR,11.0,-0.24,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Financials,10.762350494019762,0.112121856,0.29,0.7228,20.22,-9.46,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PRU,13.96,-4.4,Undervalued,0.5,0.44,0.0005,3.7276,cluster_3,Financials,9.556556556556556,0.052199195405,0.966,0.5405,28.46,-18.9,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+RF,13.55,-1.92,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Financials,11.634782608695652,0.06433130233,1.041,0.44779998,29.34,-17.71,Undervalued,0.0978,0.0907,0.0,15.5304,Conflicting
+SPG,-7.45,21.0,Overvalued,0.5,0.44,0.0005,3.7276,cluster_3,Real Estate,13.55469301340861,0.412896294,1.397,0.6034,29.46,-15.91,Undervalued,0.0978,0.0907,0.0,15.5304,Conflicting
+TROW,15.09,-5.44,Undervalued,0.5,0.44,0.0005,3.7276,cluster_3,Financials,9.647186147186147,0.084597082,1.553,0.5498,34.56,-24.91,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+TGT,12.55,2.3,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Consumer Staples,14.851168511685117,0.1067109644399999,1.105,0.556,29.33,-14.48,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+TFC,13.93,-1.72,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Financials,12.212041884816754,0.03751498,0.861,0.5445,27.47,-15.26,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+USB,13.48,-2.24,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Financials,11.244588744588745,0.068035456,1.041,0.4416,29.32,-18.08,Undervalued,0.0978,0.0907,0.0,15.5304,Conflicting
+UPS,14.25,1.13,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Industrials,15.384146341463415,0.0,1.054,1.0,29.03,-13.65,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+VZ,11.35,1.14,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Communication Services,12.490147783251231,0.084713447,0.281,0.5037,20.91,-8.42,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+VICI,14.04,-2.81,Fairly Valued,0.5,0.44,0.0005,3.7276,cluster_3,Real Estate,11.229885057471265,0.0330826429349,0.699,0.67620003,25.49,-14.26,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+AOS,14.9,3.24,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,18.135064935064932,0.187327952,1.304,0.3584,31.08,-12.94,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ACN,22.29,-5.63,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Information Technology,16.663636363636364,0.1246547279999999,1.251,0.5017,30.83,-14.17,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ADI,35.17,23.01,Overvalued,0.2877,0.2553,0.0001,10.469,cluster_4,Information Technology,58.177007299270066,0.021706982,1.021,0.7239,28.49,29.69,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+APO,16.94,2.59,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,19.525270758122744,0.0941112910604,1.638,0.35970002,35.69,-16.16,Undervalued,0.0978,0.0907,0.0,15.5304,Conflicting
+AVY,22.77,-2.92,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Materials,19.85193621867882,0.174963471418,0.97,0.4209,27.47,-7.62,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+BKR,31.77,-8.95,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Energy,22.82307692307692,0.094035024,0.879,0.3538,27.49,-4.67,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+BALL,24.42,-5.63,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Materials,18.793939393939397,0.1221402736122,1.115,0.24239999,30.02,-11.23,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+BAC,26.94,-14.19,Undervalued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,12.745406824146984,0.0732048029566,1.263,0.28350002,32.05,-19.3,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+BLK,25.58,1.82,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,27.396205041064853,0.043914165951,1.487,0.5902,33.95,-6.55,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+BK,28.01,-12.41,Undervalued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,15.597297297297295,0.094116706,1.076,0.2703,29.83,-14.23,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+BR,15.15,5.52,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,20.66777408637874,0.246411528,0.977,0.4104,26.84,-6.17,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+CHRW,24.34,11.99,Overvalued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,36.33471074380166,0.159453795,0.903,0.5155,26.62,9.71,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+COF,42.08,12.94,Overvalued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,55.020833333333336,0.0054152289576,1.139,0.77379996,29.74,25.28,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+CARR,27.69,6.88,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,34.57396449704142,0.051074375,1.289,0.5325,31.81,2.76,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+SCHW,26.81,-6.77,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,20.036559139784945,0.138969046323,0.919,0.2323,27.77,-7.73,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+CSCO,32.5,-4.55,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Information Technology,27.94964028776979,0.097419250899,0.829,0.5899,26.31,1.64,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+C,32.62,-17.01,Undervalued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,15.611747851002864,0.0456379109999999,1.131,0.3319,30.78,-15.17,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+CFG,35.27,-20.01,Undervalued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,15.256476683937825,0.040144104,1.085,0.4456,30.07,-14.81,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+CTSH,28.49,-14.68,Undervalued,0.2877,0.2553,0.0001,10.469,cluster_4,Information Technology,13.81140350877193,0.1103653979999999,0.983,0.2719,28.67,-14.86,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+GLW,29.94,44.5,Overvalued,0.2877,0.2553,0.0001,10.469,cluster_4,Information Technology,74.43715846994535,0.05782752,1.022,0.612,28.41,46.03,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+CRH,23.45,-4.16,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Materials,19.288566243194193,0.1147127728632,1.203,0.26860002,30.97,-11.68,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+CSX,18.86,7.7,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,26.564935064935064,0.149090353,1.263,0.3377,31.05,-4.49,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+CMI,21.46,5.79,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,27.254146341463414,0.150100344,1.127,0.3727,29.5,-2.25,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+DHR,33.02,5.71,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Health Care,38.73412698412698,0.052580115,0.964,0.2545,29.0,9.73,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+DE,26.77,6.68,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,33.44920993227991,0.12414627,0.961,0.3655,28.0,5.45,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ETN,22.4,12.22,Overvalued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,34.61744966442953,0.1295649776568004,1.167,0.39810002,30.05,4.57,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+ECL,24.52,14.08,Overvalued,0.2877,0.2553,0.0001,10.469,cluster_4,Materials,38.59945130315501,0.1422785994968,0.979,0.36810002,27.98,10.62,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+EMR,29.16,5.18,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,34.338235294117645,0.045924606,1.243,0.5239,31.4,2.94,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+FAST,34.19,8.29,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,42.47706422018348,0.065649852,0.862,0.8028,26.27,16.21,Overvalued,0.0978,0.0907,0.0,15.5304,Conflicting
+FDX,22.55,-2.67,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,19.882190265486727,0.109105048,1.281,0.3132,31.75,-11.87,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+GRMN,27.91,0.19,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Consumer Discretionary,28.095459837019792,0.118381472,0.949,0.4016,27.85,0.25,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+GEN,24.31,-1.86,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Information Technology,22.45360824742268,0.13034019,1.095,0.5155,29.03,-6.58,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+GS,22.64,-6.38,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,16.259945397815912,0.100797192,1.336,0.2728,32.55,-16.29,Undervalued,0.0978,0.0907,0.0,15.5304,Conflicting
+HON,31.46,3.26,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,34.720057720057724,0.0888885490679999,0.904,0.65989995,26.98,7.74,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+HUBB,22.35,6.55,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,28.903264812575575,0.1655848789083999,0.997,0.32529998,28.07,0.83,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+IEX,32.24,-1.65,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,30.5921875,0.06911634,0.96,0.4399,28.37,2.22,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ICE,29.46,-1.7,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,27.759098786828424,0.07929672,1.051,0.3328,29.52,-1.76,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+JCI,23.5,21.6,Overvalued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,45.09764309764309,0.061076484832,1.389,0.5168,32.72,12.38,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+JPM,26.53,-12.1,Undervalued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,14.42928535732134,0.114599809103,1.059,0.2897,29.39,-14.96,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+LH,31.23,-5.52,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Health Care,25.71291866028708,0.076158723,0.974,0.2753,28.88,-3.17,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+LEN,25.56,-13.19,Undervalued,0.2877,0.2553,0.0001,10.469,cluster_4,Consumer Discretionary,12.370927318295738,0.0629945656811999,1.403,0.25059998,33.78,-21.41,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+MS,25.48,-9.74,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,15.744368266405484,0.097259606,1.207,0.3771,30.94,-15.2,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+NDAQ,27.71,0.64,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,28.34951456310679,0.100700306,1.035,0.3398,29.1,-0.75,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+NWSA,33.95,-2.87,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Communication Services,31.077922077922075,0.0468535869999999,0.969,0.2597,29.14,1.94,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+NWS,33.62,1.6,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Communication Services,35.22077922077922,0.0468535869999999,0.969,0.2597,29.12,6.1,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+NKE,43.45,-10.65,Undervalued,0.2877,0.2553,0.0001,10.469,cluster_4,Consumer Discretionary,32.7953216374269,0.010500750585,1.286,0.9415,31.16,1.64,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+NDSN,27.29,2.2,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,29.487012987012985,0.1142210009999999,0.99,0.3463,28.47,1.02,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+NSC,21.93,1.48,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,23.410980392156866,0.1109647257744,1.303,0.42349997,31.68,-8.27,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+NTRS,25.33,-9.54,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,15.787185354691074,0.087063876,1.266,0.3547,31.74,-15.95,Undervalued,0.0978,0.0907,0.0,15.5304,Conflicting
+NXPI,20.04,5.47,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Information Technology,25.51005025125628,0.101383697102,1.44,0.5102,33.04,-7.53,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PCAR,28.35,-1.96,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,26.390243902439025,0.091397306,1.046,0.2927,29.44,-3.05,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PKG,33.93,-8.17,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Materials,25.764842840512223,0.071750056,0.896,0.5828,27.32,-1.56,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PNR,21.7,1.24,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,22.94147582697201,0.130298497455,1.212,0.2545,30.92,-7.98,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+POOL,16.83,2.44,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Consumer Discretionary,19.269372693726936,0.179774831124,1.247,0.4562,30.31,-11.04,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PPG,24.42,-9.12,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Materials,15.296242774566473,0.126103691,1.123,0.4017,29.67,-14.37,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+QCOM,27.84,-0.58,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Information Technology,27.25806451612903,0.06235644,1.267,0.7097,31.09,-3.83,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+RJF,25.38,-10.85,Undervalued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,14.529814271749752,0.1370947422876,1.007,0.19940001,28.84,-14.31,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+ROK,17.21,25.54,Overvalued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,42.75085714285714,0.093306216,1.522,0.6069,33.57,9.18,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+ROP,33.79,-8.85,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Information Technology,24.93798449612403,0.060863004,0.927,0.2324,28.65,-3.71,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+LUV,45.72,8.48,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,54.20253164556962,0.004263432,1.094,0.9114,28.78,25.42,Overvalued,0.0978,0.0907,0.0,15.5304,Conflicting
+STT,24.54,-11.5,Undervalued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,13.037234042553193,0.073070488,1.416,0.3404,33.57,-20.53,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+STE,30.5,0.47,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Health Care,30.973500697350072,0.0696436019064,1.036,0.33470002,29.44,1.53,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+SYK,31.19,11.56,Overvalued,0.2877,0.2553,0.0001,10.469,cluster_4,Health Care,42.74731823599522,0.089750208,0.869,0.4048,27.24,15.51,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+SYF,13.94,-6.89,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,7.053879310344827,0.1866443519088399,1.412,0.123900004,32.91,-25.86,Undervalued,0.0978,0.0907,0.0,15.5304,Conflicting
+TEL,24.12,5.12,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Information Technology,29.24351585014409,0.0964854147806,1.245,0.40060002,31.24,-2.0,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+UNP,18.63,2.24,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,20.868223519599667,0.220418043,0.952,0.4541,26.73,-5.86,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+VMC,27.17,6.16,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Materials,33.333333333333336,0.0985223412972,1.059,0.24049999,29.61,3.72,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+DIS,20.74,-5.82,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Communication Services,14.921944035346096,0.098103816,1.443,0.1841,33.99,-19.07,Undervalued,0.0978,0.0907,0.0,15.5304,Conflicting
+WFC,29.22,-16.71,Undervalued,0.2877,0.2553,0.0001,10.469,cluster_4,Financials,12.507987220447284,0.085455888,1.071,0.2716,29.88,-17.37,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+XYL,30.16,1.22,Fairly Valued,0.2877,0.2553,0.0001,10.469,cluster_4,Industrials,31.383631713554983,0.049687528,1.169,0.4082,30.88,0.5,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+AKAM,31.01,3.03,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Information Technology,34.039087947882734,0.091730006,0.704,0.0,26.42,7.62,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+ALL,17.14,-11.69,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,5.451918024172359,0.3536465975269199,0.206,0.105100006,18.55,-13.1,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+AMGN,18.54,7.84,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Health Care,26.3829936753338,0.3512008969,0.425,0.669,19.08,7.3,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+ACGL,22.71,-14.42,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,8.292241379310346,0.19540001,0.365,0.0,22.09,-13.8,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+AJG,29.29,7.6,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,36.88501742160278,0.0377758213812,0.672,0.45299998,25.55,11.34,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+AIZ,27.0,-14.03,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,12.969303423848876,0.1281936338202,0.547,0.19370002,24.08,-11.11,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+BRK-B,31.86,-15.94,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,15.9245891073155,0.09809,0.688,0.0,26.42,-10.5,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+BIIB,19.78,1.63,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Health Care,21.41022727272727,0.07394,0.145,0.0,20.74,0.67,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+BSX,30.13,5.93,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Health Care,36.06185567010309,0.12445,0.7,0.0,26.02,10.04,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+BRO,33.35,-11.65,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,21.702531645569614,0.0904142051226,0.798,0.19459999,27.08,-5.38,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+CBOE,21.48,5.92,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,27.401151631477926,0.17307424,0.336,0.2591,21.07,6.33,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+CF,29.14,-16.87,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Materials,12.268673355629875,0.1818257723401,0.689,0.22299999,24.95,-12.68,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+CB,26.05,-13.39,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,12.66017905799922,0.122036544,0.489,0.1488,23.66,-11.0,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+CHD,24.46,9.03,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Consumer Staples,33.48675496688742,0.107358663524,0.426,0.39069998,22.36,11.13,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+CME,20.96,6.51,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,27.474439461883406,0.0814200029499999,0.26,0.44799998,20.73,6.74,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+CTVA,30.1,13.51,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Materials,43.605714285714285,0.029844,0.721,0.4,26.25,17.36,Overvalued,0.0978,0.0907,0.0,15.5304,Overvalued (Index only)
+DG,20.09,5.08,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Consumer Staples,25.17241379310345,0.097449805924,0.22,0.4076,20.25,4.92,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+DLTR,28.98,-6.86,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Consumer Staples,22.124999999999996,0.20066999,0.692,0.0,25.31,-3.19,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+EA,29.62,45.59,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Communication Services,75.21428571428571,0.071733158,0.754,0.2846,26.31,48.9,Overvalued,0.0978,0.0907,0.0,15.5304,Overvalued (Index only)
+EQT,31.96,-13.28,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Energy,18.679758308157098,0.072722518,0.722,0.1926,26.48,-7.8,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+FDS,30.21,-16.71,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,13.495225970719286,0.208707609,0.751,0.2761,25.18,-11.68,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+FOXA,26.62,-12.67,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Communication Services,13.94724220623501,0.1460404629999999,0.537,0.1319,23.95,-10.0,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+FOX,26.6,-13.87,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Communication Services,12.729016786570742,0.1460404629999999,0.537,0.1319,23.96,-11.23,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+GD,23.44,-0.39,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Industrials,23.04536616979909,0.1080139868195997,0.372,0.38830003,21.85,1.2,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+GILD,21.36,0.58,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Health Care,21.94387001477105,0.217057045,0.374,0.4661,20.55,1.39,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+GPN,34.47,-17.87,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,16.600451467268627,0.0373522324824,0.732,0.22569999,26.89,-10.29,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+GL,24.16,-14.01,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,10.149857954545457,0.1900776488235599,0.455,0.076799996,22.83,-12.68,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+HIG,25.37,-15.06,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,10.311795642374154,0.1814339701656,0.516,0.16219999,23.31,-13.0,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+HSIC,35.6,-12.27,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Health Care,23.3302752293578,0.08701,0.852,0.0,28.2,-4.87,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+HOLX,31.37,-0.03,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Health Care,31.344398340248965,0.108559996,0.728,0.0,26.54,4.8,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+HII,21.73,5.36,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Industrials,27.09344581440623,0.0804081278959999,0.28,0.35279998,21.19,5.9,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+JKHY,30.04,-5.54,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,24.501432664756447,0.1619985591432,0.726,0.33290002,25.21,-0.71,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+J,31.63,3.25,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Industrials,34.87830687830688,0.064415298,0.734,0.3377,26.24,8.64,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+JNJ,20.93,1.15,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Health Care,22.075181159420293,0.18706018932,0.326,0.466,20.35,1.73,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+LHX,26.06,16.3,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Industrials,42.35597189695551,0.0358192405427,0.606,0.56270003,24.54,17.82,Overvalued,0.0978,0.0907,0.0,15.5304,Overvalued (Index only)
+LDOS,26.25,-10.76,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Industrials,15.485637342908436,0.264937275074,0.617,0.1463,23.52,-8.03,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+LIN,32.38,0.2,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Materials,32.58139534883721,0.1049955809999999,0.797,0.4107,26.33,6.25,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+LMT,14.57,15.73,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Industrials,30.303396928804094,0.2911646430594999,0.197,0.62119997,17.31,12.99,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+L,29.61,-15.91,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,13.696361355081557,0.09134866571707,0.588,0.031400003,25.37,-11.67,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+MPC,29.6,-13.32,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Energy,16.280635400907713,0.173681554179,0.708,0.2821,25.06,-8.78,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+MRSH,29.94,-9.27,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,20.665083135391924,0.1740867119999999,0.731,0.4069,24.97,-4.3,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+MOH,27.33,-11.49,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Health Care,15.84304932735426,0.11022,0.5,0.0,24.29,-8.45,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+MNST,20.96,18.58,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Consumer Staples,39.53608247422681,0.26815,0.437,0.0,21.59,17.95,Overvalued,0.0978,0.0907,0.0,15.5304,Overvalued (Index only)
+NEM,22.63,-3.99,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Materials,18.636363636363637,0.188471631565,0.389,0.1565,21.82,-3.18,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+NOC,13.07,12.18,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Industrials,25.248368258330473,0.180787803,0.007,0.3091,17.3,7.95,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+PANW,28.04,63.95,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Information Technology,91.9888888888889,0.16259001,0.822,0.0,26.41,65.58,Overvalued,0.0978,0.0907,0.0,15.5304,Overvalued (Index only)
+PAYC,31.49,-15.18,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Industrials,16.3053152039555,0.223284048,0.812,0.1856,25.9,-9.59,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+PCG,23.34,-7.9,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Utilities,15.440677966101696,0.07337878658965,0.308,0.105900005,22.34,-6.9,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+DGX,29.15,-6.22,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Health Care,22.9337899543379,0.0944064,0.63,0.36,24.82,-1.89,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+RTX,23.51,18.14,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Industrials,41.649899396378274,0.0505653777724001,0.406,0.53830004,22.29,19.36,Overvalued,0.0978,0.0907,0.0,15.5304,Overvalued (Index only)
+REGN,24.03,-5.41,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Health Care,18.621080559575493,0.136029605849,0.397,0.0849,22.64,-4.02,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+RSG,26.4,6.28,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Industrials,32.67982456140351,0.118627088482,0.521,0.3518,23.37,9.31,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+RMD,33.21,-8.77,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Health Care,24.442136498516323,0.1993741399999999,0.887,0.2235,26.82,-2.38,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+ROL,30.8,20.83,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Industrials,51.63302752293578,0.1468967679999999,0.796,0.6228,25.21,26.42,Overvalued,0.0978,0.0907,0.0,15.5304,Overvalued (Index only)
+SYY,23.34,-0.62,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Consumer Staples,22.71967654986523,0.3507073549999999,0.595,0.5741,21.26,1.46,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+TMUS,24.17,-1.64,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Communication Services,22.53141091658084,0.1133335949999999,0.412,0.3765,22.25,0.28,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+TPL,24.85,49.76,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Energy,74.60744985673352,0.257797728,0.731,0.3061,24.09,50.52,Overvalued,0.0978,0.0907,0.0,15.5304,Overvalued (Index only)
+TSCO,27.68,-3.24,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Consumer Discretionary,24.436893203883496,0.250048244932,0.698,0.4466,23.72,0.72,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+TRV,25.25,-14.22,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,11.025884068538096,0.174161377586,0.502,0.1586,23.24,-12.21,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+VRTX,19.66,12.92,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Health Care,32.58289817232376,0.22541,0.315,0.0,20.8,11.78,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+WRB,21.9,-6.65,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,15.249438202247193,0.181496109213,0.336,0.0787,21.58,-6.33,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+WMT,28.53,17.3,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Consumer Staples,45.83150183150183,0.143250779,0.657,0.3443,24.55,21.28,Overvalued,0.0978,0.0907,0.0,15.5304,Overvalued (Index only)
+WM,25.94,9.27,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Industrials,35.20777279521674,0.1507072,0.533,0.4925,22.8,12.41,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+WTW,28.05,-10.27,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Financials,17.778733866011063,0.1553280140076,0.622,0.22629999,24.47,-6.69,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+ZBH,29.22,-3.39,Model Insignificant,0.0869,0.042,0.1332,15.3372,cluster_5,Health Care,25.83098591549296,0.0408503028801999,0.591,0.27040002,25.16,0.67,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued (Index only)
+MMM,22.65,3.27,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Industrials,25.918196994991657,0.3875466556503,1.131,0.48669997,26.83,-0.91,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ABNB,30.58,2.28,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Consumer Discretionary,32.86352357320099,0.30233,1.163,0.0,29.22,3.64,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ALLE,22.45,-2.62,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Industrials,19.829301075268816,0.2618976719999999,1.008,0.2742,27.36,-7.53,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+GOOGL,28.98,-0.58,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Communication Services,28.403330249768732,0.3296285891242001,1.112,0.076799996,28.23,0.17,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+GOOG,28.98,-0.56,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Communication Services,28.419444444444444,0.3296285891242001,1.112,0.076799996,28.23,0.19,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+AXP,24.76,-5.04,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Financials,19.7234873129473,0.267415064,1.152,0.2133,28.99,-9.27,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+AMP,28.06,-15.48,Undervalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Financials,12.580253723110868,0.5003406519999999,1.271,0.1731,28.18,-15.6,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+APH,27.4,13.54,Overvalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Information Technology,40.94011976047905,0.2862954226851,1.214,0.22309999,29.34,11.6,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+AON,24.21,-5.34,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Financials,18.868900646678423,0.3891326,0.828,0.171,24.42,-5.55,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+AMAT,32.41,3.06,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Information Technology,35.474871794871795,0.317666162,1.634,0.1826,33.62,1.85,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ANET,32.14,18.63,Overvalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Information Technology,50.77090909090909,0.314,1.46,0.0,32.13,18.64,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+ADSK,32.05,16.49,Overvalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Information Technology,48.53728489483747,0.39675,1.467,0.0,31.32,17.22,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+CAT,29.83,8.33,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Industrials,38.16187433439829,0.30011177,1.531,0.3105,32.36,5.8,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+CDW,20.71,-6.03,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Information Technology,14.68440594059406,0.2968242,1.046,0.31,27.35,-12.67,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+CHTR,31.35,-25.29,Undervalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Communication Services,6.057166528583265,0.28667998,1.023,0.0,28.09,-22.03,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+CMG,28.14,2.32,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Consumer Discretionary,30.456140350877195,0.47355,1.019,0.0,25.89,4.57,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+CTAS,23.45,19.13,Overvalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Industrials,42.57700650759219,0.2761721353208,0.944,0.36360002,26.2,16.38,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+FIX,31.99,15.85,Overvalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Industrials,47.8430152143845,0.45915365635,1.602,0.0675,31.9,15.94,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+CPAY,28.28,-6.4,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Financials,21.88031914893617,0.29071,0.819,0.0,25.74,-3.86,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+DECK,30.77,-15.82,Undervalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Consumer Discretionary,14.951704545454549,0.39688,1.161,0.0,28.4,-13.45,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+DAL,27.35,-19.61,Undervalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Industrials,7.737597911227154,0.252532467,1.35,0.0881,31.66,-23.92,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+DXCM,33.81,-1.37,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Health Care,32.4354066985646,0.34497002,1.526,0.0,32.67,-0.23,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+EBAY,26.69,-5.36,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Consumer Discretionary,21.328638497652584,0.297243619,1.371,0.2723,30.89,-9.56,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+EME,29.38,-3.74,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Industrials,25.642679900744415,0.37123605,1.14,0.0355,28.23,-2.59,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+EXPE,30.06,-6.42,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Consumer Discretionary,23.63877551020408,0.4073359728672,1.41,0.16309999,30.46,-6.82,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+EXPD,24.88,-1.12,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Industrials,23.75966386554622,0.262614572,1.107,0.2588,28.43,-4.67,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+GE,29.78,10.68,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Industrials,40.46096654275093,0.3669660164691999,1.369,0.17889999,30.24,10.22,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+HD,20.68,4.45,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Consumer Discretionary,25.13370865587614,0.514487435,1.044,0.6465,24.16,0.97,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+HWM,27.79,40.65,Overvalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Industrials,68.43935309973045,0.2683246032177199,1.188,0.118599996,29.37,39.07,Overvalued,0.0978,0.0907,0.0,15.5304,Strong Overvalued
+ITW,20.99,5.06,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Industrials,26.05243088655863,0.3815259567967984,1.123,0.59290004,26.54,-0.49,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+INCY,29.09,-14.11,Undervalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Health Care,14.97971918876755,0.2987,0.844,0.0,26.0,-11.02,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+JBL,28.98,10.39,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Information Technology,39.36520376175549,0.4542707045405399,1.183,0.050100002,27.62,11.75,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+LRCX,31.83,12.46,Overvalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Information Technology,44.28600823045267,0.5237332134435,1.787,0.20120001,32.84,11.45,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+LVS,21.09,2.02,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Consumer Discretionary,23.11063829787234,0.420895935,0.888,0.4255,24.06,-0.95,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+LULU,29.71,-18.14,Undervalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Consumer Discretionary,11.573713490959666,0.41017,1.013,0.0,26.72,-15.15,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+META,30.48,-2.62,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Communication Services,27.856473594548554,0.2753472310238,1.279,0.08939999,30.55,-2.69,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+MSFT,25.92,-0.54,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Information Technology,25.37585991244528,0.2707259328169002,1.108,0.21280001,28.47,-3.09,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+MCO,29.38,3.73,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Financials,33.10614934114202,0.450003422,1.442,0.2751,29.97,3.14,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+NFLX,34.58,3.74,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Communication Services,38.31620553359684,0.42762002,1.714,0.0,33.75,4.57,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+NRG,23.72,15.07,Overvalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Utilities,38.7875,0.2331258392219999,1.265,0.4389,29.89,8.9,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+NVR,30.15,-14.62,Undervalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Consumer Discretionary,15.527973628788573,0.33185002,1.036,0.0,27.7,-12.17,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+ORCL,30.32,-2.24,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Information Technology,28.082706766917298,0.4437681678052,1.648,0.35709998,32.14,-4.06,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+PYPL,28.76,-20.44,Undervalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Financials,8.321626617375232,0.25065543173932,1.459,0.025899999,33.04,-24.72,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+RL,28.77,-5.24,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Consumer Discretionary,23.532970768184907,0.2564511453845999,1.488,0.24229999,32.62,-9.09,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ROST,24.77,7.39,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Consumer Discretionary,32.16465256797583,0.276882222,0.98,0.2451,26.93,5.23,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+RCL,34.08,-15.83,Undervalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Consumer Discretionary,18.24775928297055,0.370297098,1.926,0.2242,36.41,-18.16,Undervalued,0.0978,0.0907,0.0,15.5304,Strong Undervalued
+SHW,27.44,4.72,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Materials,32.164556962025316,0.41098572,1.244,0.308,28.18,3.98,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+TRGP,19.06,8.32,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Energy,27.381625441696112,0.2868601332762,0.853,0.44169998,24.99,2.39,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+TJX,21.71,11.05,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Consumer Discretionary,32.75770020533881,0.390960948,0.736,0.3388,22.84,9.92,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+TT,25.88,7.12,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Industrials,33.00380517503805,0.263828884,1.188,0.2861,29.18,3.82,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+UBER,31.22,-15.92,Undervalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Industrials,15.298097251585622,0.39925998,1.215,0.0,28.95,-13.65,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+ULTA,27.0,-2.18,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Consumer Discretionary,24.817101226993863,0.47967,0.847,0.0,24.05,0.77,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+VLTO,27.75,-3.34,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Industrials,24.412234042553195,0.320342946,1.106,0.1223,28.17,-3.76,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+V,23.4,6.1,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Financials,29.49624765478424,0.415931386,0.791,0.2291,23.48,6.02,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+GWW,26.48,4.77,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Industrials,31.2542372881356,0.346019078988,1.092,0.2494,27.39,3.86,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+WAT,31.34,-3.49,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Health Care,27.846654275092934,0.29279,1.203,0.0,29.78,-1.93,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+WDC,37.06,-11.87,Undervalued,0.1092,0.0607,0.0929,11.1838,cluster_7,Information Technology,25.186376537369917,0.398634318,1.853,0.0307,35.68,-10.49,Fairly Valued,0.0978,0.0907,0.0,15.5304,Conflicting
+WSM,29.5,-8.71,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Consumer Discretionary,20.79359823399558,0.409190669433,1.558,0.2811,31.8,-11.01,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
+ZTS,22.77,-2.76,Fairly Valued,0.1092,0.0607,0.0929,11.1838,cluster_7,Health Care,20.014950166112957,0.4406945628016,0.954,0.33220002,24.84,-4.83,Fairly Valued,0.0978,0.0907,0.0,15.5304,Fairly Valued
