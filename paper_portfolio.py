@@ -421,3 +421,145 @@ else:
               delta=f"{'Outperformed' if avg_excess and avg_excess > 0 else 'Underperformed'}")
     avg_days = closed_pos["Holding Days"].mean()
     c4.metric("Avg Holding Period", f"{avg_days:.0f} days" if pd.notna(avg_days) else "n/a")
+
+    # ── Win rate by exit signal ───────────────────────────────────────────
+    st.markdown("## Win Rate by Exit Signal")
+    st.markdown(
+        "<p style='font-family:IBM Plex Mono,monospace;font-size:0.75rem;color:#4a6fa5;"
+        "margin-bottom:1rem'>Win rate and average excess return broken down by the signal "
+        "that triggered the position close. Populates meaningfully with 50+ closed positions.</p>",
+        unsafe_allow_html=True,
+    )
+
+    if "Exit Signal" in closed_pos.columns and not closed_pos["Exit Signal"].isna().all():
+        signal_groups = []
+        for sig, grp in closed_pos.groupby("Exit Signal"):
+            n = len(grp)
+            wins = (grp["Excess Return"] > 0).sum()
+            wr = wins / n * 100 if n > 0 else None
+            avg_exc = grp["Excess Return"].mean()
+            avg_hold = grp["Holding Days"].mean() if "Holding Days" in grp.columns else None
+            signal_groups.append({
+                "Exit Signal": sig,
+                "Positions": n,
+                "Wins": int(wins),
+                "Win Rate": wr,
+                "Avg Excess Return": avg_exc,
+                "Avg Holding Days": avg_hold,
+            })
+        sig_df = pd.DataFrame(signal_groups).sort_values("Positions", ascending=False)
+
+        sig_col_defs = [
+            ("Exit Signal",       lambda r: f"<td style='padding:7px 10px;color:#f39c12;white-space:nowrap'>{r['Exit Signal']}</td>"),
+            ("Positions",         lambda r: f"<td style='padding:7px 10px;text-align:center;color:#8a9bb5'>{r['Positions']}</td>"),
+            ("Wins",              lambda r: f"<td style='padding:7px 10px;text-align:center;color:#2ecc71'>{r['Wins']}</td>"),
+            ("Win Rate",          lambda r: f"<td style='padding:7px 10px;text-align:right;color:{'#2ecc71' if r['Win Rate'] and r['Win Rate'] >= 50 else '#e74c3c'}'>{fmt_pct(r['Win Rate'], 1)}</td>"),
+            ("Avg Excess Return", lambda r: f"<td style='padding:7px 10px;text-align:right;color:{'#2ecc71' if pd.notna(r['Avg Excess Return']) and r['Avg Excess Return'] > 0 else '#e74c3c'}'>{fmt_pct(r['Avg Excess Return'])}</td>"),
+            ("Avg Holding Days",  lambda r: f"<td style='padding:7px 10px;text-align:center;color:#8a9bb5'>{r['Avg Holding Days']:.0f}d" if pd.notna(r.get('Avg Holding Days')) else "<td style='padding:7px 10px;color:#4a6a8a'>n/a</td>"),
+        ]
+        st.markdown(build_html_table(sig_df, sig_col_defs, max_height="300px"), unsafe_allow_html=True)
+    else:
+        st.markdown(
+            "<p style='font-family:IBM Plex Mono,monospace;font-size:0.78rem;color:#4a6fa5'>"
+            "No exit signal data available yet.</p>",
+            unsafe_allow_html=True,
+        )
+
+    # ── Win rate by holding period ────────────────────────────────────────
+    st.markdown("## Win Rate by Holding Period")
+    st.markdown(
+        "<p style='font-family:IBM Plex Mono,monospace;font-size:0.75rem;color:#4a6fa5;"
+        "margin-bottom:1rem'>Positions bucketed by how long they were held before closing.</p>",
+        unsafe_allow_html=True,
+    )
+
+    if "Holding Days" in closed_pos.columns and not closed_pos["Holding Days"].isna().all():
+        def holding_bucket(days):
+            if pd.isna(days):
+                return "Unknown"
+            if days <= 14:
+                return "0-14 days"
+            elif days <= 28:
+                return "15-28 days"
+            elif days <= 60:
+                return "29-60 days"
+            else:
+                return "60+ days"
+
+        hold_df = closed_pos.copy()
+        hold_df["Holding Bucket"] = hold_df["Holding Days"].apply(holding_bucket)
+        bucket_order = ["0-14 days", "15-28 days", "29-60 days", "60+ days", "Unknown"]
+
+        hold_groups = []
+        for bucket in bucket_order:
+            grp = hold_df[hold_df["Holding Bucket"] == bucket]
+            if grp.empty:
+                continue
+            n = len(grp)
+            wins = (grp["Excess Return"] > 0).sum()
+            wr = wins / n * 100 if n > 0 else None
+            avg_exc = grp["Excess Return"].mean()
+            hold_groups.append({
+                "Holding Period": bucket,
+                "Positions": n,
+                "Wins": int(wins),
+                "Win Rate": wr,
+                "Avg Excess Return": avg_exc,
+            })
+        hold_summary = pd.DataFrame(hold_groups)
+
+        hold_col_defs = [
+            ("Holding Period",    lambda r: f"<td style='padding:7px 10px;color:#7aaac8;white-space:nowrap'>{r['Holding Period']}</td>"),
+            ("Positions",         lambda r: f"<td style='padding:7px 10px;text-align:center;color:#8a9bb5'>{r['Positions']}</td>"),
+            ("Wins",              lambda r: f"<td style='padding:7px 10px;text-align:center;color:#2ecc71'>{r['Wins']}</td>"),
+            ("Win Rate",          lambda r: f"<td style='padding:7px 10px;text-align:right;color:{'#2ecc71' if r['Win Rate'] and r['Win Rate'] >= 50 else '#e74c3c'}'>{fmt_pct(r['Win Rate'], 1)}</td>"),
+            ("Avg Excess Return", lambda r: f"<td style='padding:7px 10px;text-align:right;color:{'#2ecc71' if pd.notna(r['Avg Excess Return']) and r['Avg Excess Return'] > 0 else '#e74c3c'}'>{fmt_pct(r['Avg Excess Return'])}</td>"),
+        ]
+        st.markdown(build_html_table(hold_summary, hold_col_defs, max_height="300px"), unsafe_allow_html=True)
+    else:
+        st.markdown(
+            "<p style='font-family:IBM Plex Mono,monospace;font-size:0.78rem;color:#4a6fa5'>"
+            "No holding period data available yet.</p>",
+            unsafe_allow_html=True,
+        )
+
+    # ── Win rate by cluster ───────────────────────────────────────────────
+    st.markdown("## Win Rate by Cluster")
+    st.markdown(
+        "<p style='font-family:IBM Plex Mono,monospace;font-size:0.75rem;color:#4a6fa5;"
+        "margin-bottom:1rem'>Which clusters are generating reliable signals. "
+        "Clusters 0 and 1 have insignificant regressions and may show lower win rates over time.</p>",
+        unsafe_allow_html=True,
+    )
+
+    cluster_col = "Source Cluster" if "Source Cluster" in closed_pos.columns else None
+    if cluster_col and not closed_pos[cluster_col].isna().all():
+        cluster_groups = []
+        for clust, grp in closed_pos.groupby(cluster_col):
+            n = len(grp)
+            wins = (grp["Excess Return"] > 0).sum()
+            wr = wins / n * 100 if n > 0 else None
+            avg_exc = grp["Excess Return"].mean()
+            cluster_groups.append({
+                "Cluster": clust,
+                "Positions": n,
+                "Wins": int(wins),
+                "Win Rate": wr,
+                "Avg Excess Return": avg_exc,
+            })
+        clust_df = pd.DataFrame(cluster_groups).sort_values("Cluster")
+
+        clust_col_defs = [
+            ("Cluster",           lambda r: f"<td style='padding:7px 10px;color:#c9d1e0'>Cluster {int(r['Cluster']) if pd.notna(r['Cluster']) else r['Cluster']}</td>"),
+            ("Positions",         lambda r: f"<td style='padding:7px 10px;text-align:center;color:#8a9bb5'>{r['Positions']}</td>"),
+            ("Wins",              lambda r: f"<td style='padding:7px 10px;text-align:center;color:#2ecc71'>{r['Wins']}</td>"),
+            ("Win Rate",          lambda r: f"<td style='padding:7px 10px;text-align:right;color:{'#2ecc71' if r['Win Rate'] and r['Win Rate'] >= 50 else '#e74c3c'}'>{fmt_pct(r['Win Rate'], 1)}</td>"),
+            ("Avg Excess Return", lambda r: f"<td style='padding:7px 10px;text-align:right;color:{'#2ecc71' if pd.notna(r['Avg Excess Return']) and r['Avg Excess Return'] > 0 else '#e74c3c'}'>{fmt_pct(r['Avg Excess Return'])}</td>"),
+        ]
+        st.markdown(build_html_table(clust_df, clust_col_defs, max_height="300px"), unsafe_allow_html=True)
+    else:
+        st.markdown(
+            "<p style='font-family:IBM Plex Mono,monospace;font-size:0.78rem;color:#4a6fa5'>"
+            "No cluster data available yet.</p>",
+            unsafe_allow_html=True,
+        )
