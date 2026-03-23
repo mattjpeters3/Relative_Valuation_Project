@@ -94,7 +94,7 @@ def run_valuation() -> None:
     clear_folder(
         PREDICTED_PE_RATIO_RESULTS,
         "predicted PE results",
-        preserve=["signal_history.csv", "paper_positions.csv"],
+        preserve=["signal_history.csv", "paper_positions.csv", "paper_positions_cluster.csv"],
     )
 
     from predicted_ratios.predicted_pe_ratio import (
@@ -165,7 +165,6 @@ if __name__ == "__main__":
     else:
         print(f"Unknown choice '{choice}'. Valid options: 1, 2, 3, all, q")
         sys.exit(1)
-
 
 """
 git add . 
