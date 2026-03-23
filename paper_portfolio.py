@@ -185,6 +185,48 @@ if all_positions.empty:
 open_pos   = all_positions[all_positions["Status"] == "Open"].copy()
 closed_pos = all_positions[all_positions["Status"] == "Closed"].copy()
 
+# ---------------------------------------------------------------------------
+# SIDEBAR FILTER — exclude early testing period
+# ---------------------------------------------------------------------------
+
+with st.sidebar:
+    st.markdown(
+        "<p style='font-family:IBM Plex Mono,monospace;font-size:0.75rem;"
+        "color:#4a7fa5;letter-spacing:0.06em;margin-bottom:0.5rem'>"
+        "FILTER</p>",
+        unsafe_allow_html=True,
+    )
+
+    all_dates = all_positions["Entry Date"].dropna()
+    min_date  = all_dates.min().date() if not all_dates.empty else datetime.date(2026, 1, 1)
+    max_date  = datetime.date.today()
+
+    filter_from = st.date_input(
+        "Exclude positions opened before",
+        value=min_date,
+        min_value=min_date,
+        max_value=max_date,
+        help="Set this to exclude early testing runs from the win rate breakdowns.",
+    )
+    st.markdown(
+        "<p style='font-family:IBM Plex Mono,monospace;font-size:0.68rem;"
+        "color:#2a4a6a;margin-top:0.25rem'>"
+        "Use this to exclude early testing runs that used daily cadence "
+        "rather than the normal weekly schedule.</p>",
+        unsafe_allow_html=True,
+    )
+
+    filter_ts   = pd.Timestamp(filter_from)
+    closed_pos  = closed_pos[closed_pos["Entry Date"] >= filter_ts]
+    # Open positions are always shown in full regardless of filter
+    st.markdown("---")
+    st.markdown(
+        f"<p style='font-family:IBM Plex Mono,monospace;font-size:0.72rem;color:#4a6fa5'>"
+        f"Showing <strong style='color:#c9d1e0'>{len(closed_pos)}</strong> closed position(s) "
+        f"from {filter_from.strftime('%b %d, %Y')} onward.</p>",
+        unsafe_allow_html=True,
+    )
+
 # Fetch live prices for open positions
 live_prices = {}
 if not open_pos.empty:
