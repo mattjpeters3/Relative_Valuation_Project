@@ -524,6 +524,12 @@ else:
         )
 
     # ── Win rate by cluster ───────────────────────────────────────────────
+    def _fmt_cluster(val):
+        try:
+            return str(int(float(val)))
+        except (TypeError, ValueError):
+            return str(val) if val is not None else "n/a"
+
     st.markdown("## Win Rate by Cluster")
     st.markdown(
         "<p style='font-family:IBM Plex Mono,monospace;font-size:0.75rem;color:#4a6fa5;"
@@ -550,7 +556,7 @@ else:
         clust_df = pd.DataFrame(cluster_groups).sort_values("Cluster")
 
         clust_col_defs = [
-            ("Cluster",           lambda r: f"<td style='padding:7px 10px;color:#c9d1e0'>Cluster {int(float(r['Cluster'])) if pd.notna(r['Cluster']) else 'n/a'}</td>"),
+            ("Cluster",           lambda r: f"<td style='padding:7px 10px;color:#c9d1e0'>Cluster {_fmt_cluster(r['Cluster'])}</td>"),
             ("Positions",         lambda r: f"<td style='padding:7px 10px;text-align:center;color:#8a9bb5'>{r['Positions']}</td>"),
             ("Wins",              lambda r: f"<td style='padding:7px 10px;text-align:center;color:#2ecc71'>{r['Wins']}</td>"),
             ("Win Rate",          lambda r: f"<td style='padding:7px 10px;text-align:right;color:{'#2ecc71' if r['Win Rate'] and r['Win Rate'] >= 50 else '#e74c3c'}'>{fmt_pct(r['Win Rate'], 1)}</td>"),
