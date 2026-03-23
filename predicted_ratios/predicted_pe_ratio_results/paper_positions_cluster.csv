@@ -1,58 +1,20 @@
 Ticker,Status,Entry Date,Entry Price,Entry SP500,Exit Date,Exit Price,Exit SP500,Exit Signal,Holding Days,Stock Return,SP500 Return,Excess Return,Dollar PnL,Sector,Source Cluster
-TROW,Open,2026-03-23,88.4199,6608.1602,,,,,,,,,,Financials,cluster_5
-MTB,Open,2026-03-23,201.95,6608.1602,,,,,,,,,,Financials,cluster_3
-AES,Open,2026-03-23,14.1,6608.1602,,,,,,,,,,Utilities,cluster_5
-LULU,Open,2026-03-23,165.35,6608.1602,,,,,,,,,,Consumer Discretionary,cluster_2
-EIX,Open,2026-03-23,70.92,6608.1602,,,,,,,,,,Utilities,cluster_5
-BK,Open,2026-03-23,116.7927,6608.1602,,,,,,,,,,Financials,cluster_1
-MU,Open,2026-03-23,405.725,6608.1602,,,,,,,,,,Information Technology,cluster_2
-PYPL,Open,2026-03-23,45.68,6608.1602,,,,,,,,,,Financials,cluster_2
-RJF,Open,2026-03-23,146.185,6608.1602,,,,,,,,,,Financials,cluster_1
-INCY,Open,2026-03-23,91.0091,6608.1602,,,,,,,,,,Health Care,cluster_2
-NVR,Open,2026-03-23,6581.5601,6608.1602,,,,,,,,,,Consumer Discretionary,cluster_2
-BAC,Open,2026-03-23,47.805,6608.1602,,,,,,,,,,Financials,cluster_1
-DVN,Open,2026-03-23,48.495,6608.1602,,,,,,,,,,Energy,cluster_7
-RCL,Open,2026-03-23,277.275,6608.1602,,,,,,,,,,Consumer Discretionary,cluster_2
-JPM,Open,2026-03-23,291.77,6608.1602,,,,,,,,,,Financials,cluster_1
-PFG,Open,2026-03-23,86.79,6608.1602,,,,,,,,,,Financials,cluster_3
-GPN,Open,2026-03-23,71.29,6608.1602,,,,,,,,,,Financials,cluster_7
-LEN,Open,2026-03-23,94.015,6608.1602,,,,,,,,,,Consumer Discretionary,cluster_1
-GM,Open,2026-03-23,76.055,6608.1602,,,,,,,,,,Consumer Discretionary,cluster_4
-TXT,Open,2026-03-23,89.735,6608.1602,,,,,,,,,,Industrials,cluster_4
-BRK-B,Open,2026-03-23,481.55,6608.1602,,,,,,,,,,Financials,cluster_7
-UBER,Open,2026-03-23,75.5246,6608.1602,,,,,,,,,,Industrials,cluster_2
-NUE,Open,2026-03-23,161.43,6608.1602,,,,,,,,,,Materials,cluster_4
-FDS,Open,2026-03-23,211.56,6608.1602,,,,,,,,,,Financials,cluster_7
-ELV,Open,2026-03-23,290.315,6608.1602,,,,,,,,,,Health Care,cluster_3
-PRU,Open,2026-03-23,94.83,6608.1602,,,,,,,,,,Financials,cluster_5
-UHS,Open,2026-03-23,189.76,6608.1602,,,,,,,,,,Health Care,cluster_4
-STT,Open,2026-03-23,123.86,6608.1602,,,,,,,,,,Financials,cluster_1
-SMCI,Open,2026-03-23,21.845,6608.1602,,,,,,,,,,Information Technology,cluster_4
-PHM,Open,2026-03-23,119.05,6608.1602,,,,,,,,,,Consumer Discretionary,cluster_4
-CHTR,Open,2026-03-23,217.68,6608.1602,,,,,,,,,,Communication Services,cluster_2
-STLD,Open,2026-03-23,168.11,6608.1602,,,,,,,,,,Materials,cluster_4
-T,Open,2026-03-23,28.775,6608.1602,,,,,,,,,,Communication Services,cluster_3
-CINF,Open,2026-03-23,161.1,6608.1602,,,,,,,,,,Financials,cluster_3
-HAL,Open,2026-03-23,37.325,6608.1602,,,,,,,,,,Energy,cluster_1
-DAL,Open,2026-03-23,65.57,6608.1602,,,,,,,,,,Industrials,cluster_2
-AIG,Open,2026-03-23,75.22,6608.1602,,,,,,,,,,Financials,cluster_3
-MET,Open,2026-03-23,69.55,6608.1602,,,,,,,,,,Financials,cluster_3
-BLDR,Open,2026-03-23,85.32,6608.1602,,,,,,,,,,Industrials,cluster_4
-CMCSA,Open,2026-03-23,29.005,6608.1602,,,,,,,,,,Communication Services,cluster_5
-CTSH,Open,2026-03-23,62.325,6608.1602,,,,,,,,,,Information Technology,cluster_1
-L,Open,2026-03-23,106.795,6608.1602,,,,,,,,,,Financials,cluster_7
-EXE,Open,2026-03-23,107.685,6608.1602,,,,,,,,,,Energy,cluster_3
-NKE,Open,2026-03-23,53.125,6608.1602,,,,,,,,,,Consumer Discretionary,cluster_1
-EPAM,Open,2026-03-23,137.85,6608.1602,,,,,,,,,,Information Technology,cluster_4
-ZBRA,Open,2026-03-23,209.03,6608.1602,,,,,,,,,,Information Technology,cluster_4
-ESS,Open,2026-03-23,245.64,6608.1602,,,,,,,,,,Real Estate,cluster_5
-EG,Open,2026-03-23,325.185,6608.1602,,,,,,,,,,Financials,cluster_3
-C,Open,2026-03-23,112.03,6608.1602,,,,,,,,,,Financials,cluster_1
-CFG,Open,2026-03-23,,6608.1602,,,,,,,,,,Financials,cluster_1
-WFC,Open,2026-03-23,78.73,6608.1602,,,,,,,,,,Financials,cluster_1
-DECK,Open,2026-03-23,103.06,6608.1602,,,,,,,,,,Consumer Discretionary,cluster_2
-AMP,Open,2026-03-23,447.045,6608.1602,,,,,,,,,,Financials,cluster_2
-PNC,Open,2026-03-23,204.855,6608.1602,,,,,,,,,,Financials,cluster_3
-PAYC,Open,2026-03-23,127.4707,6608.1602,,,,,,,,,,Industrials,cluster_7
-ALGN,Open,2026-03-23,181.23,6608.1602,,,,,,,,,,Health Care,cluster_4
-FSLR,Open,2026-03-23,189.82,6608.1602,,,,,,,,,,Information Technology,cluster_4
+CMCSA,Open,2026-03-23,28.945,6600.6802,,,,,,,,,,Communication Services,cluster_5
+UHS,Open,2026-03-23,189.74,6600.6802,,,,,,,,,,Health Care,cluster_4
+BAC,Open,2026-03-23,47.69,6600.6802,,,,,,,,,,Financials,cluster_1
+LEN,Open,2026-03-23,94.32,6600.6802,,,,,,,,,,Consumer Discretionary,cluster_1
+TROW,Open,2026-03-23,88.275,6600.6802,,,,,,,,,,Financials,cluster_5
+EIX,Open,2026-03-23,70.55,6600.6802,,,,,,,,,,Utilities,cluster_5
+PRU,Open,2026-03-23,94.6519,6600.6802,,,,,,,,,,Financials,cluster_5
+RCL,Open,2026-03-23,277.4064,6600.6802,,,,,,,,,,Consumer Discretionary,cluster_2
+CHTR,Open,2026-03-23,217.4,6600.6802,,,,,,,,,,Communication Services,cluster_2
+STT,Open,2026-03-23,123.46,6600.6802,,,,,,,,,,Financials,cluster_1
+PNC,Open,2026-03-23,204.495,6600.6802,,,,,,,,,,Financials,cluster_3
+FSLR,Open,2026-03-23,189.79,6600.6802,,,,,,,,,,Information Technology,cluster_4
+PHM,Open,2026-03-23,119.29,6600.6802,,,,,,,,,,Consumer Discretionary,cluster_4
+DAL,Open,2026-03-23,65.4307,6600.6802,,,,,,,,,,Industrials,cluster_2
+SMCI,Open,2026-03-23,21.811,6600.6802,,,,,,,,,,Information Technology,cluster_4
+AES,Open,2026-03-23,14.1,6600.6802,,,,,,,,,,Utilities,cluster_5
+WFC,Open,2026-03-23,78.61,6600.6802,,,,,,,,,,Financials,cluster_1
+PYPL,Open,2026-03-23,45.62,6600.6802,,,,,,,,,,Financials,cluster_2
+EPAM,Open,2026-03-23,137.19,6600.6802,,,,,,,,,,Information Technology,cluster_4

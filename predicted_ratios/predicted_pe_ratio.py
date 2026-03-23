@@ -588,10 +588,10 @@ def combine_and_filter_results():
             except Exception:
                 pass
 
-        # Current tickers where cluster signal alone says Undervalued or Fairly Valued/Overvalued
-        # Open trigger: cluster signal == Undervalued (regardless of index)
+        # Open trigger: Strong Undervalued only (cluster + index both agree) — identical
+        # to the main tracker. The difference is purely in the close logic below.
         cluster_uv_tickers = set(
-            master_df[master_df["Valuation Signal (Cluster)"] == "Undervalued"]["Ticker"].tolist()
+            master_df[master_df[sig_col] == "Strong Undervalued"]["Ticker"].tolist()
         )
 
         pos_cols = [
