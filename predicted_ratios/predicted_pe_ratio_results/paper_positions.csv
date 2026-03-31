@@ -14,6 +14,7 @@ UHS,Open,2026-03-10,186.53,6781.48,,,,,,,,,,Health Care,cluster_0
 PRU,Open,2026-03-10,95.47,6781.48,,,,,,,,,,Financials,cluster_6
 PNC,Open,2026-03-10,206.39,6781.48,,,,,,,,,,Financials,cluster_2
 SMCI,Open,2026-03-23,21.55,6583.9302,,,,,,,,,,Information Technology,cluster_4
+FITB,Open,2026-03-31,45.2535,6436.1401,,,,,,,,,,Financials,cluster_3
 RCL,Closed,2026-03-11,282.92,6751.6802,2026-03-31,266.87,6436.1401,Undervalued (Index only),20.0,-5.673,-4.6735,-0.9995,-56.73,Consumer Discretionary,cluster_7
 PYPL,Closed,2026-03-11,45.22,6751.6802,2026-03-31,44.965,6436.1401,Undervalued (Index only),20.0,-0.5639,-4.6735,4.1096,-5.64,Financials,cluster_7
 CHTR,Closed,2026-03-11,224.71,6751.6802,2026-03-31,211.975,6436.1401,Undervalued (Index only),20.0,-5.6673,-4.6735,-0.9938,-56.67,Communication Services,cluster_7
@@ -43,4 +44,3 @@ AES,Closed,2026-03-10,14.245,6818.9902,2026-03-10,14.21,6781.48,Conflicting,0.0,
 FSLR,Closed,2026-03-10,198.006,6818.9902,2026-03-10,197.8,6781.48,Fairly Valued,0.0,-0.104,-0.5501,0.446,-1.04,Information Technology,cluster_0
 LEN,Closed,2026-03-10,99.75,6818.9902,2026-03-10,98.72,6781.48,Conflicting,0.0,-1.0326,-0.5501,-0.4825,-10.33,Consumer Discretionary,cluster_7
 TROW,Closed,2026-03-10,90.4,6818.9902,2026-03-10,89.14,6781.48,Conflicting,0.0,-1.3938,-0.5501,-0.8437,-13.94,Financials,cluster_6
-FITB,Open,2026-03-31,45.2535,6436.1401,,,,,,,,,,Financials,cluster_3

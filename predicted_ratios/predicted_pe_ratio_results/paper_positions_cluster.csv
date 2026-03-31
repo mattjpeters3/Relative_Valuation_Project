@@ -14,8 +14,8 @@ SMCI,Open,2026-03-23,21.811,6600.6802,,,,,,,,,,Information Technology,cluster_4
 AES,Open,2026-03-23,14.1,6600.6802,,,,,,,,,,Utilities,cluster_5
 WFC,Open,2026-03-23,78.61,6600.6802,,,,,,,,,,Financials,cluster_1
 EPAM,Open,2026-03-23,137.19,6600.6802,,,,,,,,,,Information Technology,cluster_4
-RCL,Closed,2026-03-23,277.4064,6600.6802,2026-03-31,266.87,6436.1401,Model Insignificant,8,-3.7982,-2.4928,-1.3054,-37.98,Consumer Discretionary,cluster_2
-CHTR,Closed,2026-03-23,217.4,6600.6802,2026-03-31,211.975,6436.1401,Model Insignificant,8,-2.4954,-2.4928,-0.0026,-24.95,Communication Services,cluster_2
-DAL,Closed,2026-03-23,65.4307,6600.6802,2026-03-31,64.51,6436.1401,Model Insignificant,8,-1.4071,-2.4928,1.0856,-14.07,Industrials,cluster_2
-PYPL,Closed,2026-03-23,45.62,6600.6802,2026-03-31,44.965,6436.1401,Model Insignificant,8,-1.4358,-2.4928,1.057,-14.36,Financials,cluster_2
 FITB,Open,2026-03-31,45.2535,6436.1401,,,,,,,,,,Financials,cluster_3
+RCL,Closed,2026-03-23,277.4064,6600.6802,2026-03-31,266.87,6436.1401,Model Insignificant,8.0,-3.7982,-2.4928,-1.3054,-37.98,Consumer Discretionary,cluster_2
+CHTR,Closed,2026-03-23,217.4,6600.6802,2026-03-31,211.975,6436.1401,Model Insignificant,8.0,-2.4954,-2.4928,-0.0026,-24.95,Communication Services,cluster_2
+DAL,Closed,2026-03-23,65.4307,6600.6802,2026-03-31,64.51,6436.1401,Model Insignificant,8.0,-1.4071,-2.4928,1.0856,-14.07,Industrials,cluster_2
+PYPL,Closed,2026-03-23,45.62,6600.6802,2026-03-31,44.965,6436.1401,Model Insignificant,8.0,-1.4358,-2.4928,1.057,-14.36,Financials,cluster_2

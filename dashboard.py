@@ -659,7 +659,7 @@ if page == "Overview":
     wi4.metric("Index Residual SE", f"{wi_se:.4f}")
 
     # ── Model Interpretation Expander ─────────────────────────────────────
-    with st.expander("How to interpret these results", expanded=False):
+    with st.expander("📖  How to interpret these results", expanded=False):
         st.markdown("""
 <div style='font-family:IBM Plex Mono,monospace;font-size:0.8rem;line-height:1.8;color:#c9d1e0'>
 
@@ -979,8 +979,8 @@ elif page == "Strong Signals":
     )
 
     for signal, label in [
-        ("Strong Undervalued", " STRONG UNDERVALUED"),
-        ("Strong Overvalued",  " STRONG OVERVALUED"),
+        ("Strong Undervalued", "🟢 STRONG UNDERVALUED"),
+        ("Strong Overvalued",  "🔴 STRONG OVERVALUED"),
     ]:
         sig_df = df_full[df_full["Combined Signal"] == signal].copy()
         if sig_df.empty:
@@ -1135,30 +1135,6 @@ elif page == "Clusters":
         except Exception:
             pass
 
-    # Auto-label clusters based on characteristics
-    def auto_label(cdf):
-        growth = cdf["EPS Growth (ROE x Retention)"].mean() if "EPS Growth (ROE x Retention)" in cdf.columns else 0
-        beta   = cdf["Beta"].mean() if "Beta" in cdf.columns else 0
-        div    = cdf["Dividend Yield"].mean() if "Dividend Yield" in cdf.columns else 0
-
-        if beta > 2.0:
-            return "High-Risk / Speculative"
-        if div > 4.0:
-            return "High-Yield Defensive"
-        if div > 2.5:
-            return "Income: Moderate Yield"
-        if div > 1.2 and beta < 0.9:
-            return "Low-Risk Income"
-        if div > 1.0 and beta >= 0.9:
-            return "Dividend + Market Risk"
-        if growth > 0.6:
-            return "High-Growth Compounders"
-        if growth > 0.25:
-            return "Growth: Moderate Risk"
-        if growth > 0.10 and beta > 1.2:
-            return "Growth: Elevated Risk"
-        return "Moderate Growth / Blend"
-
     # ── Profile Cards ───────────────────────────────────────────────────────
     cols_per_row = 3
     cids = list(cluster_data.keys())
@@ -1167,7 +1143,6 @@ elif page == "Clusters":
         cols = st.columns(cols_per_row)
         for col, cid in zip(cols, row_cids):
             cdf = cluster_data[cid]
-            label  = auto_label(cdf)
             n      = len(cdf)
             growth = cdf["EPS Growth (ROE x Retention)"].mean() if "EPS Growth (ROE x Retention)" in cdf.columns else float("nan")
             beta   = cdf["Beta"].mean() if "Beta" in cdf.columns else float("nan")
@@ -1205,9 +1180,7 @@ elif page == "Clusters":
                 padding:18px 20px;margin-bottom:12px;height:100%'>
                 <div style='font-family:IBM Plex Mono,monospace;font-size:0.65rem;
                 color:#2a4a6a;letter-spacing:0.15em;text-transform:uppercase;
-                margin-bottom:4px'>Cluster {cid}</div>
-                <div style='font-family:IBM Plex Mono,monospace;font-size:0.95rem;
-                color:#7aa3cc;font-weight:600;margin-bottom:14px'>{label}</div>
+                margin-bottom:12px'>Cluster {cid}</div>
                 <div style='display:grid;grid-template-columns:1fr 1fr;gap:6px 16px;
                 font-family:IBM Plex Mono,monospace;font-size:0.75rem;margin-bottom:14px'>
                   <div><span style='color:#4a6fa5'>Firms</span><br>

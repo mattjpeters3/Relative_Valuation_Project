@@ -396,11 +396,22 @@ def combine_and_filter_results():
     master_df.to_csv(master_path, index=False)
     print(f"Saved master valuation table to: {master_path}")
 
+    # ── Dated Snapshot for Cluster Stability Analysis ────────────────────
+    # Saves a dated copy of master_valuations.csv to a snapshots/ subfolder
+    # after every run. These accumulate over time and can be used to track
+    # which firms migrate between clusters across runs.
+    import datetime
+    snapshots_dir = os.path.join(PREDICTED_PE_RATIO_RESULTS, "snapshots")
+    os.makedirs(snapshots_dir, exist_ok=True)
+    snapshot_date = datetime.date.today().isoformat()
+    snapshot_path = os.path.join(snapshots_dir, f"master_valuations_{snapshot_date}.csv")
+    master_df.to_csv(snapshot_path, index=False)
+    print(f"Snapshot saved to: {snapshot_path}")
+
     # ── Signal History Log ───────────────────────────────────────────────
     # Append today's strong signals to the running history log.
     # This grows over time and is used by the dashboard to identify
     # firms that appear persistently across multiple runs.
-    import datetime
     history_path = os.path.join(PREDICTED_PE_RATIO_RESULTS, "signal_history.csv")
 
     strong_signals = [
