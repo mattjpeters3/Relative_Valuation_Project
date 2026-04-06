@@ -160,10 +160,10 @@ RESULTS_DIR = os.path.join(
 SIGNAL_ORDER = [
     "Strong Undervalued",
     "Undervalued (Cluster only)",
-    "Undervalued (Index only)",
+    "Undervalued (Cluster Model Insignificant)",
     "Fairly Valued",
     "Conflicting",
-    "Overvalued (Index only)",
+    "Overvalued (Cluster Model Insignificant)",
     "Overvalued (Cluster only)",
     "Strong Overvalued",
     "Model Insignificant",
@@ -173,10 +173,10 @@ SIGNAL_ORDER = [
 SIGNAL_COLORS = {
     "Strong Undervalued":        "#2ecc71",
     "Undervalued (Cluster only)":"#27ae60",
-    "Undervalued (Index only)":  "#1e8449",
+    "Undervalued (Cluster Model Insignificant)":  "#1e8449",
     "Fairly Valued":             "#4a90d9",
     "Conflicting":               "#f39c12",
-    "Overvalued (Index only)":   "#c0392b",
+    "Overvalued (Cluster Model Insignificant)":   "#c0392b",
     "Overvalued (Cluster only)": "#e74c3c",
     "Strong Overvalued":         "#ff6b6b",
     "Model Insignificant":       "#4a6fa5",
@@ -250,10 +250,10 @@ def load_master() -> pd.DataFrame:
 SIGNAL_CSS = {
     "Strong Undervalued":        "#2ecc71",
     "Undervalued (Cluster only)":"#27ae60",
-    "Undervalued (Index only)":  "#1e8449",
+    "Undervalued (Cluster Model Insignificant)":  "#1e8449",
     "Fairly Valued":             "#4a90d9",
     "Conflicting":               "#f39c12",
-    "Overvalued (Index only)":   "#c0392b",
+    "Overvalued (Cluster Model Insignificant)":   "#c0392b",
     "Overvalued (Cluster only)": "#e74c3c",
     "Strong Overvalued":         "#ff6b6b",
     "Model Insignificant":       "#4a6fa5",
@@ -402,10 +402,10 @@ def signal_badge(signal: str) -> str:
     classes = {
         "Strong Undervalued":        "badge-strong-under",
         "Undervalued (Cluster only)":"badge-under",
-        "Undervalued (Index only)":  "badge-under",
+        "Undervalued (Cluster Model Insignificant)":  "badge-under",
         "Fairly Valued":             "badge-fair",
         "Conflicting":               "badge-conflict",
-        "Overvalued (Index only)":   "badge-over",
+        "Overvalued (Cluster Model Insignificant)":   "badge-over",
         "Overvalued (Cluster only)": "badge-over",
         "Strong Overvalued":         "badge-strong-over",
         "Model Insignificant":       "badge-insig",
@@ -802,7 +802,7 @@ the whole-index regression. The combined signal reflects whether they agree:</p>
     <td style='padding:6px 12px'>Only the cluster model flags undervaluation; the index model is insignificant. Moderate conviction.</td>
   </tr>
   <tr style='border-bottom:1px solid #1e2a40'>
-    <td style='padding:6px 12px;color:#1e8449'>Undervalued (Index only)</td>
+    <td style='padding:6px 12px;color:#1e8449'>Undervalued (Cluster Model Insignificant)</td>
     <td style='padding:6px 12px'>Only the index model flags undervaluation; the cluster model is insignificant. Moderate conviction.</td>
   </tr>
   <tr style='border-bottom:1px solid #1e2a40'>
@@ -869,7 +869,7 @@ standalone buy or sell recommendations.
             df_full[df_full["Combined Signal"].isin([
                 "Strong Undervalued", "Strong Overvalued",
                 "Undervalued (Cluster only)", "Overvalued (Cluster only)",
-                "Undervalued (Index only)", "Overvalued (Index only)",
+                "Undervalued (Cluster Model Insignificant)", "Overvalued (Cluster Model Insignificant)",
                 "Conflicting", "Fairly Valued", "Model Insignificant",
             ])]
             .groupby(["Sector", "Combined Signal"])
@@ -1064,10 +1064,10 @@ elif page == "All Firms":
         colors = {
             "Strong Undervalued":        "color: #2ecc71; font-weight: 600",
             "Undervalued (Cluster only)":"color: #27ae60",
-            "Undervalued (Index only)":  "color: #1e8449",
+            "Undervalued (Cluster Model Insignificant)":  "color: #1e8449",
             "Fairly Valued":             "color: #4a90d9",
             "Conflicting":               "color: #f39c12",
-            "Overvalued (Index only)":   "color: #c0392b",
+            "Overvalued (Cluster Model Insignificant)":   "color: #c0392b",
             "Overvalued (Cluster only)": "color: #e74c3c",
             "Strong Overvalued":         "color: #ff6b6b; font-weight: 600",
             "Model Insignificant":       "color: #4a6fa5",
@@ -1479,8 +1479,8 @@ elif page == "Signal History":
             ("Strong Overvalued",         "#e74c3c"),
             ("Undervalued (Cluster only)","#27ae60"),
             ("Overvalued (Cluster only)", "#c0392b"),
-            ("Undervalued (Index only)",  "#82e0aa"),
-            ("Overvalued (Index only)",   "#f1948a"),
+            ("Undervalued (Cluster Model Insignificant)",  "#82e0aa"),
+            ("Overvalued (Cluster Model Insignificant)",   "#f1948a"),
         ]:
             sub = run_counts[run_counts['Combined Signal'] == signal]
             if sub.empty:

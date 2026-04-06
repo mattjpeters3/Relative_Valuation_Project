@@ -451,8 +451,17 @@ def render_tracker(open_df, closed_df, tracker_label):
         # ── Win rate by exit signal ───────────────────────────────────────
         st.markdown("## Win Rate by Exit Signal")
         if "Exit Signal" in closed_df.columns and not closed_df["Exit Signal"].isna().all():
+            # Group all Cluster Model Insignificant variants into one row
+            def normalise_exit_signal(sig):
+                if "Cluster Model Insignificant" in str(sig):
+                    return "Model Insignificant"
+                return sig
+
+            display_df = closed_df.copy()
+            display_df["Exit Signal Display"] = display_df["Exit Signal"].apply(normalise_exit_signal)
+
             sig_groups = []
-            for sig, grp in closed_df.groupby("Exit Signal"):
+            for sig, grp in display_df.groupby("Exit Signal Display"):
                 n    = len(grp)
                 wins = (grp["Excess Return"] > 0).sum()
                 sig_groups.append({

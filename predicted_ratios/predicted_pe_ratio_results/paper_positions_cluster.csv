@@ -15,10 +15,6 @@ AES,Open,2026-03-23,14.1,6600.6802,,,,,,,,,,Utilities,cluster_5
 WFC,Open,2026-03-23,78.61,6600.6802,,,,,,,,,,Financials,cluster_1
 EPAM,Open,2026-03-23,137.19,6600.6802,,,,,,,,,,Information Technology,cluster_4
 FITB,Open,2026-03-31,45.2535,6436.1401,,,,,,,,,,Financials,cluster_3
-RCL,Closed,2026-03-23,277.4064,6600.6802,2026-03-31,266.87,6436.1401,Model Insignificant,8.0,-3.7982,-2.4928,-1.3054,-37.98,Consumer Discretionary,cluster_2
-CHTR,Closed,2026-03-23,217.4,6600.6802,2026-03-31,211.975,6436.1401,Model Insignificant,8.0,-2.4954,-2.4928,-0.0026,-24.95,Communication Services,cluster_2
-DAL,Closed,2026-03-23,65.4307,6600.6802,2026-03-31,64.51,6436.1401,Model Insignificant,8.0,-1.4071,-2.4928,1.0856,-14.07,Industrials,cluster_2
-PYPL,Closed,2026-03-23,45.62,6600.6802,2026-03-31,44.965,6436.1401,Model Insignificant,8.0,-1.4358,-2.4928,1.057,-14.36,Financials,cluster_2
 PYPL,Open,2026-04-06,45.59,6589.98,,,,,,,,,,Financials,cluster_3
 RCL,Open,2026-04-06,274.89,6589.98,,,,,,,,,,Consumer Discretionary,cluster_3
 SOLV,Open,2026-04-06,63.091,6589.98,,,,,,,,,,Health Care,cluster_3
@@ -28,3 +24,7 @@ CHTR,Open,2026-04-06,222.5,6589.98,,,,,,,,,,Communication Services,cluster_3
 UAL,Open,2026-04-06,91.05,6589.98,,,,,,,,,,Industrials,cluster_4
 DAL,Open,2026-04-06,66.845,6589.98,,,,,,,,,,Industrials,cluster_3
 AMP,Open,2026-04-06,433.24,6589.98,,,,,,,,,,Financials,cluster_3
+RCL,Closed,2026-03-23,277.4064,6600.6802,2026-03-31,266.87,6436.1401,Model Insignificant,8.0,-3.7982,-2.4928,-1.3054,-37.98,Consumer Discretionary,cluster_2
+CHTR,Closed,2026-03-23,217.4,6600.6802,2026-03-31,211.975,6436.1401,Model Insignificant,8.0,-2.4954,-2.4928,-0.0026,-24.95,Communication Services,cluster_2
+DAL,Closed,2026-03-23,65.4307,6600.6802,2026-03-31,64.51,6436.1401,Model Insignificant,8.0,-1.4071,-2.4928,1.0856,-14.07,Industrials,cluster_2
+PYPL,Closed,2026-03-23,45.62,6600.6802,2026-03-31,44.965,6436.1401,Model Insignificant,8.0,-1.4358,-2.4928,1.057,-14.36,Financials,cluster_2

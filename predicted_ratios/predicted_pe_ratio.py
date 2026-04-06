@@ -373,7 +373,8 @@ def combine_and_filter_results():
                 if c != 'Model Insignificant' and i == 'Model Insignificant':
                     return f'{c} (Cluster only)'
                 if i != 'Model Insignificant' and c == 'Model Insignificant':
-                    return f'{i} (Index only)'
+                    # Cluster model is insignificant — label clearly
+                    return f'{i} (Cluster Model Insignificant)'
                 return 'Model Insignificant'
             if c == i:
                 if c == 'Undervalued': return 'Strong Undervalued'
@@ -447,6 +448,70 @@ def combine_and_filter_results():
     print(f"Total entries in history: {len(history)} across "
           f"{history['Run Date'].nunique()} run(s)")
 
+    # ── Two-Consecutive-Runs Insignificance Check ───────────────────────────
+    # Load the most recent prior snapshot to identify clusters that were
+    # already insignificant last run. A position only closes on
+    # Model Insignificant if the cluster was insignificant in BOTH the
+    # current run AND the previous run, filtering out single-week noise.
+    import datetime
+    snapshots_dir = os.path.join(PREDICTED_PE_RATIO_RESULTS, "snapshots")
+    prev_insig_clusters = set()
+    try:
+        if os.path.exists(snapshots_dir):
+            snapshot_files = sorted([
+                f for f in os.listdir(snapshots_dir)
+                if f.startswith("master_valuations_") and f.endswith(".csv")
+            ])
+            # Exclude today's snapshot if it was already saved this run
+            today_snap = f"master_valuations_{datetime.date.today().isoformat()}.csv"
+            prior_snaps = [f for f in snapshot_files if f != today_snap]
+            if prior_snaps:
+                prev_snap = pd.read_csv(os.path.join(snapshots_dir, prior_snaps[-1]))
+                # Find clusters that had insignificant regressions last run
+                if "Cluster F p-value" in prev_snap.columns and "Source Cluster" in prev_snap.columns:
+                    insig_mask = prev_snap["Cluster F p-value"] > 0.10
+                    prev_insig_clusters = set(prev_snap.loc[insig_mask, "Source Cluster"].dropna().unique())
+    except Exception as e:
+        print(f"  Could not load prior snapshot for insignificance check: {e}")
+
+    # Current clusters that are insignificant this run
+    curr_insig_clusters = set()
+    if "Cluster F p-value" in master_df.columns and "Source Cluster" in master_df.columns:
+        insig_mask = master_df["Cluster F p-value"] > 0.10
+        curr_insig_clusters = set(master_df.loc[insig_mask, "Source Cluster"].dropna().unique())
+
+    # Only close on Model Insignificant if cluster was insignificant in BOTH runs
+    confirmed_insig_clusters = curr_insig_clusters & prev_insig_clusters
+
+    def is_model_insignificant_signal(sig):
+        """Returns True if the signal indicates cluster model insignificance."""
+        return "Cluster Model Insignificant" in str(sig)
+
+    def should_close_main(ticker, current_sig):
+        """Close logic for main tracker."""
+        if current_sig == "Strong Undervalued":
+            return False
+        if is_model_insignificant_signal(current_sig):
+            # Only close if cluster was insignificant last run too
+            ticker_row = master_df[master_df["Ticker"] == ticker]
+            if not ticker_row.empty:
+                src = str(ticker_row.iloc[0].get("Source Cluster", ""))
+                return src in confirmed_insig_clusters
+            return True  # dropped from model — always close
+        return True  # any other non-Strong-Undervalued signal — close
+
+    def should_close_cluster(ticker, cluster_sig):
+        """Close logic for cluster-only tracker."""
+        if cluster_sig == "Undervalued":
+            return False
+        if cluster_sig == "Model Insignificant":
+            ticker_row = master_df[master_df["Ticker"] == ticker]
+            if not ticker_row.empty:
+                src = str(ticker_row.iloc[0].get("Source Cluster", ""))
+                return src in confirmed_insig_clusters
+            return True
+        return True
+
     # ── Paper Portfolio Position Tracker ────────────────────────────────────
     # Opens a $1,000 notional position when a firm first appears as Strong
     # Undervalued. Closes the position when the signal changes to anything
@@ -496,7 +561,7 @@ def combine_and_filter_results():
             ticker_row = master_df[master_df["Ticker"] == ticker]
             current_sig = ticker_row.iloc[0][sig_col] if not ticker_row.empty else "Dropped from model"
 
-            if current_sig != "Strong Undervalued":
+            if should_close_main(ticker, current_sig):
                 exit_price = None
                 try:
                     hist = yf.Ticker(ticker).history(period="2d")
@@ -631,10 +696,8 @@ def combine_and_filter_results():
             else:
                 cluster_sig = str(ticker_row.iloc[0].get("Valuation Signal (Cluster)", "")).strip()
 
-            # Only close when cluster itself no longer says Undervalued
-            should_close = cluster_sig != "Undervalued"
-
-            if should_close:
+            # Use two-consecutive-runs rule for Model Insignificant
+            if should_close_cluster(ticker, cluster_sig):
                 exit_price = None
                 try:
                     hist = yf.Ticker(ticker).history(period="2d")

@@ -337,10 +337,6 @@ Run Date,Ticker,Combined Signal,Source Cluster,PE Ratio (Current),Predicted PE (
 2026-03-31,IDXX,Overvalued (Index only),cluster_7,42.55844155844156,18.39,24.17,Health Care
 2026-03-31,KLAC,Overvalued (Index only),cluster_7,40.32020997375328,25.22,15.1,Information Technology
 2026-03-31,LLY,Overvalued (Index only),cluster_7,38.61628919860627,21.84,16.78,Health Care
-2026-04-06,ADBE,Undervalued (Index only),cluster_0,14.164431486880469,33.29,-19.13,Information Technology
-2026-04-06,COR,Overvalued (Index only),cluster_0,39.08543922984356,31.65,7.44,Health Care
-2026-04-06,KLAC,Overvalued (Index only),cluster_0,44.24854142357059,26.93,17.32,Information Technology
-2026-04-06,LLY,Overvalued (Index only),cluster_0,40.81937172774869,20.49,20.33,Health Care
 2026-04-06,ADI,Strong Overvalued,cluster_1,58.0912408759124,32.96,25.13,Information Technology
 2026-04-06,BAC,Strong Undervalued,cluster_1,12.960629921259844,27.39,-14.43,Financials
 2026-04-06,COF,Strong Overvalued,cluster_1,53.982195845697326,39.54,14.44,Financials
