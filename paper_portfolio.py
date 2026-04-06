@@ -507,38 +507,7 @@ def render_tracker(open_df, closed_df, tracker_label):
         else:
             st.markdown("<p style='font-family:IBM Plex Mono,monospace;font-size:0.78rem;color:#4a6fa5'>No holding period data yet.</p>", unsafe_allow_html=True)
 
-        # ── Win rate by cluster ───────────────────────────────────────────
-        st.markdown("## Win Rate by Cluster")
-        st.markdown(
-            "<p style='font-family:IBM Plex Mono,monospace;font-size:0.75rem;color:#4a6fa5;"
-            "margin-bottom:1rem'>Clusters 0 and 1 have insignificant regressions and may show lower win rates over time.</p>",
-            unsafe_allow_html=True,
-        )
-        def _fmt_cluster(val):
-            try:    return str(int(float(val)))
-            except: return str(val) if val is not None else "n/a"
 
-        cluster_col = "Source Cluster" if "Source Cluster" in closed_df.columns else None
-        if cluster_col and not closed_df[cluster_col].isna().all():
-            clust_groups = []
-            for clust, grp in closed_df.groupby(cluster_col):
-                n = len(grp); wins = (grp["Excess Return"] > 0).sum()
-                clust_groups.append({
-                    "Cluster": clust, "Positions": n, "Wins": int(wins),
-                    "Win Rate": wins / n * 100 if n > 0 else None,
-                    "Avg Excess Return": grp["Excess Return"].mean(),
-                })
-            clust_df = pd.DataFrame(clust_groups).sort_values("Cluster")
-            clust_col_defs = [
-                ("Cluster",           lambda r: f"<td style='padding:7px 10px;color:#c9d1e0'>Cluster {_fmt_cluster(r['Cluster'])}</td>"),
-                ("Positions",         lambda r: f"<td style='padding:7px 10px;text-align:center;color:#8a9bb5'>{r['Positions']}</td>"),
-                ("Wins",              lambda r: f"<td style='padding:7px 10px;text-align:center;color:#2ecc71'>{r['Wins']}</td>"),
-                ("Win Rate",          lambda r: f"<td style='padding:7px 10px;text-align:right;color:{'#2ecc71' if r['Win Rate'] and r['Win Rate'] >= 50 else '#e74c3c'}'>{fmt_pct(r['Win Rate'], 1)}</td>"),
-                ("Avg Excess Return", lambda r: f"<td style='padding:7px 10px;text-align:right;color:{'#2ecc71' if pd.notna(r['Avg Excess Return']) and r['Avg Excess Return'] > 0 else '#e74c3c'}'>{fmt_pct(r['Avg Excess Return'])}</td>"),
-            ]
-            st.markdown(build_html_table(clust_df, clust_col_defs, max_height="300px"), unsafe_allow_html=True)
-        else:
-            st.markdown("<p style='font-family:IBM Plex Mono,monospace;font-size:0.78rem;color:#4a6fa5'>No cluster data yet.</p>", unsafe_allow_html=True)
 
 
 # ---------------------------------------------------------------------------
