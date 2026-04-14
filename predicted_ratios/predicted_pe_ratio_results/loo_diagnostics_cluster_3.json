@@ -1,1770 +1,436 @@
 {
-  "MMM": {
-    "n_obs": 60,
-    "r_squared": 0.1233,
-    "adj_r_squared": 0.0764,
-    "f_statistic": 2.6261,
-    "f_pvalue": 0.0592,
-    "residual_se": 11.0307,
-    "const": 13.3111,
+  "AES": {
+    "n_obs": 14,
+    "r_squared": 0.7556,
+    "adj_r_squared": 0.6823,
+    "f_statistic": 10.3076,
+    "f_pvalue": 0.0021,
+    "residual_se": 2.3074,
+    "const": 12.6189,
     "coefficients": [
       {
         "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.5847,
-        "std_err": 20.4538,
-        "pvalue": 0.9773
+        "coef": -45.9637,
+        "std_err": 13.559,
+        "pvalue": 0.0069
       },
       {
         "variable": "Beta",
-        "coef": 12.5769,
-        "std_err": 5.1523,
-        "pvalue": 0.0178
+        "coef": 1.7429,
+        "std_err": 1.4542,
+        "pvalue": 0.2583
       },
       {
         "variable": "Payout Ratio",
-        "coef": -0.9432,
-        "std_err": 0.7258,
-        "pvalue": 0.1991
+        "coef": 0.0069,
+        "std_err": 0.0036,
+        "pvalue": 0.0844
       }
     ]
   },
-  "ABNB": {
-    "n_obs": 60,
-    "r_squared": 0.1228,
-    "adj_r_squared": 0.0758,
-    "f_statistic": 2.6127,
-    "f_pvalue": 0.0602,
-    "residual_se": 11.0238,
-    "const": 12.78,
+  "BBY": {
+    "n_obs": 14,
+    "r_squared": 0.6237,
+    "adj_r_squared": 0.5109,
+    "f_statistic": 5.5258,
+    "f_pvalue": 0.0169,
+    "residual_se": 2.8618,
+    "const": 13.6121,
     "coefficients": [
       {
         "variable": "EPS Growth (ROE x Retention)",
-        "coef": 0.4916,
-        "std_err": 20.4307,
-        "pvalue": 0.9809
+        "coef": -46.466,
+        "std_err": 16.9294,
+        "pvalue": 0.0207
       },
       {
         "variable": "Beta",
-        "coef": 12.5717,
-        "std_err": 5.145,
-        "pvalue": 0.0177
+        "coef": 0.462,
+        "std_err": 1.9208,
+        "pvalue": 0.8148
       },
       {
         "variable": "Payout Ratio",
-        "coef": -0.8835,
-        "std_err": 0.7149,
-        "pvalue": 0.2217
+        "coef": 0.0036,
+        "std_err": 0.0041,
+        "pvalue": 0.4062
       }
     ]
   },
-  "ALLE": {
-    "n_obs": 60,
-    "r_squared": 0.1177,
-    "adj_r_squared": 0.0705,
-    "f_statistic": 2.4906,
-    "f_pvalue": 0.0695,
-    "residual_se": 11.0295,
-    "const": 13.408,
+  "CPB": {
+    "n_obs": 14,
+    "r_squared": 0.653,
+    "adj_r_squared": 0.5489,
+    "f_statistic": 6.2729,
+    "f_pvalue": 0.0115,
+    "residual_se": 2.7505,
+    "const": 14.5412,
     "coefficients": [
       {
         "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.6337,
-        "std_err": 20.4291,
-        "pvalue": 0.9754
+        "coef": -49.1313,
+        "std_err": 16.5315,
+        "pvalue": 0.014
       },
       {
         "variable": "Beta",
-        "coef": 12.473,
-        "std_err": 5.1614,
-        "pvalue": 0.019
+        "coef": -0.0669,
+        "std_err": 1.9196,
+        "pvalue": 0.9729
       },
       {
         "variable": "Payout Ratio",
-        "coef": -0.8937,
-        "std_err": 0.719,
-        "pvalue": 0.219
+        "coef": 0.0038,
+        "std_err": 0.004,
+        "pvalue": 0.3627
       }
     ]
   },
-  "GOOGL": {
-    "n_obs": 60,
-    "r_squared": 0.1236,
-    "adj_r_squared": 0.0767,
-    "f_statistic": 2.6338,
-    "f_pvalue": 0.0587,
-    "residual_se": 11.0321,
-    "const": 13.1203,
+  "CMCSA": {
+    "n_obs": 14,
+    "r_squared": 0.5201,
+    "adj_r_squared": 0.3761,
+    "f_statistic": 3.6126,
+    "f_pvalue": 0.0533,
+    "residual_se": 2.8897,
+    "const": 12.9505,
     "coefficients": [
       {
         "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.1383,
-        "std_err": 20.335,
-        "pvalue": 0.9946
+        "coef": -40.1231,
+        "std_err": 20.1273,
+        "pvalue": 0.0742
       },
       {
         "variable": "Beta",
-        "coef": 12.5605,
-        "std_err": 5.1522,
-        "pvalue": 0.018
+        "coef": 1.047,
+        "std_err": 1.7865,
+        "pvalue": 0.5708
       },
       {
         "variable": "Payout Ratio",
-        "coef": -0.9129,
-        "std_err": 0.7093,
-        "pvalue": 0.2034
+        "coef": 0.0039,
+        "std_err": 0.0042,
+        "pvalue": 0.3821
       }
     ]
   },
-  "GOOG": {
-    "n_obs": 60,
-    "r_squared": 0.1237,
-    "adj_r_squared": 0.0767,
-    "f_statistic": 2.6339,
-    "f_pvalue": 0.0587,
-    "residual_se": 11.0323,
-    "const": 13.1311,
+  "EIX": {
+    "n_obs": 14,
+    "r_squared": 0.5532,
+    "adj_r_squared": 0.4191,
+    "f_statistic": 4.1268,
+    "f_pvalue": 0.0381,
+    "residual_se": 2.9207,
+    "const": 13.3455,
     "coefficients": [
       {
         "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.1502,
-        "std_err": 20.3349,
-        "pvalue": 0.9941
+        "coef": -45.7591,
+        "std_err": 19.9793,
+        "pvalue": 0.045
       },
       {
         "variable": "Beta",
-        "coef": 12.5582,
-        "std_err": 5.1522,
-        "pvalue": 0.018
+        "coef": 0.9519,
+        "std_err": 1.8019,
+        "pvalue": 0.6088
       },
       {
         "variable": "Payout Ratio",
-        "coef": -0.9137,
-        "std_err": 0.7092,
-        "pvalue": 0.2029
+        "coef": 0.0035,
+        "std_err": 0.0043,
+        "pvalue": 0.4345
       }
     ]
   },
-  "AXP": {
-    "n_obs": 60,
-    "r_squared": 0.1197,
-    "adj_r_squared": 0.0726,
-    "f_statistic": 2.5394,
-    "f_pvalue": 0.0656,
-    "residual_se": 11.0225,
-    "const": 13.5124,
+  "EQR": {
+    "n_obs": 14,
+    "r_squared": 0.7329,
+    "adj_r_squared": 0.6528,
+    "f_statistic": 9.1465,
+    "f_pvalue": 0.0032,
+    "residual_se": 1.8484,
+    "const": 16.0081,
     "coefficients": [
       {
         "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.9931,
-        "std_err": 20.4303,
-        "pvalue": 0.9614
+        "coef": -57.124,
+        "std_err": 11.2888,
+        "pvalue": 0.0005
       },
       {
         "variable": "Beta",
-        "coef": 12.5006,
-        "std_err": 5.1452,
-        "pvalue": 0.0183
+        "coef": 0.3392,
+        "std_err": 1.1479,
+        "pvalue": 0.7737
       },
       {
         "variable": "Payout Ratio",
-        "coef": -0.8876,
-        "std_err": 0.7119,
-        "pvalue": 0.2177
+        "coef": -0.0091,
+        "std_err": 0.0042,
+        "pvalue": 0.0559
       }
     ]
   },
-  "AMP": {
-    "n_obs": 60,
-    "r_squared": 0.1289,
-    "adj_r_squared": 0.0823,
-    "f_statistic": 2.7626,
-    "f_pvalue": 0.0504,
-    "residual_se": 10.8474,
-    "const": 10.4842,
+  "ES": {
+    "n_obs": 14,
+    "r_squared": 0.6155,
+    "adj_r_squared": 0.5002,
+    "f_statistic": 5.3362,
+    "f_pvalue": 0.0187,
+    "residual_se": 2.7963,
+    "const": 12.7155,
     "coefficients": [
       {
         "variable": "EPS Growth (ROE x Retention)",
-        "coef": 8.0469,
-        "std_err": 20.8366,
-        "pvalue": 0.7008
+        "coef": -41.4773,
+        "std_err": 16.8782,
+        "pvalue": 0.0338
       },
       {
         "variable": "Beta",
-        "coef": 12.4169,
-        "std_err": 5.0626,
-        "pvalue": 0.0173
+        "coef": 0.9904,
+        "std_err": 1.7197,
+        "pvalue": 0.5774
       },
       {
         "variable": "Payout Ratio",
-        "coef": -0.814,
-        "std_err": 0.6983,
-        "pvalue": 0.2487
+        "coef": 0.0042,
+        "std_err": 0.0041,
+        "pvalue": 0.3255
       }
     ]
   },
-  "APH": {
-    "n_obs": 60,
-    "r_squared": 0.1263,
-    "adj_r_squared": 0.0795,
-    "f_statistic": 2.6985,
-    "f_pvalue": 0.0544,
-    "residual_se": 10.9142,
-    "const": 12.3315,
+  "GIS": {
+    "n_obs": 14,
+    "r_squared": 0.5941,
+    "adj_r_squared": 0.4724,
+    "f_statistic": 4.8795,
+    "f_pvalue": 0.0242,
+    "residual_se": 2.9141,
+    "const": 13.5371,
     "coefficients": [
       {
         "variable": "EPS Growth (ROE x Retention)",
-        "coef": 2.3386,
-        "std_err": 20.2245,
-        "pvalue": 0.9084
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.366,
-        "std_err": 5.0955,
-        "pvalue": 0.0185
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.925,
-        "std_err": 0.6986,
-        "pvalue": 0.1908
-      }
-    ]
-  },
-  "AON": {
-    "n_obs": 60,
-    "r_squared": 0.1179,
-    "adj_r_squared": 0.0707,
-    "f_statistic": 2.4954,
-    "f_pvalue": 0.0691,
-    "residual_se": 11.0282,
-    "const": 13.3512,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 0.2172,
-        "std_err": 20.4031,
-        "pvalue": 0.9915
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.3182,
-        "std_err": 5.2504,
-        "pvalue": 0.0225
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9143,
-        "std_err": 0.7061,
-        "pvalue": 0.2007
-      }
-    ]
-  },
-  "AMAT": {
-    "n_obs": 60,
-    "r_squared": 0.1157,
-    "adj_r_squared": 0.0684,
-    "f_statistic": 2.4435,
-    "f_pvalue": 0.0735,
-    "residual_se": 11.0203,
-    "const": 13.3439,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 0.4404,
-        "std_err": 20.372,
-        "pvalue": 0.9828
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.1652,
-        "std_err": 5.2509,
-        "pvalue": 0.0242
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9099,
-        "std_err": 0.7057,
-        "pvalue": 0.2026
-      }
-    ]
-  },
-  "ANET": {
-    "n_obs": 60,
-    "r_squared": 0.1073,
-    "adj_r_squared": 0.0595,
-    "f_statistic": 2.244,
-    "f_pvalue": 0.0932,
-    "residual_se": 10.8517,
-    "const": 12.6156,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 2.9213,
-        "std_err": 20.1074,
-        "pvalue": 0.885
-      },
-      {
-        "variable": "Beta",
-        "coef": 11.636,
-        "std_err": 5.1068,
-        "pvalue": 0.0265
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.7644,
-        "std_err": 0.7035,
-        "pvalue": 0.2819
-      }
-    ]
-  },
-  "ADSK": {
-    "n_obs": 60,
-    "r_squared": 0.1095,
-    "adj_r_squared": 0.0618,
-    "f_statistic": 2.2951,
-    "f_pvalue": 0.0877,
-    "residual_se": 10.8566,
-    "const": 13.8605,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -1.4341,
-        "std_err": 20.0054,
-        "pvalue": 0.9431
-      },
-      {
-        "variable": "Beta",
-        "coef": 11.9304,
-        "std_err": 5.0863,
-        "pvalue": 0.0226
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.7979,
-        "std_err": 0.7005,
-        "pvalue": 0.2596
-      }
-    ]
-  },
-  "CAT": {
-    "n_obs": 60,
-    "r_squared": 0.1177,
-    "adj_r_squared": 0.0704,
-    "f_statistic": 2.4902,
-    "f_pvalue": 0.0696,
-    "residual_se": 10.9704,
-    "const": 13.2409,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 1.4733,
-        "std_err": 20.3063,
-        "pvalue": 0.9424
-      },
-      {
-        "variable": "Beta",
-        "coef": 11.9212,
-        "std_err": 5.1782,
-        "pvalue": 0.0251
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9283,
-        "std_err": 0.7022,
-        "pvalue": 0.1916
-      }
-    ]
-  },
-  "CDW": {
-    "n_obs": 60,
-    "r_squared": 0.1115,
-    "adj_r_squared": 0.0639,
-    "f_statistic": 2.3417,
-    "f_pvalue": 0.083,
-    "residual_se": 11.0151,
-    "const": 13.4028,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.4416,
-        "std_err": 20.2837,
-        "pvalue": 0.9827
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.3417,
-        "std_err": 5.162,
-        "pvalue": 0.0202
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.8277,
-        "std_err": 0.7367,
-        "pvalue": 0.266
-      }
-    ]
-  },
-  "CHTR": {
-    "n_obs": 60,
-    "r_squared": 0.1309,
-    "adj_r_squared": 0.0844,
-    "f_statistic": 2.8119,
-    "f_pvalue": 0.0476,
-    "residual_se": 10.6843,
-    "const": 16.8175,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -5.486,
-        "std_err": 19.8569,
-        "pvalue": 0.7834
-      },
-      {
-        "variable": "Beta",
-        "coef": 11.7844,
-        "std_err": 5.0012,
-        "pvalue": 0.022
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -1.1426,
-        "std_err": 0.6936,
-        "pvalue": 0.1051
-      }
-    ]
-  },
-  "CMG": {
-    "n_obs": 60,
-    "r_squared": 0.1238,
-    "adj_r_squared": 0.0769,
-    "f_statistic": 2.6384,
-    "f_pvalue": 0.0584,
-    "residual_se": 11.0266,
-    "const": 13.3285,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -1.3275,
-        "std_err": 20.7691,
-        "pvalue": 0.9493
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.6827,
-        "std_err": 5.1752,
-        "pvalue": 0.0174
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9009,
-        "std_err": 0.7092,
-        "pvalue": 0.2092
-      }
-    ]
-  },
-  "CTAS": {
-    "n_obs": 60,
-    "r_squared": 0.1408,
-    "adj_r_squared": 0.0948,
-    "f_statistic": 3.0596,
-    "f_pvalue": 0.0355,
-    "residual_se": 10.8478,
-    "const": 11.1063,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 3.4283,
-        "std_err": 20.1417,
-        "pvalue": 0.8655
-      },
-      {
-        "variable": "Beta",
-        "coef": 13.1387,
-        "std_err": 5.0801,
-        "pvalue": 0.0123
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9957,
-        "std_err": 0.6965,
-        "pvalue": 0.1584
-      }
-    ]
-  },
-  "FIX": {
-    "n_obs": 60,
-    "r_squared": 0.1006,
-    "adj_r_squared": 0.0524,
-    "f_statistic": 2.0874,
-    "f_pvalue": 0.1122,
-    "residual_se": 10.7988,
-    "const": 15.9616,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -5.2044,
-        "std_err": 20.1317,
-        "pvalue": 0.797
-      },
-      {
-        "variable": "Beta",
-        "coef": 11.3134,
-        "std_err": 5.0999,
-        "pvalue": 0.0306
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.8279,
-        "std_err": 0.6936,
-        "pvalue": 0.2376
-      }
-    ]
-  },
-  "CPAY": {
-    "n_obs": 60,
-    "r_squared": 0.1207,
-    "adj_r_squared": 0.0736,
-    "f_statistic": 2.5619,
-    "f_pvalue": 0.0639,
-    "residual_se": 11.0167,
-    "const": 14.1541,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -1.2206,
-        "std_err": 20.4291,
-        "pvalue": 0.9526
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.1982,
-        "std_err": 5.211,
-        "pvalue": 0.0228
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9667,
-        "std_err": 0.7151,
-        "pvalue": 0.1819
-      }
-    ]
-  },
-  "DECK": {
-    "n_obs": 60,
-    "r_squared": 0.1335,
-    "adj_r_squared": 0.087,
-    "f_statistic": 2.8748,
-    "f_pvalue": 0.0442,
-    "residual_se": 10.8584,
-    "const": 13.2926,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 1.3499,
-        "std_err": 20.0227,
-        "pvalue": 0.9465
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.4299,
-        "std_err": 5.0676,
-        "pvalue": 0.0173
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -1.0368,
-        "std_err": 0.7005,
-        "pvalue": 0.1444
-      }
-    ]
-  },
-  "DAL": {
-    "n_obs": 60,
-    "r_squared": 0.1261,
-    "adj_r_squared": 0.0792,
-    "f_statistic": 2.6923,
-    "f_pvalue": 0.0548,
-    "residual_se": 10.7885,
-    "const": 14.415,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -5.3454,
-        "std_err": 20.116,
-        "pvalue": 0.7914
-      },
-      {
-        "variable": "Beta",
-        "coef": 13.0378,
-        "std_err": 5.0438,
-        "pvalue": 0.0124
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.7986,
-        "std_err": 0.6945,
-        "pvalue": 0.2551
-      }
-    ]
-  },
-  "DXCM": {
-    "n_obs": 60,
-    "r_squared": 0.1235,
-    "adj_r_squared": 0.0766,
-    "f_statistic": 2.6305,
-    "f_pvalue": 0.0589,
-    "residual_se": 11.0257,
-    "const": 13.1532,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.5556,
-        "std_err": 20.3343,
-        "pvalue": 0.9783
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.7675,
-        "std_err": 5.2121,
-        "pvalue": 0.0175
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9468,
-        "std_err": 0.7136,
-        "pvalue": 0.1899
-      }
-    ]
-  },
-  "DLTR": {
-    "n_obs": 60,
-    "r_squared": 0.1184,
-    "adj_r_squared": 0.0712,
-    "f_statistic": 2.5066,
-    "f_pvalue": 0.0682,
-    "residual_se": 11.0171,
-    "const": 14.1264,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.749,
-        "std_err": 20.3233,
-        "pvalue": 0.9707
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.0794,
-        "std_err": 5.2703,
-        "pvalue": 0.0257
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9634,
-        "std_err": 0.714,
-        "pvalue": 0.1827
-      }
-    ]
-  },
-  "EBAY": {
-    "n_obs": 60,
-    "r_squared": 0.1232,
-    "adj_r_squared": 0.0763,
-    "f_statistic": 2.6239,
-    "f_pvalue": 0.0594,
-    "residual_se": 11.0216,
-    "const": 13.2487,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.7493,
-        "std_err": 20.3488,
-        "pvalue": 0.9708
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.65,
-        "std_err": 5.1527,
-        "pvalue": 0.0172
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.8887,
-        "std_err": 0.7109,
-        "pvalue": 0.2165
-      }
-    ]
-  },
-  "EME": {
-    "n_obs": 60,
-    "r_squared": 0.1236,
-    "adj_r_squared": 0.0767,
-    "f_statistic": 2.6335,
-    "f_pvalue": 0.0587,
-    "residual_se": 11.0327,
-    "const": 13.1853,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.2353,
-        "std_err": 20.3154,
-        "pvalue": 0.9908
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.5507,
-        "std_err": 5.1568,
-        "pvalue": 0.0182
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9167,
-        "std_err": 0.7095,
-        "pvalue": 0.2017
-      }
-    ]
-  },
-  "EXPE": {
-    "n_obs": 60,
-    "r_squared": 0.1258,
-    "adj_r_squared": 0.0789,
-    "f_statistic": 2.6851,
-    "f_pvalue": 0.0552,
-    "residual_se": 11.0108,
-    "const": 12.8585,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 0.6848,
-        "std_err": 20.36,
-        "pvalue": 0.9733
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.6334,
-        "std_err": 5.1416,
-        "pvalue": 0.0171
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9194,
-        "std_err": 0.7047,
-        "pvalue": 0.1974
-      }
-    ]
-  },
-  "EXPD": {
-    "n_obs": 60,
-    "r_squared": 0.1235,
-    "adj_r_squared": 0.0766,
-    "f_statistic": 2.6306,
-    "f_pvalue": 0.0589,
-    "residual_se": 11.0308,
-    "const": 13.0149,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 0.1555,
-        "std_err": 20.4836,
-        "pvalue": 0.994
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.579,
-        "std_err": 5.1536,
-        "pvalue": 0.0178
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.927,
-        "std_err": 0.7086,
-        "pvalue": 0.1962
-      }
-    ]
-  },
-  "GE": {
-    "n_obs": 60,
-    "r_squared": 0.1195,
-    "adj_r_squared": 0.0723,
-    "f_statistic": 2.5327,
-    "f_pvalue": 0.0662,
-    "residual_se": 11.0065,
-    "const": 13.4363,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.3627,
-        "std_err": 20.2632,
-        "pvalue": 0.9858
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.2989,
-        "std_err": 5.1578,
-        "pvalue": 0.0205
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9112,
-        "std_err": 0.7046,
-        "pvalue": 0.2012
-      }
-    ]
-  },
-  "GEV": {
-    "n_obs": 60,
-    "r_squared": 0.1268,
-    "adj_r_squared": 0.0801,
-    "f_statistic": 2.7117,
-    "f_pvalue": 0.0535,
-    "residual_se": 10.5788,
-    "const": 13.1254,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -2.9741,
-        "std_err": 19.5136,
-        "pvalue": 0.8794
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.8043,
-        "std_err": 4.9379,
-        "pvalue": 0.0121
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.7708,
-        "std_err": 0.6803,
-        "pvalue": 0.2621
-      }
-    ]
-  },
-  "HD": {
-    "n_obs": 60,
-    "r_squared": 0.1221,
-    "adj_r_squared": 0.0751,
-    "f_statistic": 2.5973,
-    "f_pvalue": 0.0613,
-    "residual_se": 11.0316,
-    "const": 13.4599,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -1.1157,
-        "std_err": 21.8366,
-        "pvalue": 0.9594
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.6114,
-        "std_err": 5.1839,
-        "pvalue": 0.0182
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.943,
-        "std_err": 0.7399,
-        "pvalue": 0.2078
-      }
-    ]
-  },
-  "HWM": {
-    "n_obs": 60,
-    "r_squared": 0.1405,
-    "adj_r_squared": 0.0945,
-    "f_statistic": 3.0517,
-    "f_pvalue": 0.0359,
-    "residual_se": 9.9335,
-    "const": 8.3892,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 11.4066,
-        "std_err": 18.5666,
-        "pvalue": 0.5415
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.1143,
-        "std_err": 4.6368,
-        "pvalue": 0.0115
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.6231,
-        "std_err": 0.641,
-        "pvalue": 0.3352
-      }
-    ]
-  },
-  "ITW": {
-    "n_obs": 60,
-    "r_squared": 0.1247,
-    "adj_r_squared": 0.0778,
-    "f_statistic": 2.6592,
-    "f_pvalue": 0.057,
-    "residual_se": 11.0238,
-    "const": 13.4579,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.9928,
-        "std_err": 20.4517,
-        "pvalue": 0.9615
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.6219,
-        "std_err": 5.1506,
-        "pvalue": 0.0174
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9834,
-        "std_err": 0.7375,
-        "pvalue": 0.1878
-      }
-    ]
-  },
-  "INCY": {
-    "n_obs": 60,
-    "r_squared": 0.1195,
-    "adj_r_squared": 0.0723,
-    "f_statistic": 2.5334,
-    "f_pvalue": 0.0661,
-    "residual_se": 10.963,
-    "const": 15.083,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -2.0377,
-        "std_err": 20.2948,
-        "pvalue": 0.9204
-      },
-      {
-        "variable": "Beta",
-        "coef": 11.8312,
-        "std_err": 5.1845,
-        "pvalue": 0.0263
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -1.0168,
-        "std_err": 0.7112,
-        "pvalue": 0.1584
-      }
-    ]
-  },
-  "LRCX": {
-    "n_obs": 60,
-    "r_squared": 0.0997,
-    "adj_r_squared": 0.0514,
-    "f_statistic": 2.0665,
-    "f_pvalue": 0.115,
-    "residual_se": 10.9326,
-    "const": 16.6105,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -6.2087,
-        "std_err": 20.9704,
-        "pvalue": 0.7683
-      },
-      {
-        "variable": "Beta",
-        "coef": 11.28,
-        "std_err": 5.251,
-        "pvalue": 0.036
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9027,
-        "std_err": 0.6999,
-        "pvalue": 0.2024
-      }
-    ]
-  },
-  "LVS": {
-    "n_obs": 60,
-    "r_squared": 0.1237,
-    "adj_r_squared": 0.0768,
-    "f_statistic": 2.6359,
-    "f_pvalue": 0.0585,
-    "residual_se": 11.0242,
-    "const": 13.2848,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -1.367,
-        "std_err": 20.6583,
-        "pvalue": 0.9475
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.8255,
-        "std_err": 5.2317,
-        "pvalue": 0.0174
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9579,
-        "std_err": 0.7181,
-        "pvalue": 0.1876
-      }
-    ]
-  },
-  "LULU": {
-    "n_obs": 60,
-    "r_squared": 0.1284,
-    "adj_r_squared": 0.0817,
-    "f_statistic": 2.7497,
-    "f_pvalue": 0.0512,
-    "residual_se": 10.8458,
-    "const": 14.7624,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -1.3252,
-        "std_err": 19.9811,
-        "pvalue": 0.9474
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.048,
-        "std_err": 5.0735,
-        "pvalue": 0.021
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -1.0618,
-        "std_err": 0.7017,
-        "pvalue": 0.1359
-      }
-    ]
-  },
-  "META": {
-    "n_obs": 60,
-    "r_squared": 0.1252,
-    "adj_r_squared": 0.0783,
-    "f_statistic": 2.6716,
-    "f_pvalue": 0.0561,
-    "residual_se": 11.02,
-    "const": 13.5852,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -1.3793,
-        "std_err": 20.5388,
-        "pvalue": 0.9467
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.6522,
-        "std_err": 5.1512,
-        "pvalue": 0.0172
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9403,
-        "std_err": 0.7079,
-        "pvalue": 0.1895
-      }
-    ]
-  },
-  "MU": {
-    "n_obs": 60,
-    "r_squared": 0.1476,
-    "adj_r_squared": 0.1019,
-    "f_statistic": 3.2315,
-    "f_pvalue": 0.029,
-    "residual_se": 10.8209,
-    "const": 11.8284,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 0.5564,
-        "std_err": 19.9265,
-        "pvalue": 0.9778
-      },
-      {
-        "variable": "Beta",
-        "coef": 13.8571,
-        "std_err": 5.126,
-        "pvalue": 0.0091
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -1.0272,
-        "std_err": 0.6964,
-        "pvalue": 0.1458
-      }
-    ]
-  },
-  "MSFT": {
-    "n_obs": 60,
-    "r_squared": 0.1226,
-    "adj_r_squared": 0.0756,
-    "f_statistic": 2.6075,
-    "f_pvalue": 0.0605,
-    "residual_se": 11.0327,
-    "const": 13.2391,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.3081,
-        "std_err": 20.4658,
-        "pvalue": 0.988
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.5369,
-        "std_err": 5.152,
-        "pvalue": 0.0182
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.917,
-        "std_err": 0.7074,
-        "pvalue": 0.2002
-      }
-    ]
-  },
-  "MCO": {
-    "n_obs": 60,
-    "r_squared": 0.1209,
-    "adj_r_squared": 0.0738,
-    "f_statistic": 2.568,
-    "f_pvalue": 0.0634,
-    "residual_se": 11.0254,
-    "const": 13.6366,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -1.183,
-        "std_err": 20.5972,
-        "pvalue": 0.9544
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.4285,
-        "std_err": 5.162,
-        "pvalue": 0.0194
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9238,
-        "std_err": 0.7059,
-        "pvalue": 0.196
-      }
-    ]
-  },
-  "NFLX": {
-    "n_obs": 60,
-    "r_squared": 0.1088,
-    "adj_r_squared": 0.061,
-    "f_statistic": 2.2785,
-    "f_pvalue": 0.0894,
-    "residual_se": 11.011,
-    "const": 13.9119,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -1.084,
-        "std_err": 20.352,
-        "pvalue": 0.9577
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.0632,
-        "std_err": 5.2386,
+        "coef": -45.1039,
+        "std_err": 17.1228,
         "pvalue": 0.025
       },
       {
-        "variable": "Payout Ratio",
-        "coef": -0.8787,
-        "std_err": 0.7098,
-        "pvalue": 0.2209
-      }
-    ]
-  },
-  "NRG": {
-    "n_obs": 60,
-    "r_squared": 0.1322,
-    "adj_r_squared": 0.0858,
-    "f_statistic": 2.8447,
-    "f_pvalue": 0.0457,
-    "residual_se": 10.8828,
-    "const": 12.2419,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 4.5443,
-        "std_err": 20.3954,
-        "pvalue": 0.8245
-      },
-      {
         "variable": "Beta",
-        "coef": 12.0233,
-        "std_err": 5.0954,
-        "pvalue": 0.0218
+        "coef": 0.7451,
+        "std_err": 2.0407,
+        "pvalue": 0.7226
       },
       {
         "variable": "Payout Ratio",
-        "coef": -1.0587,
-        "std_err": 0.7056,
-        "pvalue": 0.1391
+        "coef": 0.0034,
+        "std_err": 0.0042,
+        "pvalue": 0.4444
       }
     ]
   },
-  "NVR": {
-    "n_obs": 60,
-    "r_squared": 0.1265,
-    "adj_r_squared": 0.0797,
-    "f_statistic": 2.7039,
-    "f_pvalue": 0.054,
-    "residual_se": 10.9241,
-    "const": 14.4966,
+  "OKE": {
+    "n_obs": 14,
+    "r_squared": 0.6222,
+    "adj_r_squared": 0.5089,
+    "f_statistic": 5.4903,
+    "f_pvalue": 0.0172,
+    "residual_se": 2.7386,
+    "const": 12.6691,
     "coefficients": [
       {
         "variable": "EPS Growth (ROE x Retention)",
-        "coef": -1.3999,
-        "std_err": 20.1403,
-        "pvalue": 0.9448
+        "coef": -41.023,
+        "std_err": 16.4741,
+        "pvalue": 0.032
       },
       {
         "variable": "Beta",
-        "coef": 12.1807,
-        "std_err": 5.1091,
-        "pvalue": 0.0205
+        "coef": 0.9486,
+        "std_err": 1.684,
+        "pvalue": 0.5856
       },
       {
         "variable": "Payout Ratio",
-        "coef": -1.0303,
-        "std_err": 0.7071,
-        "pvalue": 0.1507
+        "coef": 0.0043,
+        "std_err": 0.004,
+        "pvalue": 0.3088
       }
     ]
   },
-  "ORCL": {
-    "n_obs": 60,
-    "r_squared": 0.1253,
-    "adj_r_squared": 0.0785,
-    "f_statistic": 2.6742,
-    "f_pvalue": 0.056,
-    "residual_se": 11.0222,
-    "const": 12.7739,
+  "PGR": {
+    "n_obs": 14,
+    "r_squared": 0.6143,
+    "adj_r_squared": 0.4986,
+    "f_statistic": 5.3096,
+    "f_pvalue": 0.019,
+    "residual_se": 2.885,
+    "const": 13.0825,
     "coefficients": [
       {
         "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.0088,
-        "std_err": 20.3009,
-        "pvalue": 0.9997
+        "coef": -46.4105,
+        "std_err": 17.1249,
+        "pvalue": 0.0219
       },
       {
         "variable": "Beta",
-        "coef": 12.8347,
-        "std_err": 5.2198,
+        "coef": 1.2001,
+        "std_err": 1.8372,
+        "pvalue": 0.5284
+      },
+      {
+        "variable": "Payout Ratio",
+        "coef": 0.0036,
+        "std_err": 0.0042,
+        "pvalue": 0.403
+      }
+    ]
+  },
+  "PRU": {
+    "n_obs": 14,
+    "r_squared": 0.6351,
+    "adj_r_squared": 0.5257,
+    "f_statistic": 5.8022,
+    "f_pvalue": 0.0146,
+    "residual_se": 2.7968,
+    "const": 13.6225,
+    "coefficients": [
+      {
+        "variable": "EPS Growth (ROE x Retention)",
+        "coef": -47.3625,
+        "std_err": 16.5891,
         "pvalue": 0.0171
       },
       {
+        "variable": "Beta",
+        "coef": 1.12,
+        "std_err": 1.7279,
+        "pvalue": 0.5315
+      },
+      {
         "variable": "Payout Ratio",
-        "coef": -0.8943,
-        "std_err": 0.7093,
-        "pvalue": 0.2126
+        "coef": 0.003,
+        "std_err": 0.0041,
+        "pvalue": 0.4852
       }
     ]
   },
-  "PYPL": {
-    "n_obs": 60,
-    "r_squared": 0.1313,
-    "adj_r_squared": 0.0848,
-    "f_statistic": 2.8224,
-    "f_pvalue": 0.047,
-    "residual_se": 10.747,
-    "const": 13.9304,
+  "TROW": {
+    "n_obs": 14,
+    "r_squared": 0.6143,
+    "adj_r_squared": 0.4986,
+    "f_statistic": 5.3083,
+    "f_pvalue": 0.019,
+    "residual_se": 2.8809,
+    "const": 12.9985,
     "coefficients": [
       {
         "variable": "EPS Growth (ROE x Retention)",
-        "coef": -5.9192,
-        "std_err": 20.0536,
-        "pvalue": 0.769
+        "coef": -44.3784,
+        "std_err": 16.9917,
+        "pvalue": 0.026
       },
       {
         "variable": "Beta",
-        "coef": 13.5284,
-        "std_err": 5.0469,
-        "pvalue": 0.0096
+        "coef": 1.4882,
+        "std_err": 2.032,
+        "pvalue": 0.4807
       },
       {
         "variable": "Payout Ratio",
-        "coef": -0.7485,
-        "std_err": 0.6948,
-        "pvalue": 0.286
+        "coef": 0.0034,
+        "std_err": 0.0042,
+        "pvalue": 0.43
       }
     ]
   },
-  "RL": {
-    "n_obs": 60,
-    "r_squared": 0.1253,
-    "adj_r_squared": 0.0784,
-    "f_statistic": 2.6729,
-    "f_pvalue": 0.056,
-    "residual_se": 11.0171,
-    "const": 13.3371,
+  "UPS": {
+    "n_obs": 14,
+    "r_squared": 0.5887,
+    "adj_r_squared": 0.4653,
+    "f_statistic": 4.7712,
+    "f_pvalue": 0.0258,
+    "residual_se": 2.8829,
+    "const": 12.6676,
     "coefficients": [
       {
         "variable": "EPS Growth (ROE x Retention)",
-        "coef": -1.5994,
-        "std_err": 20.5712,
-        "pvalue": 0.9383
+        "coef": -39.3232,
+        "std_err": 20.3771,
+        "pvalue": 0.0825
       },
       {
         "variable": "Beta",
-        "coef": 12.8406,
-        "std_err": 5.1945,
-        "pvalue": 0.0165
+        "coef": 0.8111,
+        "std_err": 1.796,
+        "pvalue": 0.6612
       },
       {
         "variable": "Payout Ratio",
-        "coef": -0.8939,
-        "std_err": 0.7078,
-        "pvalue": 0.2118
+        "coef": 0.0048,
+        "std_err": 0.0048,
+        "pvalue": 0.3451
       }
     ]
   },
-  "ROST": {
-    "n_obs": 60,
-    "r_squared": 0.1354,
-    "adj_r_squared": 0.0891,
-    "f_statistic": 2.9239,
-    "f_pvalue": 0.0417,
-    "residual_se": 10.9245,
-    "const": 11.3837,
+  "VZ": {
+    "n_obs": 14,
+    "r_squared": 0.6189,
+    "adj_r_squared": 0.5046,
+    "f_statistic": 5.4143,
+    "f_pvalue": 0.018,
+    "residual_se": 2.8836,
+    "const": 12.9035,
     "coefficients": [
       {
         "variable": "EPS Growth (ROE x Retention)",
-        "coef": 2.1328,
-        "std_err": 20.2337,
-        "pvalue": 0.9164
+        "coef": -44.9428,
+        "std_err": 16.9468,
+        "pvalue": 0.0242
       },
       {
         "variable": "Beta",
-        "coef": 13.2185,
-        "std_err": 5.1377,
-        "pvalue": 0.0128
+        "coef": 1.2593,
+        "std_err": 1.867,
+        "pvalue": 0.5153
       },
       {
         "variable": "Payout Ratio",
-        "coef": -0.933,
-        "std_err": 0.6993,
-        "pvalue": 0.1876
+        "coef": 0.0038,
+        "std_err": 0.0042,
+        "pvalue": 0.3836
       }
     ]
   },
-  "RCL": {
-    "n_obs": 60,
-    "r_squared": 0.1537,
-    "adj_r_squared": 0.1084,
-    "f_statistic": 3.3901,
-    "f_pvalue": 0.0241,
-    "residual_se": 10.7851,
-    "const": 9.4012,
+  "VICI": {
+    "n_obs": 14,
+    "r_squared": 0.6393,
+    "adj_r_squared": 0.5311,
+    "f_statistic": 5.909,
+    "f_pvalue": 0.0138,
+    "residual_se": 2.8,
+    "const": 13.8216,
     "coefficients": [
       {
         "variable": "EPS Growth (ROE x Retention)",
-        "coef": 0.4452,
-        "std_err": 19.8581,
-        "pvalue": 0.9822
+        "coef": -48.3281,
+        "std_err": 16.7866,
+        "pvalue": 0.0164
       },
       {
         "variable": "Beta",
-        "coef": 15.4191,
-        "std_err": 5.3392,
-        "pvalue": 0.0055
+        "coef": 0.8985,
+        "std_err": 1.723,
+        "pvalue": 0.6134
       },
       {
         "variable": "Payout Ratio",
-        "coef": -0.7616,
-        "std_err": 0.6971,
-        "pvalue": 0.2793
-      }
-    ]
-  },
-  "SHW": {
-    "n_obs": 60,
-    "r_squared": 0.1237,
-    "adj_r_squared": 0.0767,
-    "f_statistic": 2.6338,
-    "f_pvalue": 0.0587,
-    "residual_se": 11.0181,
-    "const": 13.4777,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -1.115,
-        "std_err": 20.4133,
-        "pvalue": 0.9566
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.5317,
-        "std_err": 5.1415,
-        "pvalue": 0.018
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.929,
-        "std_err": 0.7057,
-        "pvalue": 0.1934
-      }
-    ]
-  },
-  "SOLV": {
-    "n_obs": 60,
-    "r_squared": 0.115,
-    "adj_r_squared": 0.0676,
-    "f_statistic": 2.4259,
-    "f_pvalue": 0.0751,
-    "residual_se": 10.8137,
-    "const": 15.1635,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 1.9299,
-        "std_err": 19.9571,
-        "pvalue": 0.9233
-      },
-      {
-        "variable": "Beta",
-        "coef": 10.8003,
-        "std_err": 5.1758,
-        "pvalue": 0.0415
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -1.0555,
-        "std_err": 0.698,
-        "pvalue": 0.1361
-      }
-    ]
-  },
-  "TJX": {
-    "n_obs": 60,
-    "r_squared": 0.145,
-    "adj_r_squared": 0.0992,
-    "f_statistic": 3.1658,
-    "f_pvalue": 0.0314,
-    "residual_se": 10.8659,
-    "const": 12.1405,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -3.4013,
-        "std_err": 20.1475,
-        "pvalue": 0.8665
-      },
-      {
-        "variable": "Beta",
-        "coef": 14.2378,
-        "std_err": 5.2311,
-        "pvalue": 0.0086
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9862,
-        "std_err": 0.6973,
-        "pvalue": 0.1628
-      }
-    ]
-  },
-  "TT": {
-    "n_obs": 60,
-    "r_squared": 0.1272,
-    "adj_r_squared": 0.0804,
-    "f_statistic": 2.7198,
-    "f_pvalue": 0.053,
-    "residual_se": 10.9844,
-    "const": 12.4917,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 1.7976,
-        "std_err": 20.4242,
-        "pvalue": 0.9302
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.4944,
-        "std_err": 5.1262,
-        "pvalue": 0.018
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9505,
-        "std_err": 0.7045,
-        "pvalue": 0.1827
-      }
-    ]
-  },
-  "UBER": {
-    "n_obs": 60,
-    "r_squared": 0.132,
-    "adj_r_squared": 0.0855,
-    "f_statistic": 2.8393,
-    "f_pvalue": 0.046,
-    "residual_se": 10.8884,
-    "const": 13.2639,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 1.3266,
-        "std_err": 20.0839,
-        "pvalue": 0.9476
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.4217,
-        "std_err": 5.0819,
-        "pvalue": 0.0177
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -1.0255,
-        "std_err": 0.7024,
-        "pvalue": 0.1499
-      }
-    ]
-  },
-  "ULTA": {
-    "n_obs": 60,
-    "r_squared": 0.1225,
-    "adj_r_squared": 0.0755,
-    "f_statistic": 2.6059,
-    "f_pvalue": 0.0607,
-    "residual_se": 11.0182,
-    "const": 13.2944,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 0.9514,
-        "std_err": 20.5107,
-        "pvalue": 0.9632
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.2431,
-        "std_err": 5.2003,
-        "pvalue": 0.0221
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9489,
-        "std_err": 0.7096,
-        "pvalue": 0.1866
-      }
-    ]
-  },
-  "VLTO": {
-    "n_obs": 60,
-    "r_squared": 0.1234,
-    "adj_r_squared": 0.0764,
-    "f_statistic": 2.6275,
-    "f_pvalue": 0.0591,
-    "residual_se": 11.0277,
-    "const": 13.3829,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.4856,
-        "std_err": 20.3327,
-        "pvalue": 0.981
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.5121,
-        "std_err": 5.1477,
-        "pvalue": 0.0183
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9241,
-        "std_err": 0.7062,
-        "pvalue": 0.1961
-      }
-    ]
-  },
-  "V": {
-    "n_obs": 60,
-    "r_squared": 0.1303,
-    "adj_r_squared": 0.0837,
-    "f_statistic": 2.7957,
-    "f_pvalue": 0.0485,
-    "residual_se": 10.9888,
-    "const": 12.8744,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -2.2729,
-        "std_err": 20.4582,
-        "pvalue": 0.9119
-      },
-      {
-        "variable": "Beta",
-        "coef": 13.3109,
-        "std_err": 5.2539,
-        "pvalue": 0.0141
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9292,
-        "std_err": 0.7035,
-        "pvalue": 0.1919
-      }
-    ]
-  },
-  "GWW": {
-    "n_obs": 60,
-    "r_squared": 0.1269,
-    "adj_r_squared": 0.0801,
-    "f_statistic": 2.713,
-    "f_pvalue": 0.0534,
-    "residual_se": 10.9936,
-    "const": 12.851,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.2429,
-        "std_err": 20.2376,
-        "pvalue": 0.9905
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.7443,
-        "std_err": 5.1399,
-        "pvalue": 0.0162
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9216,
-        "std_err": 0.7036,
-        "pvalue": 0.1956
-      }
-    ]
-  },
-  "WAT": {
-    "n_obs": 60,
-    "r_squared": 0.1233,
-    "adj_r_squared": 0.0763,
-    "f_statistic": 2.6247,
-    "f_pvalue": 0.0593,
-    "residual_se": 11.0328,
-    "const": 13.1949,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": -0.2166,
-        "std_err": 20.501,
-        "pvalue": 0.9916
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.5434,
-        "std_err": 5.1484,
-        "pvalue": 0.018
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9181,
-        "std_err": 0.716,
-        "pvalue": 0.205
-      }
-    ]
-  },
-  "WDC": {
-    "n_obs": 60,
-    "r_squared": 0.1321,
-    "adj_r_squared": 0.0856,
-    "f_statistic": 2.8401,
-    "f_pvalue": 0.046,
-    "residual_se": 10.9782,
-    "const": 11.9533,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 0.2392,
-        "std_err": 20.2187,
-        "pvalue": 0.9906
-      },
-      {
-        "variable": "Beta",
-        "coef": 13.6426,
-        "std_err": 5.3298,
-        "pvalue": 0.0132
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.9734,
-        "std_err": 0.7065,
-        "pvalue": 0.1737
-      }
-    ]
-  },
-  "WSM": {
-    "n_obs": 60,
-    "r_squared": 0.1288,
-    "adj_r_squared": 0.0821,
-    "f_statistic": 2.7602,
-    "f_pvalue": 0.0505,
-    "residual_se": 10.9734,
-    "const": 12.1511,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 0.2857,
-        "std_err": 20.2109,
-        "pvalue": 0.9888
-      },
-      {
-        "variable": "Beta",
-        "coef": 13.2069,
-        "std_err": 5.1908,
-        "pvalue": 0.0137
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.8275,
-        "std_err": 0.7119,
-        "pvalue": 0.25
-      }
-    ]
-  },
-  "ZTS": {
-    "n_obs": 60,
-    "r_squared": 0.1188,
-    "adj_r_squared": 0.0716,
-    "f_statistic": 2.5164,
-    "f_pvalue": 0.0674,
-    "residual_se": 11.0294,
-    "const": 13.0746,
-    "coefficients": [
-      {
-        "variable": "EPS Growth (ROE x Retention)",
-        "coef": 0.5809,
-        "std_err": 20.7682,
-        "pvalue": 0.9778
-      },
-      {
-        "variable": "Beta",
-        "coef": 12.4048,
-        "std_err": 5.2016,
-        "pvalue": 0.0205
-      },
-      {
-        "variable": "Payout Ratio",
-        "coef": -0.8973,
-        "std_err": 0.7151,
-        "pvalue": 0.2148
+        "coef": 0.0031,
+        "std_err": 0.0041,
+        "pvalue": 0.4608
       }
     ]
   }
