@@ -6,8 +6,6 @@ AES,Open,2026-03-10,14.21,6781.48,,,,,,,,,,Utilities,cluster_6
 PHM,Open,2026-03-10,124.39,6781.48,,,,,,,,,,Consumer Discretionary,cluster_0
 BAC,Open,2026-03-10,48.56,6781.48,,,,,,,,,,Financials,cluster_7
 STT,Open,2026-03-10,122.55,6781.48,,,,,,,,,,Financials,cluster_7
-PRU,Open,2026-03-10,95.47,6781.48,,,,,,,,,,Financials,cluster_6
-SMCI,Open,2026-03-23,21.55,6583.9302,,,,,,,,,,Information Technology,cluster_4
 PYPL,Open,2026-04-06,45.59,6589.98,,,,,,,,,,Financials,cluster_3
 RCL,Open,2026-04-06,274.89,6589.98,,,,,,,,,,Consumer Discretionary,cluster_3
 SOLV,Open,2026-04-06,63.091,6589.98,,,,,,,,,,Health Care,cluster_3
@@ -15,8 +13,16 @@ DHI,Open,2026-04-06,140.63,6589.98,,,,,,,,,,Consumer Discretionary,cluster_4
 LULU,Open,2026-04-06,154.85,6589.98,,,,,,,,,,Consumer Discretionary,cluster_3
 CHTR,Open,2026-04-06,222.5,6589.98,,,,,,,,,,Communication Services,cluster_3
 UAL,Open,2026-04-06,91.05,6589.98,,,,,,,,,,Industrials,cluster_4
-DAL,Open,2026-04-06,66.845,6589.98,,,,,,,,,,Industrials,cluster_3
 AMP,Open,2026-04-06,433.24,6589.98,,,,,,,,,,Financials,cluster_3
+USB,Open,2026-04-13,56.51,6886.2402,,,,,,,,,,Financials,cluster_6
+DIS,Open,2026-04-13,101.18,6886.2402,,,,,,,,,,Communication Services,cluster_4
+RF,Open,2026-04-13,27.83,6886.2402,,,,,,,,,,Financials,cluster_6
+SYF,Open,2026-04-13,73.79,6886.2402,,,,,,,,,,Financials,cluster_4
+HBAN,Open,2026-04-13,16.62,6886.2402,,,,,,,,,,Financials,cluster_6
+PRU,Closed,2026-03-10,95.47,6781.48,2026-04-21,96.2399,7076.5498,Conflicting,42.0,0.8064,4.3511,-3.5447,8.06,Financials,cluster_6
+SMCI,Closed,2026-03-23,21.55,6583.9302,2026-04-21,29.1189,7076.5498,Conflicting,29.0,35.1225,7.4822,27.6404,351.23,Information Technology,cluster_4
+DAL,Closed,2026-04-06,66.845,6589.98,2026-04-21,69.96,7076.5498,Conflicting,15.0,4.66,7.3835,-2.7234,46.6,Industrials,cluster_3
+APO,Closed,2026-04-13,109.95,6886.2402,2026-04-21,128.125,7076.5498,Fairly Valued,8.0,16.5302,2.7636,13.7666,165.3,Financials,cluster_4
 EIX,Closed,2026-03-10,71.08,6781.48,2026-04-13,72.39,6886.2402,Conflicting,34.0,1.843,1.5448,0.2982,18.43,Utilities,cluster_6
 FSLR,Closed,2026-03-10,197.8,6781.48,2026-04-13,200.35,6886.2402,Conflicting,34.0,1.2892,1.5448,-0.2556,12.89,Information Technology,cluster_0
 CMCSA,Closed,2026-03-10,31.07,6781.48,2026-04-13,28.05,6886.2402,Conflicting,34.0,-9.72,1.5448,-11.2648,-97.2,Communication Services,cluster_6
@@ -53,9 +59,7 @@ AES,Closed,2026-03-10,14.245,6818.9902,2026-03-10,14.21,6781.48,Conflicting,0.0,
 FSLR,Closed,2026-03-10,198.006,6818.9902,2026-03-10,197.8,6781.48,Fairly Valued,0.0,-0.104,-0.5501,0.446,-1.04,Information Technology,cluster_0
 LEN,Closed,2026-03-10,99.75,6818.9902,2026-03-10,98.72,6781.48,Conflicting,0.0,-1.0326,-0.5501,-0.4825,-10.33,Consumer Discretionary,cluster_7
 TROW,Closed,2026-03-10,90.4,6818.9902,2026-03-10,89.14,6781.48,Conflicting,0.0,-1.3938,-0.5501,-0.8437,-13.94,Financials,cluster_6
-USB,Open,2026-04-13,56.51,6886.2402,,,,,,,,,,Financials,cluster_6
-DIS,Open,2026-04-13,101.18,6886.2402,,,,,,,,,,Communication Services,cluster_4
-APO,Open,2026-04-13,109.95,6886.2402,,,,,,,,,,Financials,cluster_4
-RF,Open,2026-04-13,27.83,6886.2402,,,,,,,,,,Financials,cluster_6
-SYF,Open,2026-04-13,73.79,6886.2402,,,,,,,,,,Financials,cluster_4
-HBAN,Open,2026-04-13,16.62,6886.2402,,,,,,,,,,Financials,cluster_6
+URI,Open,2026-04-21,812.52,7076.5498,,,,,,,,,,Industrials,cluster_1
+UHS,Open,2026-04-21,179.08,7076.5498,,,,,,,,,,Health Care,cluster_3
+FSLR,Open,2026-04-21,187.91,7076.5498,,,,,,,,,,Information Technology,cluster_3
+GS,Open,2026-04-21,926.14,7076.5498,,,,,,,,,,Financials,cluster_3
