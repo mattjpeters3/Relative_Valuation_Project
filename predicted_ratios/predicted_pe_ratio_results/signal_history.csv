@@ -538,3 +538,45 @@ Run Date,Ticker,Combined Signal,Source Cluster,PE Ratio (Current),Predicted PE (
 2026-04-27,KR,Strong Overvalued,cluster_4,43.65584415584416,23.58,20.08,Consumer Staples
 2026-04-27,MKC,Strong Undervalued,cluster_4,8.447540983606558,16.67,-8.22,Consumer Staples
 2026-04-27,OXY,Strong Overvalued,cluster_4,42.3111111111111,23.6,18.71,Energy
+2026-05-04,KR,Strong Overvalued,cluster_1,44.006493506493506,23.57,20.44,Consumer Staples
+2026-05-04,OXY,Strong Overvalued,cluster_1,43.48888888888889,23.74,19.75,Energy
+2026-05-04,PNC,Strong Undervalued,cluster_1,12.817073170731708,20.63,-7.81,Financials
+2026-05-04,WFC,Strong Undervalued,cluster_1,12.489953632148378,19.98,-7.49,Financials
+2026-05-04,ADI,Strong Overvalued,cluster_2,72.43897996357012,40.59,31.85,Information Technology
+2026-05-04,APTV,Strong Overvalued,cluster_2,80.65333333333334,41.57,39.08,Consumer Discretionary
+2026-05-04,BAC,Strong Undervalued,cluster_2,13.243781094527366,37.71,-24.47,Financials
+2026-05-04,AVGO,Strong Overvalued,cluster_2,81.96108949416342,30.58,51.38,Information Technology
+2026-05-04,COF,Strong Overvalued,cluster_2,59.231481481481474,-61.21,120.44,Financials
+2026-05-04,GLW,Strong Overvalued,cluster_2,76.45410628019324,34.88,41.57,Information Technology
+2026-05-04,DHI,Strong Undervalued,cluster_2,14.08262910798122,38.72,-24.64,Consumer Discretionary
+2026-05-04,EPAM,Strong Undervalued,cluster_2,16.71577380952381,40.12,-23.4,Information Technology
+2026-05-04,GS,Strong Undervalued,cluster_2,16.862175976633807,36.18,-19.32,Financials
+2026-05-04,PODD,Strong Overvalued,cluster_2,50.29885057471264,26.94,23.36,Health Care
+2026-05-04,ISRG,Strong Overvalued,cluster_2,55.55582524271844,33.22,22.34,Health Care
+2026-05-04,KEYS,Strong Overvalued,cluster_2,62.15343915343916,28.8,33.35,Information Technology
+2026-05-04,LEN,Strong Undervalued,cluster_2,12.726618705035971,44.33,-31.6,Consumer Discretionary
+2026-05-04,MGM,Strong Overvalued,cluster_2,52.73972602739726,33.01,19.73,Consumer Discretionary
+2026-05-04,NTRS,Strong Undervalued,cluster_2,17.20502092050209,37.11,-19.9,Financials
+2026-05-04,PHM,Strong Undervalued,cluster_2,11.529013539651835,31.79,-20.26,Consumer Discretionary
+2026-05-04,STT,Strong Undervalued,cluster_2,15.431472081218274,43.27,-27.84,Financials
+2026-05-04,SYF,Strong Undervalued,cluster_2,7.842650103519669,30.9,-23.06,Financials
+2026-05-04,SNPS,Strong Overvalued,cluster_2,75.23384615384614,38.39,36.84,Information Technology
+2026-05-04,TPR,Strong Overvalued,cluster_2,55.32558139534884,26.05,29.28,Consumer Discretionary
+2026-05-04,TYL,Strong Overvalued,cluster_2,46.27586206896552,28.41,17.87,Information Technology
+2026-05-04,UHS,Strong Undervalued,cluster_2,6.9728601252609606,24.84,-17.87,Health Care
+2026-05-04,VST,Strong Overvalued,cluster_2,71.55760368663594,38.14,33.42,Utilities
+2026-05-04,DIS,Strong Undervalued,cluster_2,15.181148748159057,39.86,-24.68,Communication Services
+2026-05-04,WBD,Strong Overvalued,cluster_2,93.0,43.9,49.1,Communication Services
+2026-05-04,CASY,Strong Overvalued,cluster_4,48.06900517538815,26.75,21.32,Consumer Staples
+2026-05-04,CTVA,Strong Overvalued,cluster_4,46.2,24.56,21.64,Materials
+2026-05-04,EA,Strong Overvalued,cluster_4,75.68913857677903,27.85,47.84,Communication Services
+2026-05-04,MNST,Strong Overvalued,cluster_4,39.75257731958763,17.86,21.89,Consumer Staples
+2026-05-04,ROL,Strong Overvalued,cluster_4,50.25688073394495,28.37,21.89,Industrials
+2026-05-04,NOW,Strong Overvalued,cluster_4,54.26190476190476,29.04,25.22,Information Technology
+2026-05-04,TPL,Strong Overvalued,cluster_4,62.12320916905444,19.13,42.99,Energy
+2026-05-04,WMT,Strong Overvalued,cluster_4,48.382352941176464,26.87,21.51,Consumer Staples
+2026-05-04,AES,Strong Undervalued,cluster_5,10.900763358778626,16.9,-6.0,Utilities
+2026-05-04,CMCSA,Strong Undervalued,cluster_5,5.326470588235295,12.33,-7.0,Communication Services
+2026-05-04,EIX,Strong Undervalued,cluster_5,7.595652173913043,12.95,-5.35,Utilities
+2026-05-04,BEN,Strong Undervalued,cluster_5,22.77862595419847,104.19,-81.41,Financials
+2026-05-04,TROW,Strong Undervalued,cluster_5,11.09656652360515,16.66,-5.56,Financials

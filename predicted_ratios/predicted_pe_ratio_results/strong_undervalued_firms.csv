@@ -1,18 +1,19 @@
 Ticker,Predicted PE (Cluster),PE Difference (Cluster),Valuation Signal (Cluster),Cluster R²,Cluster Adj R²,Cluster F p-value,Cluster Residual SE,Source Cluster,Sector,PE Ratio (Current),EPS Growth (ROE x Retention),Beta,Payout Ratio,Predicted PE (Index),PE Difference (Index),Valuation Signal (Index),Index R²,Index Adj R²,Index F p-value,Index Residual SE,Combined Signal
-LEN,42.92,-29.39,Undervalued,0.0654,0.0385,0.0697,18.9144,cluster_0,Consumer Discretionary,13.532374100719425,0.0575172719999999,1.487,0.2878,34.28,-20.75,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-BAC,37.85,-24.9,Undervalued,0.0654,0.0385,0.0697,18.9144,cluster_0,Financials,12.947761194029852,0.077318016,1.237,0.2736,31.22,-18.27,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-STT,39.69,-24.37,Undervalued,0.0654,0.0385,0.0697,18.9144,cluster_0,Financials,15.319105691056912,0.07511087,1.384,0.333,32.89,-17.57,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-EPAM,41.62,-23.91,Undervalued,0.0654,0.0385,0.0697,18.9144,cluster_0,Information Technology,17.705357142857142,0.10335,1.73,0.0,37.17,-19.46,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-DIS,38.13,-23.02,Undervalued,0.0654,0.0385,0.0697,18.9144,cluster_0,Communication Services,15.110456553755522,0.098103816,1.441,0.1841,33.56,-18.45,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-WFC,34.99,-22.71,Undervalued,0.0654,0.0385,0.0697,18.9144,cluster_0,Financials,12.27511591962906,0.08774426,1.056,0.2705,29.06,-16.78,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-DHI,37.03,-22.02,Undervalued,0.0654,0.0385,0.0697,18.9144,cluster_0,Consumer Discretionary,15.014084507042254,0.109957936,1.445,0.1596,33.56,-18.55,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-SYF,29.02,-21.12,Undervalued,0.0654,0.0385,0.0697,18.9144,cluster_0,Financials,7.898550724637681,0.19074924,1.381,0.1242,32.37,-24.47,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-PHM,32.36,-20.04,Undervalued,0.0654,0.0385,0.0697,18.9144,cluster_0,Consumer Discretionary,12.32463768115942,0.146766816,1.341,0.0928,32.2,-19.88,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-FSLR,33.09,-19.44,Undervalued,0.0654,0.0385,0.0697,18.9144,cluster_0,Information Technology,13.64507042253521,0.1745,1.607,0.0,35.27,-21.62,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-MKC,16.67,-8.22,Undervalued,0.2311,0.1986,0.0003,6.5143,cluster_4,Consumer Staples,8.447540983606558,0.1774289999999999,0.706,0.3,24.47,-16.02,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-CTSH,18.72,-6.63,Undervalued,0.2311,0.1986,0.0003,6.5143,cluster_4,Information Technology,12.085526315789474,0.1103653979999999,0.976,0.2719,27.99,-15.9,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-AES,17.2,-6.14,Undervalued,0.5138,0.4577,0.0003,3.6093,cluster_2,Utilities,11.061068702290076,0.0090411579999999,1.008,0.5373,28.79,-17.73,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-CMCSA,11.4,-6.0,Undervalued,0.5138,0.4577,0.0003,3.6093,cluster_2,Communication Services,5.395098039215687,0.155044216,0.79,0.2588,25.62,-20.22,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-TROW,15.91,-5.19,Undervalued,0.5138,0.4577,0.0003,3.6093,cluster_2,Financials,10.72077922077922,0.084597082,1.523,0.5498,34.4,-23.68,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-EIX,11.07,-5.11,Undervalued,0.5138,0.4577,0.0003,3.6093,cluster_2,Utilities,5.961904761904761,0.170914380091,0.767,0.2909,25.22,-19.26,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
-PRU,13.8,-4.37,Undervalued,0.5138,0.4577,0.0003,3.6093,cluster_2,Financials,9.43043043043043,0.052199195405,0.94,0.5405,27.72,-18.29,Undervalued,0.106,0.0987,0.0,15.4452,Strong Undervalued
+BEN,104.19,-81.41,Undervalued,0.222,0.1415,0.0602,5.2388,cluster_5,Financials,22.77862595419847,0.000509504,1.591,0.9924,38.39,-15.61,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+LEN,44.33,-31.6,Undervalued,0.1131,0.0857,0.0085,16.4215,cluster_2,Consumer Discretionary,12.726618705035971,0.0575172719999999,1.422,0.2878,33.53,-20.8,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+STT,43.27,-27.84,Undervalued,0.1131,0.0857,0.0085,16.4215,cluster_2,Financials,15.431472081218274,0.07511087,1.46,0.333,34.02,-18.59,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+DIS,39.86,-24.68,Undervalued,0.1131,0.0857,0.0085,16.4215,cluster_2,Communication Services,15.181148748159057,0.098103816,1.416,0.1841,32.91,-17.73,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+DHI,38.72,-24.64,Undervalued,0.1131,0.0857,0.0085,16.4215,cluster_2,Consumer Discretionary,14.08262910798122,0.109957936,1.414,0.1596,32.76,-18.68,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+BAC,37.71,-24.47,Undervalued,0.1131,0.0857,0.0085,16.4215,cluster_2,Financials,13.243781094527366,0.077318016,1.221,0.2736,30.82,-17.58,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+EPAM,40.12,-23.4,Undervalued,0.1131,0.0857,0.0085,16.4215,cluster_2,Information Technology,16.71577380952381,0.10335,1.453,0.0,32.87,-16.15,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+SYF,30.9,-23.06,Undervalued,0.1131,0.0857,0.0085,16.4215,cluster_2,Financials,7.842650103519669,0.19074924,1.362,0.1242,31.6,-23.76,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+PHM,31.79,-20.26,Undervalued,0.1131,0.0857,0.0085,16.4215,cluster_2,Consumer Discretionary,11.529013539651835,0.146766816,1.242,0.0928,30.23,-18.7,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+NTRS,37.11,-19.9,Undervalued,0.1131,0.0857,0.0085,16.4215,cluster_2,Financials,17.20502092050209,0.096924324,1.286,0.3298,31.67,-14.46,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+GS,36.18,-19.32,Undervalued,0.1131,0.0857,0.0085,16.4215,cluster_2,Financials,16.862175976633807,0.104294612,1.274,0.2831,31.34,-14.48,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+UHS,24.84,-17.87,Undervalued,0.1131,0.0857,0.0085,16.4215,cluster_2,Health Care,6.9728601252609606,0.206552754,1.13,0.0334,28.39,-21.42,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+PNC,20.63,-7.81,Undervalued,0.2257,0.1963,0.0001,6.6987,cluster_1,Financials,12.817073170731708,0.073919128,0.93,0.3893,27.51,-14.69,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+WFC,19.98,-7.49,Undervalued,0.2257,0.1963,0.0001,6.6987,cluster_1,Financials,12.489953632148378,0.08774426,0.96,0.2705,27.48,-14.99,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+CMCSA,12.33,-7.0,Undervalued,0.222,0.1415,0.0602,5.2388,cluster_5,Communication Services,5.326470588235295,0.155044216,0.689,0.2588,23.76,-18.43,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+AES,16.9,-6.0,Undervalued,0.222,0.1415,0.0602,5.2388,cluster_5,Utilities,10.900763358778626,0.0090411579999999,0.957,0.5373,28.67,-17.77,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+TROW,16.66,-5.56,Undervalued,0.222,0.1415,0.0602,5.2388,cluster_5,Financials,11.09656652360515,0.084418208483,1.532,0.5483,35.66,-24.56,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued
+EIX,12.95,-5.35,Undervalued,0.222,0.1415,0.0602,5.2388,cluster_5,Utilities,7.595652173913043,0.118711152,0.675,0.3707,24.07,-16.47,Undervalued,0.1352,0.1281,0.0,14.1588,Strong Undervalued

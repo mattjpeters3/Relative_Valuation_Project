@@ -6,13 +6,8 @@ PHM,Open,2026-03-23,119.29,6600.6802,,,,,,,,,,Consumer Discretionary,cluster_4
 AES,Open,2026-03-23,14.1,6600.6802,,,,,,,,,,Utilities,cluster_5
 WFC,Open,2026-03-23,78.61,6600.6802,,,,,,,,,,Financials,cluster_1
 EPAM,Open,2026-03-23,137.19,6600.6802,,,,,,,,,,Information Technology,cluster_4
-PYPL,Open,2026-04-06,45.59,6589.98,,,,,,,,,,Financials,cluster_3
 RCL,Open,2026-04-06,274.89,6589.98,,,,,,,,,,Consumer Discretionary,cluster_3
-SOLV,Open,2026-04-06,63.091,6589.98,,,,,,,,,,Health Care,cluster_3
 DHI,Open,2026-04-06,140.63,6589.98,,,,,,,,,,Consumer Discretionary,cluster_4
-LULU,Open,2026-04-06,154.85,6589.98,,,,,,,,,,Consumer Discretionary,cluster_3
-CHTR,Open,2026-04-06,222.5,6589.98,,,,,,,,,,Communication Services,cluster_3
-UAL,Open,2026-04-06,91.05,6589.98,,,,,,,,,,Industrials,cluster_4
 AMP,Open,2026-04-06,433.24,6589.98,,,,,,,,,,Financials,cluster_3
 DIS,Open,2026-04-13,101.18,6886.2402,,,,,,,,,,Communication Services,cluster_4
 SYF,Open,2026-04-13,73.79,6886.2402,,,,,,,,,,Financials,cluster_4
@@ -20,6 +15,17 @@ URI,Open,2026-04-21,812.52,7076.5498,,,,,,,,,,Industrials,cluster_1
 UHS,Open,2026-04-21,179.08,7076.5498,,,,,,,,,,Health Care,cluster_3
 FSLR,Open,2026-04-21,187.91,7076.5498,,,,,,,,,,Information Technology,cluster_3
 GS,Open,2026-04-21,926.14,7076.5498,,,,,,,,,,Financials,cluster_3
+TROW,Open,2026-04-27,100.5201,7163.3101,,,,,,,,,,Financials,cluster_2
+CMCSA,Open,2026-04-27,27.535,7163.3101,,,,,,,,,,Communication Services,cluster_2
+EIX,Open,2026-04-27,68.49,7163.3101,,,,,,,,,,Utilities,cluster_2
+CTSH,Open,2026-04-27,54.89,7163.3101,,,,,,,,,,Information Technology,cluster_4
+PYPL,Closed,2026-04-06,45.59,6589.98,2026-05-04,50.545,7233.71,Model Insignificant,28.0,10.8686,9.7683,1.1003,108.69,Financials,cluster_3
+SOLV,Closed,2026-04-06,63.091,6589.98,2026-05-04,68.17,7233.71,Model Insignificant,28.0,8.0503,9.7683,-1.718,80.5,Health Care,cluster_3
+LULU,Closed,2026-04-06,154.85,6589.98,2026-05-04,131.94,7233.71,Model Insignificant,28.0,-14.795,9.7683,-24.5633,-147.95,Consumer Discretionary,cluster_3
+CHTR,Closed,2026-04-06,222.5,6589.98,2026-05-04,174.49,7233.71,Model Insignificant,28.0,-21.5775,9.7683,-31.3458,-215.78,Communication Services,cluster_3
+UAL,Closed,2026-04-06,91.05,6589.98,2026-05-04,92.76,7233.71,Model Insignificant,28.0,1.8781,9.7683,-7.8902,18.78,Industrials,cluster_4
+MKC,Closed,2026-04-27,50.79,7163.3101,2026-05-04,49.33,7233.71,Fairly Valued,7.0,-2.8746,0.9828,-3.8574,-28.75,Consumer Staples,cluster_4
+PRU,Closed,2026-04-27,95.315,7163.3101,2026-05-04,98.38,7233.71,Fairly Valued,7.0,3.2157,0.9828,2.2329,32.16,Financials,cluster_2
 USB,Closed,2026-04-13,56.51,6886.2402,2026-04-27,55.9059,7163.3101,Fairly Valued,14.0,-1.069,4.0235,-5.0925,-10.69,Financials,cluster_6
 RF,Closed,2026-04-13,27.83,6886.2402,2026-04-27,28.125,7163.3101,Fairly Valued,14.0,1.06,4.0235,-2.9635,10.6,Financials,cluster_6
 HBAN,Closed,2026-04-13,16.62,6886.2402,2026-04-27,16.465,7163.3101,Fairly Valued,14.0,-0.9326,4.0235,-4.9561,-9.33,Financials,cluster_6
@@ -38,9 +44,6 @@ RCL,Closed,2026-03-23,277.4064,6600.6802,2026-03-31,266.87,6436.1401,Model Insig
 CHTR,Closed,2026-03-23,217.4,6600.6802,2026-03-31,211.975,6436.1401,Model Insignificant,8.0,-2.4954,-2.4928,-0.0026,-24.95,Communication Services,cluster_2
 DAL,Closed,2026-03-23,65.4307,6600.6802,2026-03-31,64.51,6436.1401,Model Insignificant,8.0,-1.4071,-2.4928,1.0856,-14.07,Industrials,cluster_2
 PYPL,Closed,2026-03-23,45.62,6600.6802,2026-03-31,44.965,6436.1401,Model Insignificant,8.0,-1.4358,-2.4928,1.057,-14.36,Financials,cluster_2
-TROW,Open,2026-04-27,100.5201,7163.3101,,,,,,,,,,Financials,cluster_2
-CMCSA,Open,2026-04-27,27.535,7163.3101,,,,,,,,,,Communication Services,cluster_2
-EIX,Open,2026-04-27,68.49,7163.3101,,,,,,,,,,Utilities,cluster_2
-MKC,Open,2026-04-27,50.79,7163.3101,,,,,,,,,,Consumer Staples,cluster_4
-CTSH,Open,2026-04-27,54.89,7163.3101,,,,,,,,,,Information Technology,cluster_4
-PRU,Open,2026-04-27,95.315,7163.3101,,,,,,,,,,Financials,cluster_2
+PNC,Open,2026-05-04,219.73,7233.71,,,,,,,,,,Financials,cluster_1
+BEN,Open,2026-05-04,30.015,7233.71,,,,,,,,,,Financials,cluster_5
+NTRS,Open,2026-05-04,161.24,7233.71,,,,,,,,,,Financials,cluster_2
