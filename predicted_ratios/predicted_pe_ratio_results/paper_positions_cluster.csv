@@ -4,21 +4,24 @@ LEN,Open,2026-03-23,94.32,6600.6802,,,,,,,,,,Consumer Discretionary,cluster_1
 STT,Open,2026-03-23,123.46,6600.6802,,,,,,,,,,Financials,cluster_1
 PHM,Open,2026-03-23,119.29,6600.6802,,,,,,,,,,Consumer Discretionary,cluster_4
 AES,Open,2026-03-23,14.1,6600.6802,,,,,,,,,,Utilities,cluster_5
-WFC,Open,2026-03-23,78.61,6600.6802,,,,,,,,,,Financials,cluster_1
 EPAM,Open,2026-03-23,137.19,6600.6802,,,,,,,,,,Information Technology,cluster_4
-RCL,Open,2026-04-06,274.89,6589.98,,,,,,,,,,Consumer Discretionary,cluster_3
 DHI,Open,2026-04-06,140.63,6589.98,,,,,,,,,,Consumer Discretionary,cluster_4
 AMP,Open,2026-04-06,433.24,6589.98,,,,,,,,,,Financials,cluster_3
 DIS,Open,2026-04-13,101.18,6886.2402,,,,,,,,,,Communication Services,cluster_4
 SYF,Open,2026-04-13,73.79,6886.2402,,,,,,,,,,Financials,cluster_4
-URI,Open,2026-04-21,812.52,7076.5498,,,,,,,,,,Industrials,cluster_1
 UHS,Open,2026-04-21,179.08,7076.5498,,,,,,,,,,Health Care,cluster_3
-FSLR,Open,2026-04-21,187.91,7076.5498,,,,,,,,,,Information Technology,cluster_3
 GS,Open,2026-04-21,926.14,7076.5498,,,,,,,,,,Financials,cluster_3
-TROW,Open,2026-04-27,100.5201,7163.3101,,,,,,,,,,Financials,cluster_2
-CMCSA,Open,2026-04-27,27.535,7163.3101,,,,,,,,,,Communication Services,cluster_2
-EIX,Open,2026-04-27,68.49,7163.3101,,,,,,,,,,Utilities,cluster_2
 CTSH,Open,2026-04-27,54.89,7163.3101,,,,,,,,,,Information Technology,cluster_4
+BEN,Open,2026-05-04,30.015,7233.71,,,,,,,,,,Financials,cluster_5
+NTRS,Open,2026-05-04,161.24,7233.71,,,,,,,,,,Financials,cluster_2
+WFC,Closed,2026-03-23,78.61,6600.6802,2026-05-11,73.76,7408.77,Fairly Valued,49.0,-6.1697,12.2425,-18.4122,-61.7,Financials,cluster_1
+RCL,Closed,2026-04-06,274.89,6589.98,2026-05-11,263.67,7408.77,Model Insignificant,35.0,-4.0816,12.4248,-16.5064,-40.82,Consumer Discretionary,cluster_3
+URI,Closed,2026-04-21,812.52,7076.5498,2026-05-11,941.18,7408.77,Model Insignificant,20.0,15.8347,4.6947,11.14,158.35,Industrials,cluster_1
+FSLR,Closed,2026-04-21,187.91,7076.5498,2026-05-11,236.18,7408.77,Model Insignificant,20.0,25.6878,4.6947,20.9932,256.88,Information Technology,cluster_3
+TROW,Closed,2026-04-27,100.5201,7163.3101,2026-05-11,105.145,7408.77,Fairly Valued,14.0,4.601,3.4266,1.1743,46.01,Financials,cluster_2
+CMCSA,Closed,2026-04-27,27.535,7163.3101,2026-05-11,24.915,7408.77,Fairly Valued,14.0,-9.5152,3.4266,-12.9418,-95.15,Communication Services,cluster_2
+EIX,Closed,2026-04-27,68.49,7163.3101,2026-05-11,70.37,7408.77,Fairly Valued,14.0,2.7449,3.4266,-0.6817,27.45,Utilities,cluster_2
+PNC,Closed,2026-05-04,219.73,7233.71,2026-05-11,214.555,7408.77,Fairly Valued,7.0,-2.3552,2.4201,-4.7752,-23.55,Financials,cluster_1
 PYPL,Closed,2026-04-06,45.59,6589.98,2026-05-04,50.545,7233.71,Model Insignificant,28.0,10.8686,9.7683,1.1003,108.69,Financials,cluster_3
 SOLV,Closed,2026-04-06,63.091,6589.98,2026-05-04,68.17,7233.71,Model Insignificant,28.0,8.0503,9.7683,-1.718,80.5,Health Care,cluster_3
 LULU,Closed,2026-04-06,154.85,6589.98,2026-05-04,131.94,7233.71,Model Insignificant,28.0,-14.795,9.7683,-24.5633,-147.95,Consumer Discretionary,cluster_3
@@ -44,6 +47,14 @@ RCL,Closed,2026-03-23,277.4064,6600.6802,2026-03-31,266.87,6436.1401,Model Insig
 CHTR,Closed,2026-03-23,217.4,6600.6802,2026-03-31,211.975,6436.1401,Model Insignificant,8.0,-2.4954,-2.4928,-0.0026,-24.95,Communication Services,cluster_2
 DAL,Closed,2026-03-23,65.4307,6600.6802,2026-03-31,64.51,6436.1401,Model Insignificant,8.0,-1.4071,-2.4928,1.0856,-14.07,Industrials,cluster_2
 PYPL,Closed,2026-03-23,45.62,6600.6802,2026-03-31,44.965,6436.1401,Model Insignificant,8.0,-1.4358,-2.4928,1.057,-14.36,Financials,cluster_2
-PNC,Open,2026-05-04,219.73,7233.71,,,,,,,,,,Financials,cluster_1
-BEN,Open,2026-05-04,30.015,7233.71,,,,,,,,,,Financials,cluster_5
-NTRS,Open,2026-05-04,161.24,7233.71,,,,,,,,,,Financials,cluster_2
+MKC,Open,2026-05-11,46.97,7408.77,,,,,,,,,,Consumer Staples,cluster_4
+UAL,Open,2026-05-11,96.84,7408.77,,,,,,,,,,Industrials,cluster_0
+TFC,Open,2026-05-11,48.04,7408.77,,,,,,,,,,Financials,cluster_4
+USB,Open,2026-05-11,54.635,7408.77,,,,,,,,,,Financials,cluster_4
+DAL,Open,2026-05-11,71.69,7408.77,,,,,,,,,,Industrials,cluster_0
+PYPL,Open,2026-05-11,45.105,7408.77,,,,,,,,,,Financials,cluster_0
+HBAN,Open,2026-05-11,15.97,7408.77,,,,,,,,,,Financials,cluster_4
+LULU,Open,2026-05-11,127.5377,7408.77,,,,,,,,,,Consumer Discretionary,cluster_0
+C,Open,2026-05-11,126.2,7408.77,,,,,,,,,,Financials,cluster_6
+RF,Open,2026-05-11,26.75,7408.77,,,,,,,,,,Financials,cluster_4
+CHTR,Open,2026-05-11,146.63,7408.77,,,,,,,,,,Communication Services,cluster_0
