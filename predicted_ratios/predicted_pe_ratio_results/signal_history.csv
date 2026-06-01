@@ -704,3 +704,28 @@ Run Date,Ticker,Combined Signal,Source Cluster,PE Ratio (Current),Predicted PE (
 2026-05-26,SNPS,Strong Overvalued,cluster_6,80.605222734255,34.87,45.74,Information Technology
 2026-05-26,UHS,Strong Undervalued,cluster_6,6.588726513569938,24.53,-17.94,Health Care
 2026-05-26,DIS,Strong Undervalued,cluster_6,16.48,36.42,-19.94,Communication Services
+2026-06-01,CI,Strong Undervalued,cluster_0,2.439539178612259,18.89,-16.45,Health Care
+2026-06-01,CFG,Strong Undervalued,cluster_0,14.753554502369669,22.57,-7.82,Financials
+2026-06-01,KR,Strong Overvalued,cluster_0,40.357142857142854,22.29,18.07,Consumer Staples
+2026-06-01,MRK,Strong Overvalued,cluster_0,33.44225352112676,23.54,9.9,Health Care
+2026-06-01,PNC,Strong Undervalued,cluster_0,12.855813953488372,21.32,-8.46,Financials
+2026-06-01,WFC,Strong Undervalued,cluster_0,11.984544049459045,20.93,-8.95,Financials
+2026-06-01,AES,Strong Undervalued,cluster_4,7.640625,17.66,-10.02,Utilities
+2026-06-01,BEN,Strong Undervalued,cluster_4,23.679389312977097,37.86,-14.18,Financials
+2026-06-01,PRU,Strong Undervalued,cluster_4,10.364572605561277,16.13,-5.77,Financials
+2026-06-01,VICI,Strong Undervalued,cluster_4,9.664383561643836,16.25,-6.59,Real Estate
+2026-06-01,AKAM,Strong Overvalued,cluster_5,50.52027027027027,24.77,25.75,Information Technology
+2026-06-01,CASY,Strong Overvalued,cluster_5,44.037887485648675,27.71,16.33,Consumer Staples
+2026-06-01,CTVA,Strong Overvalued,cluster_5,42.21621621621621,26.06,16.16,Materials
+2026-06-01,EA,Strong Overvalued,cluster_5,57.47008547008547,29.02,28.45,Communication Services
+2026-06-01,MNST,Strong Overvalued,cluster_5,42.55072463768117,18.1,24.45,Consumer Staples
+2026-06-01,RTX,Strong Overvalued,cluster_5,33.644194756554306,17.49,16.15,Industrials
+2026-06-01,ROL,Strong Overvalued,cluster_5,43.6697247706422,30.06,13.61,Industrials
+2026-06-01,NOW,Strong Overvalued,cluster_5,74.02976190476191,28.72,45.31,Information Technology
+2026-06-01,TPL,Strong Overvalued,cluster_5,53.97524071526823,21.43,32.55,Energy
+2026-06-01,WMT,Strong Overvalued,cluster_5,40.75704225352113,27.07,13.69,Consumer Staples
+2026-06-01,CHTR,Strong Undervalued,cluster_6,3.8974567099567103,20.12,-16.22,Communication Services
+2026-06-01,HWM,Strong Overvalued,cluster_6,59.91879350348028,26.5,33.42,Industrials
+2026-06-01,LULU,Strong Undervalued,cluster_6,9.89291101055807,22.45,-12.56,Consumer Discretionary
+2026-06-01,SPG,Strong Undervalued,cluster_6,14.249652294853965,34.03,-19.78,Real Estate
+2026-06-01,UAL,Strong Undervalued,cluster_6,10.268336314847945,29.19,-18.92,Industrials

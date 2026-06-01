@@ -1,22 +1,26 @@
 Ticker,Status,Entry Date,Entry Price,Entry SP500,Exit Date,Exit Price,Exit SP500,Exit Signal,Holding Days,Stock Return,SP500 Return,Excess Return,Dollar PnL,Sector,Source Cluster
-LEN,Open,2026-03-10,98.72,6781.48,,,,,,,,,,Consumer Discretionary,cluster_2
-EPAM,Open,2026-03-10,142.18,6781.48,,,,,,,,,,Information Technology,cluster_3
 AES,Open,2026-03-10,14.21,6781.48,,,,,,,,,,Utilities,cluster_6
-PHM,Open,2026-03-10,124.39,6781.48,,,,,,,,,,Consumer Discretionary,cluster_0
-BAC,Open,2026-03-10,48.56,6781.48,,,,,,,,,,Financials,cluster_7
-STT,Open,2026-03-10,122.55,6781.48,,,,,,,,,,Financials,cluster_7
-DHI,Open,2026-04-06,140.63,6589.98,,,,,,,,,,Consumer Discretionary,cluster_4
 AMP,Open,2026-04-06,433.24,6589.98,,,,,,,,,,Financials,cluster_3
-DIS,Open,2026-04-13,101.18,6886.2402,,,,,,,,,,Communication Services,cluster_4
-SYF,Open,2026-04-13,73.79,6886.2402,,,,,,,,,,Financials,cluster_4
-UHS,Open,2026-04-21,179.08,7076.5498,,,,,,,,,,Health Care,cluster_3
-NTRS,Open,2026-05-04,161.24,7233.71,,,,,,,,,,Financials,cluster_2
 UAL,Open,2026-05-11,96.84,7408.77,,,,,,,,,,Industrials,cluster_0
-PYPL,Open,2026-05-11,45.105,7408.77,,,,,,,,,,Financials,cluster_0
 LULU,Open,2026-05-11,127.5377,7408.77,,,,,,,,,,Consumer Discretionary,cluster_0
-C,Open,2026-05-11,126.2,7408.77,,,,,,,,,,Financials,cluster_6
 CHTR,Open,2026-05-11,146.63,7408.77,,,,,,,,,,Communication Services,cluster_0
 CI,Open,2026-05-19,291.3,7387.3501,,,,,,,,,,Health Care,cluster_1
+PNC,Open,2026-05-26,219.785,7518.98,,,,,,,,,,Financials,cluster_5
+WFC,Open,2026-05-26,76.96,7518.98,,,,,,,,,,Financials,cluster_5
+BEN,Open,2026-05-26,31.45,7518.98,,,,,,,,,,Financials,cluster_3
+LEN,Closed,2026-03-10,98.72,6781.48,2026-06-01,89.76,7588.0898,Undervalued (Cluster Model Insignificant),83.0,-9.0762,11.8943,-20.9705,-90.76,Consumer Discretionary,cluster_2
+EPAM,Closed,2026-03-10,142.18,6781.48,2026-06-01,107.31,7588.0898,Undervalued (Cluster Model Insignificant),83.0,-24.5253,11.8943,-36.4196,-245.25,Information Technology,cluster_3
+PHM,Closed,2026-03-10,124.39,6781.48,2026-06-01,117.53,7588.0898,Undervalued (Cluster Model Insignificant),83.0,-5.5149,11.8943,-17.4092,-55.15,Consumer Discretionary,cluster_0
+BAC,Closed,2026-03-10,48.56,6781.48,2026-06-01,51.495,7588.0898,Undervalued (Cluster Model Insignificant),83.0,6.0441,11.8943,-5.8502,60.44,Financials,cluster_7
+STT,Closed,2026-03-10,122.55,6781.48,2026-06-01,157.56,7588.0898,Undervalued (Cluster Model Insignificant),83.0,28.5679,11.8943,16.6736,285.68,Financials,cluster_7
+DHI,Closed,2026-04-06,140.63,6589.98,2026-06-01,146.8214,7588.0898,Undervalued (Cluster Model Insignificant),56.0,4.4026,15.1459,-10.7433,44.03,Consumer Discretionary,cluster_4
+DIS,Closed,2026-04-13,101.18,6886.2402,2026-06-01,102.015,7588.0898,Undervalued (Cluster Model Insignificant),49.0,0.8253,10.1921,-9.3668,8.25,Communication Services,cluster_4
+SYF,Closed,2026-04-13,73.79,6886.2402,2026-06-01,71.08,7588.0898,Undervalued (Cluster Model Insignificant),49.0,-3.6726,10.1921,-13.8646,-36.73,Financials,cluster_4
+UHS,Closed,2026-04-21,179.08,7076.5498,2026-06-01,144.425,7588.0898,Undervalued (Cluster Model Insignificant),41.0,-19.3517,7.2287,-26.5803,-193.52,Health Care,cluster_3
+NTRS,Closed,2026-05-04,161.24,7233.71,2026-06-01,167.9,7588.0898,Undervalued (Cluster Model Insignificant),28.0,4.1305,4.899,-0.7685,41.3,Financials,cluster_2
+PYPL,Closed,2026-05-11,45.105,7408.77,2026-06-01,45.865,7588.0898,Undervalued (Cluster Model Insignificant),21.0,1.685,2.4204,-0.7354,16.85,Financials,cluster_0
+C,Closed,2026-05-11,126.2,7408.77,2026-06-01,127.63,7588.0898,Undervalued (Cluster Model Insignificant),21.0,1.1331,2.4204,-1.2873,11.33,Financials,cluster_6
+CMCSA,Closed,2026-05-26,24.93,7518.98,2026-06-01,24.6869,7588.0898,Conflicting,6.0,-0.9751,0.9191,-1.8943,-9.75,Communication Services,cluster_3
 GS,Closed,2026-05-04,909.07,7233.71,2026-05-26,991.9992,7518.98,Fairly Valued,22.0,9.1224,3.9436,5.1788,91.22,Financials,cluster_2
 TFC,Closed,2026-05-11,48.04,7408.77,2026-05-26,48.5101,7518.98,Conflicting,15.0,0.9786,1.4876,-0.509,9.79,Financials,cluster_4
 DAL,Closed,2026-05-11,71.69,7408.77,2026-05-26,78.92,7518.98,Conflicting,15.0,10.0851,1.4876,8.5975,100.85,Industrials,cluster_0
@@ -89,7 +93,7 @@ AES,Closed,2026-03-10,14.245,6818.9902,2026-03-10,14.21,6781.48,Conflicting,0.0,
 FSLR,Closed,2026-03-10,198.006,6818.9902,2026-03-10,197.8,6781.48,Fairly Valued,0.0,-0.104,-0.5501,0.446,-1.04,Information Technology,cluster_0
 LEN,Closed,2026-03-10,99.75,6818.9902,2026-03-10,98.72,6781.48,Conflicting,0.0,-1.0326,-0.5501,-0.4825,-10.33,Consumer Discretionary,cluster_7
 TROW,Closed,2026-03-10,90.4,6818.9902,2026-03-10,89.14,6781.48,Conflicting,0.0,-1.3938,-0.5501,-0.8437,-13.94,Financials,cluster_6
-PNC,Open,2026-05-26,219.785,7518.98,,,,,,,,,,Financials,cluster_5
-WFC,Open,2026-05-26,76.96,7518.98,,,,,,,,,,Financials,cluster_5
-BEN,Open,2026-05-26,31.45,7518.98,,,,,,,,,,Financials,cluster_3
-CMCSA,Open,2026-05-26,24.93,7518.98,,,,,,,,,,Communication Services,cluster_3
+SPG,Open,2026-06-01,203.15,7588.0898,,,,,,,,,,Real Estate,cluster_6
+CFG,Open,2026-06-01,60.71,7588.0898,,,,,,,,,,Financials,cluster_0
+VICI,Open,2026-06-01,28.015,7588.0898,,,,,,,,,,Real Estate,cluster_4
+PRU,Open,2026-06-01,101.15,7588.0898,,,,,,,,,,Financials,cluster_4
