@@ -729,3 +729,33 @@ Run Date,Ticker,Combined Signal,Source Cluster,PE Ratio (Current),Predicted PE (
 2026-06-01,LULU,Strong Undervalued,cluster_6,9.89291101055807,22.45,-12.56,Consumer Discretionary
 2026-06-01,SPG,Strong Undervalued,cluster_6,14.249652294853965,34.03,-19.78,Real Estate
 2026-06-01,UAL,Strong Undervalued,cluster_6,10.268336314847945,29.19,-18.92,Industrials
+2026-06-08,CI,Strong Undervalued,cluster_0,2.545774338228828,18.62,-16.07,Health Care
+2026-06-08,CFG,Strong Undervalued,cluster_0,15.161137440758294,23.96,-8.8,Financials
+2026-06-08,CTSH,Strong Undervalued,cluster_0,11.54229934924078,20.96,-9.42,Information Technology
+2026-06-08,FAST,Strong Overvalued,cluster_0,41.4070796460177,20.78,20.63,Industrials
+2026-06-08,KR,Strong Overvalued,cluster_0,41.27922077922078,22.33,18.95,Consumer Staples
+2026-06-08,MRK,Strong Overvalued,cluster_0,34.02535211267606,23.29,10.74,Health Care
+2026-06-08,PNC,Strong Undervalued,cluster_0,13.261904761904765,22.46,-9.2,Financials
+2026-06-08,AKAM,Strong Overvalued,cluster_1,50.445945945945944,27.72,22.73,Information Technology
+2026-06-08,CASY,Strong Overvalued,cluster_1,43.68749999999999,25.22,18.47,Consumer Staples
+2026-06-08,CHTR,Strong Undervalued,cluster_1,3.5756427604871446,22.62,-19.04,Communication Services
+2026-06-08,CTVA,Strong Overvalued,cluster_1,41.63783783783784,27.12,14.52,Materials
+2026-06-08,COST,Strong Overvalued,cluster_1,48.78865461847389,24.73,24.06,Consumer Staples
+2026-06-08,EA,Strong Overvalued,cluster_1,57.83475783475784,27.49,30.34,Communication Services
+2026-06-08,MNST,Strong Overvalued,cluster_1,43.26086956521739,16.7,26.56,Consumer Staples
+2026-06-08,RTX,Strong Overvalued,cluster_1,34.02067669172932,20.99,13.03,Industrials
+2026-06-08,ROL,Strong Overvalued,cluster_1,43.211009174311926,26.84,16.37,Industrials
+2026-06-08,TPL,Strong Overvalued,cluster_1,53.46913580246914,17.82,35.65,Energy
+2026-06-08,WMT,Strong Overvalued,cluster_1,41.859154929577464,24.27,17.59,Consumer Staples
+2026-06-08,ANET,Strong Overvalued,cluster_3,52.83219178082192,36.46,16.37,Information Technology
+2026-06-08,FIX,Strong Overvalued,cluster_3,53.18546293625613,38.7,14.49,Industrials
+2026-06-08,HWM,Strong Overvalued,cluster_3,58.44547563805105,27.59,30.86,Industrials
+2026-06-08,LRCX,Strong Overvalued,cluster_3,57.43939393939393,41.54,15.9,Information Technology
+2026-06-08,LULU,Strong Undervalued,cluster_3,9.249392712550607,23.2,-13.95,Consumer Discretionary
+2026-06-08,RCL,Strong Undervalued,cluster_3,17.094017094017094,41.19,-24.1,Consumer Discretionary
+2026-06-08,SPG,Strong Undervalued,cluster_3,14.61501042390549,30.76,-16.14,Real Estate
+2026-06-08,UAL,Strong Undervalued,cluster_3,9.45706618962433,32.03,-22.57,Industrials
+2026-06-08,AES,Strong Undervalued,cluster_6,7.640625,17.72,-10.08,Utilities
+2026-06-08,BEN,Strong Undervalued,cluster_6,23.916030534351144,41.27,-17.35,Financials
+2026-06-08,PRU,Strong Undervalued,cluster_6,10.77445932028836,16.12,-5.35,Financials
+2026-06-08,VICI,Strong Undervalued,cluster_6,9.54109589041096,16.21,-6.67,Real Estate

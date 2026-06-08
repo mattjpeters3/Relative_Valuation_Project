@@ -6,8 +6,12 @@ LULU,Open,2026-05-11,127.5377,7408.77,,,,,,,,,,Consumer Discretionary,cluster_0
 CHTR,Open,2026-05-11,146.63,7408.77,,,,,,,,,,Communication Services,cluster_0
 CI,Open,2026-05-19,291.3,7387.3501,,,,,,,,,,Health Care,cluster_1
 PNC,Open,2026-05-26,219.785,7518.98,,,,,,,,,,Financials,cluster_5
-WFC,Open,2026-05-26,76.96,7518.98,,,,,,,,,,Financials,cluster_5
 BEN,Open,2026-05-26,31.45,7518.98,,,,,,,,,,Financials,cluster_3
+SPG,Open,2026-06-01,203.15,7588.0898,,,,,,,,,,Real Estate,cluster_6
+CFG,Open,2026-06-01,60.71,7588.0898,,,,,,,,,,Financials,cluster_0
+VICI,Open,2026-06-01,28.015,7588.0898,,,,,,,,,,Real Estate,cluster_4
+PRU,Open,2026-06-01,101.15,7588.0898,,,,,,,,,,Financials,cluster_4
+WFC,Closed,2026-05-26,76.96,7518.98,2026-06-08,81.85,7452.46,Undervalued (Cluster Model Insignificant),13.0,6.3539,-0.8847,7.2386,63.54,Financials,cluster_5
 LEN,Closed,2026-03-10,98.72,6781.48,2026-06-01,89.76,7588.0898,Undervalued (Cluster Model Insignificant),83.0,-9.0762,11.8943,-20.9705,-90.76,Consumer Discretionary,cluster_2
 EPAM,Closed,2026-03-10,142.18,6781.48,2026-06-01,107.31,7588.0898,Undervalued (Cluster Model Insignificant),83.0,-24.5253,11.8943,-36.4196,-245.25,Information Technology,cluster_3
 PHM,Closed,2026-03-10,124.39,6781.48,2026-06-01,117.53,7588.0898,Undervalued (Cluster Model Insignificant),83.0,-5.5149,11.8943,-17.4092,-55.15,Consumer Discretionary,cluster_0
@@ -93,7 +97,5 @@ AES,Closed,2026-03-10,14.245,6818.9902,2026-03-10,14.21,6781.48,Conflicting,0.0,
 FSLR,Closed,2026-03-10,198.006,6818.9902,2026-03-10,197.8,6781.48,Fairly Valued,0.0,-0.104,-0.5501,0.446,-1.04,Information Technology,cluster_0
 LEN,Closed,2026-03-10,99.75,6818.9902,2026-03-10,98.72,6781.48,Conflicting,0.0,-1.0326,-0.5501,-0.4825,-10.33,Consumer Discretionary,cluster_7
 TROW,Closed,2026-03-10,90.4,6818.9902,2026-03-10,89.14,6781.48,Conflicting,0.0,-1.3938,-0.5501,-0.8437,-13.94,Financials,cluster_6
-SPG,Open,2026-06-01,203.15,7588.0898,,,,,,,,,,Real Estate,cluster_6
-CFG,Open,2026-06-01,60.71,7588.0898,,,,,,,,,,Financials,cluster_0
-VICI,Open,2026-06-01,28.015,7588.0898,,,,,,,,,,Real Estate,cluster_4
-PRU,Open,2026-06-01,101.15,7588.0898,,,,,,,,,,Financials,cluster_4
+CTSH,Open,2026-06-08,53.44,7452.46,,,,,,,,,,Information Technology,cluster_0
+RCL,Open,2026-06-08,278.22,7452.46,,,,,,,,,,Consumer Discretionary,cluster_3

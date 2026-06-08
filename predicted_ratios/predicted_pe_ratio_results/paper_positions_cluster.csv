@@ -8,7 +8,11 @@ LULU,Open,2026-05-11,127.5377,7408.77,,,,,,,,,,Consumer Discretionary,cluster_0
 CHTR,Open,2026-05-11,146.63,7408.77,,,,,,,,,,Communication Services,cluster_0
 CI,Open,2026-05-19,291.3,7387.3501,,,,,,,,,,Health Care,cluster_1
 PNC,Open,2026-05-26,219.785,7518.98,,,,,,,,,,Financials,cluster_5
-WFC,Open,2026-05-26,76.96,7518.98,,,,,,,,,,Financials,cluster_5
+SPG,Open,2026-06-01,203.15,7588.0898,,,,,,,,,,Real Estate,cluster_6
+CFG,Open,2026-06-01,60.71,7588.0898,,,,,,,,,,Financials,cluster_0
+VICI,Open,2026-06-01,28.015,7588.0898,,,,,,,,,,Real Estate,cluster_4
+PRU,Open,2026-06-01,101.15,7588.0898,,,,,,,,,,Financials,cluster_4
+WFC,Closed,2026-05-26,76.96,7518.98,2026-06-08,81.85,7452.46,Model Insignificant,13.0,6.3539,-0.8847,7.2386,63.54,Financials,cluster_5
 BAC,Closed,2026-03-23,47.69,6600.6802,2026-06-01,51.495,7588.0898,Model Insignificant,70.0,7.9786,14.9592,-6.9806,79.79,Financials,cluster_1
 LEN,Closed,2026-03-23,94.32,6600.6802,2026-06-01,89.76,7588.0898,Model Insignificant,70.0,-4.8346,14.9592,-19.7938,-48.35,Consumer Discretionary,cluster_1
 STT,Closed,2026-03-23,123.46,6600.6802,2026-06-01,157.56,7588.0898,Model Insignificant,70.0,27.6203,14.9592,12.6611,276.2,Financials,cluster_1
@@ -66,7 +70,4 @@ RCL,Closed,2026-03-23,277.4064,6600.6802,2026-03-31,266.87,6436.1401,Model Insig
 CHTR,Closed,2026-03-23,217.4,6600.6802,2026-03-31,211.975,6436.1401,Model Insignificant,8.0,-2.4954,-2.4928,-0.0026,-24.95,Communication Services,cluster_2
 DAL,Closed,2026-03-23,65.4307,6600.6802,2026-03-31,64.51,6436.1401,Model Insignificant,8.0,-1.4071,-2.4928,1.0856,-14.07,Industrials,cluster_2
 PYPL,Closed,2026-03-23,45.62,6600.6802,2026-03-31,44.965,6436.1401,Model Insignificant,8.0,-1.4358,-2.4928,1.057,-14.36,Financials,cluster_2
-SPG,Open,2026-06-01,203.15,7588.0898,,,,,,,,,,Real Estate,cluster_6
-CFG,Open,2026-06-01,60.71,7588.0898,,,,,,,,,,Financials,cluster_0
-VICI,Open,2026-06-01,28.015,7588.0898,,,,,,,,,,Real Estate,cluster_4
-PRU,Open,2026-06-01,101.15,7588.0898,,,,,,,,,,Financials,cluster_4
+RCL,Open,2026-06-08,278.22,7452.46,,,,,,,,,,Consumer Discretionary,cluster_3
