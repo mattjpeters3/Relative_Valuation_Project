@@ -4,13 +4,15 @@ AMP,Open,2026-04-06,433.24,6589.98,,,,,,,,,,Financials,cluster_3
 UAL,Open,2026-05-11,96.84,7408.77,,,,,,,,,,Industrials,cluster_0
 LULU,Open,2026-05-11,127.5377,7408.77,,,,,,,,,,Consumer Discretionary,cluster_0
 CHTR,Open,2026-05-11,146.63,7408.77,,,,,,,,,,Communication Services,cluster_0
-CI,Open,2026-05-19,291.3,7387.3501,,,,,,,,,,Health Care,cluster_1
-PNC,Open,2026-05-26,219.785,7518.98,,,,,,,,,,Financials,cluster_5
 BEN,Open,2026-05-26,31.45,7518.98,,,,,,,,,,Financials,cluster_3
-SPG,Open,2026-06-01,203.15,7588.0898,,,,,,,,,,Real Estate,cluster_6
-CFG,Open,2026-06-01,60.71,7588.0898,,,,,,,,,,Financials,cluster_0
 VICI,Open,2026-06-01,28.015,7588.0898,,,,,,,,,,Real Estate,cluster_4
 PRU,Open,2026-06-01,101.15,7588.0898,,,,,,,,,,Financials,cluster_4
+CTSH,Open,2026-06-08,53.44,7452.46,,,,,,,,,,Information Technology,cluster_0
+RCL,Open,2026-06-08,278.22,7452.46,,,,,,,,,,Consumer Discretionary,cluster_3
+CI,Closed,2026-05-19,291.3,7387.3501,2026-06-15,294.12,7564.4399,Conflicting,27.0,0.9681,2.3972,-1.4291,9.68,Health Care,cluster_1
+PNC,Closed,2026-05-26,219.785,7518.98,2026-06-15,234.235,7564.4399,Conflicting,20.0,6.5746,0.6046,5.97,65.75,Financials,cluster_5
+SPG,Closed,2026-06-01,203.15,7588.0898,2026-06-15,217.14,7564.4399,Conflicting,14.0,6.8865,-0.3117,7.1982,68.87,Real Estate,cluster_6
+CFG,Closed,2026-06-01,60.71,7588.0898,2026-06-15,67.68,7564.4399,Conflicting,14.0,11.4808,-0.3117,11.7925,114.81,Financials,cluster_0
 WFC,Closed,2026-05-26,76.96,7518.98,2026-06-08,81.85,7452.46,Undervalued (Cluster Model Insignificant),13.0,6.3539,-0.8847,7.2386,63.54,Financials,cluster_5
 LEN,Closed,2026-03-10,98.72,6781.48,2026-06-01,89.76,7588.0898,Undervalued (Cluster Model Insignificant),83.0,-9.0762,11.8943,-20.9705,-90.76,Consumer Discretionary,cluster_2
 EPAM,Closed,2026-03-10,142.18,6781.48,2026-06-01,107.31,7588.0898,Undervalued (Cluster Model Insignificant),83.0,-24.5253,11.8943,-36.4196,-245.25,Information Technology,cluster_3
@@ -97,5 +99,16 @@ AES,Closed,2026-03-10,14.245,6818.9902,2026-03-10,14.21,6781.48,Conflicting,0.0,
 FSLR,Closed,2026-03-10,198.006,6818.9902,2026-03-10,197.8,6781.48,Fairly Valued,0.0,-0.104,-0.5501,0.446,-1.04,Information Technology,cluster_0
 LEN,Closed,2026-03-10,99.75,6818.9902,2026-03-10,98.72,6781.48,Conflicting,0.0,-1.0326,-0.5501,-0.4825,-10.33,Consumer Discretionary,cluster_7
 TROW,Closed,2026-03-10,90.4,6818.9902,2026-03-10,89.14,6781.48,Conflicting,0.0,-1.3938,-0.5501,-0.8437,-13.94,Financials,cluster_6
-CTSH,Open,2026-06-08,53.44,7452.46,,,,,,,,,,Information Technology,cluster_0
-RCL,Open,2026-06-08,278.22,7452.46,,,,,,,,,,Consumer Discretionary,cluster_3
+BAC,Open,2026-06-15,56.1974,7564.4399,,,,,,,,,,Financials,cluster_1
+PTC,Open,2026-06-15,116.18,7564.4399,,,,,,,,,,Information Technology,cluster_4
+DIS,Open,2026-06-15,101.76,7564.4399,,,,,,,,,,Communication Services,cluster_1
+LEN,Open,2026-06-15,91.845,7564.4399,,,,,,,,,,Consumer Discretionary,cluster_1
+WFC,Open,2026-06-15,83.98,7564.4399,,,,,,,,,,Financials,cluster_1
+UHS,Open,2026-06-15,146.0,7564.4399,,,,,,,,,,Health Care,cluster_1
+SYF,Open,2026-06-15,75.66,7564.4399,,,,,,,,,,Financials,cluster_1
+PHM,Open,2026-06-15,124.08,7564.4399,,,,,,,,,,Consumer Discretionary,cluster_1
+DAL,Open,2026-06-15,85.255,7564.4399,,,,,,,,,,Industrials,cluster_4
+DHI,Open,2026-06-15,157.54,7564.4399,,,,,,,,,,Consumer Discretionary,cluster_1
+NTRS,Open,2026-06-15,173.475,7564.4399,,,,,,,,,,Financials,cluster_1
+PYPL,Open,2026-06-15,43.2199,7564.4399,,,,,,,,,,Financials,cluster_4
+STT,Open,2026-06-15,169.06,7564.4399,,,,,,,,,,Financials,cluster_1
